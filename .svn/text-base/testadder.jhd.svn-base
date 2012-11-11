@@ -1,0 +1,7 @@
+MODULE testadder
+	SUBMODULE bcdadder
+		INSTANCE XLXI_9
+	SUBMODULE sevensegdec
+		INSTANCE XLXI_14
+	SUBMODULE sevensegenable
+		INSTANCE XLXI_16

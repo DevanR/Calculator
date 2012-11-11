@@ -1,0 +1,7 @@
+sch2vhdl -family=spartan2 -flat -suppress -w LAB1.SCH lab1.vhf
+xst -quiet -ifn __projnav/lab1.xst -ofn lab1.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 lab1.ngc lab1.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab1_map.ncd lab1.ngd lab1.pcf
+par -w -ol 2 -t 1 lab1_map.ncd lab1.ncd lab1.pcf
+trce -quiet -e 3 -l 3 -xml lab1 lab1.ncd -o lab1.twr lab1.pcf
+bitgen -f lab1.ut lab1.ncd

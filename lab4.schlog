@@ -1,0 +1,16 @@
+select figure at 4255 2295 10 -branches -sn=1
+select figure at 4255 2304 10 -branches -sn=1
+select figure at 4253 2742 10 -branches -sn=1
+select figure at 3638 2016 10 -branches -sn=1
+select figure at 3638 2016 10 -branches -extend -extend -sn=1
+select figure at 6382 560 20 -branches -sn=1
+select figure at 6382 560 20 -branches -extend -extend -sn=1
+select figure at 6333 658 20 -branches -sn=1
+select figure at 6299 614 20 -branches -sn=1
+select figure at 6299 614 20 -branches -extend -extend -sn=1
+select figure at 6285 545 20 -branches -sn=1
+select figure at 6285 545 20 -branches -extend -extend -sn=1
+select figure at 6245 614 20 -branches -sn=1
+select figure at 4011 2970 10 -branches -sn=1
+select figure at 4011 2970 10 -branches -extend -extend -sn=1
+select figure at 4329 3213 10 -wires -sn=1

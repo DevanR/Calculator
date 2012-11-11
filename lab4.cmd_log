@@ -1,0 +1,423 @@
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd e:\sc201danlatesta/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\300904/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\sc201subtract/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\sc201subtract/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\sc201subtract/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\editedsubtr/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\editednegconv\editedsubtr/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\editednegconv\editedsubtr/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\s10-final/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\xilinx\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\calculator\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab4.sch lab4.vhf
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd
+xst -quiet -ifn __projnav/lab4.xst -ofn lab4.syr
+ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i  -p xc2s200-fg456-5 lab4.ngc lab4.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+par -w -ol 2 -t 1 lab4_map.ncd lab4.ncd lab4.pcf
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+bitgen -f lab4.ut lab4.ncd

@@ -1,0 +1,261 @@
+Release 5.2i - xst F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 2.59 s | Elapsed : 0.00 / 2.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 2.59 s | Elapsed : 0.00 / 2.00 s
+ 
+--> Reading design: lab2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Low Level Synthesis
+  6) Final Report
+     6.1) Device utilization summary
+     6.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : lab2.prj
+Input Format                       : VHDL
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : lab2
+Output Format                      : NGC
+Target Device                      : xc2s200-5fg456
+
+---- Source Options
+Entity Name                        : lab2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Complex Clock Enable Extraction    : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Criterion             : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : lower
+Top module area constraint         : 100
+Top module allowed area overflow   : 5
+
+---- Other Options
+read_cores                         : YES
+cross_clock_analysis               : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/bin/SC201/lab2.vhf in Library work.
+Entity <lab2> (Architecture <schematic>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+
+Analyzing Entity <lab2> (Architecture <schematic>).
+    Set user-defined property "LOC =  A11" for signal <clk> in unit <lab2>.
+    Set user-defined property "LOC =  AA19" for signal <dv> in unit <lab2>.
+    Set user-defined property "LOC =  V14" for signal <c1> in unit <lab2>.
+    Set user-defined property "LOC =  Y14" for signal <c2> in unit <lab2>.
+    Set user-defined property "LOC =  W15" for signal <c3> in unit <lab2>.
+    Set user-defined property "LOC =  AB15" for signal <c4> in unit <lab2>.
+    Set user-defined property "INIT =  0" for instance <xlxi_12> in unit <lab2>.
+    Set user-defined property "INIT =  0" for instance <xlxi_13> in unit <lab2>.
+    Set user-defined property "INIT =  0" for instance <xlxi_15> in unit <lab2>.
+    Set user-defined property "INIT =  0" for instance <xlxi_16> in unit <lab2>.
+Entity <lab2> analyzed. Unit <lab2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab2>.
+    Related source file is C:/Xilinx/bin/SC201/lab2.vhf.
+Unit <lab2> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Library "C:/Xilinx/data/librtl.xst" Consulted
+
+Optimizing unit <lab2> ...
+
+Mapping all equations...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab2, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : lab2.ngr
+Top Level Output File Name         : lab2
+Output Format                      : NGC
+Optimization Criterion             : Speed
+Keep Hierarchy                     : NO
+Macro Generator                    : macro+
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 2
+#      and2                        : 1
+#      inv                         : 1
+# FlipFlops/Latches                : 4
+#      FDCP                        : 4
+# IO Buffers                       : 8
+#      IBUF                        : 4
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200fg456-5 
+
+ Number of Slices:                       2  out of   2352     0%  
+ Number of Slice Flip Flops:             4  out of   4704     0%  
+ Number of bonded IOBs:                  8  out of    288     2%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+xlxi_17:o                          | NONE(*)(xlxi_12)       | 4     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.385ns (Maximum Frequency: 295.421MHz)
+   Minimum input arrival time before clock: 3.307ns
+   Maximum output required time after clock: 8.189ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'xlxi_17:o'
+Delay:               3.385ns (Levels of Logic = 0)
+  Source:            xlxi_16
+  Destination:       xlxi_12
+  Source Clock:      xlxi_17:o rising
+  Destination Clock: xlxi_17:o rising
+
+  Data Path: xlxi_16 to xlxi_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:c->q             2   1.292   1.340  xlxi_16 (c4_dummy)
+     FDCP:d                    0.753          xlxi_12
+    ----------------------------------------
+    Total                      3.385ns (2.045ns logic, 1.340ns route)
+                                       (60.4% logic, 39.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'xlxi_17:o'
+Offset:              3.307ns (Levels of Logic = 1)
+  Source:            ground
+  Destination:       xlxi_12
+  Destination Clock: xlxi_17:o rising
+
+  Data Path: ground to xlxi_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:i->o             4   0.924   1.600  ground_ibuf (ground_ibuf)
+     FDCP:clr                  0.783          xlxi_12
+    ----------------------------------------
+    Total                      3.307ns (1.707ns logic, 1.600ns route)
+                                       (51.6% logic, 48.4% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'xlxi_17:o'
+Offset:              8.189ns (Levels of Logic = 1)
+  Source:            xlxi_13
+  Destination:       c2
+  Source Clock:      xlxi_17:o rising
+
+  Data Path: xlxi_13 to c2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:c->q             2   1.292   1.340  xlxi_13 (c2_dummy)
+     OBUF:i->o                 5.557          c2_obuf (c2)
+    ----------------------------------------
+    Total                      8.189ns (6.849ns logic, 1.340ns route)
+                                       (83.6% logic, 16.4% route)
+
+=========================================================================
+CPU : 2.64 / 5.42 s | Elapsed : 3.00 / 5.00 s
+ 
+--> 
+
+Total memory usage is 53364 kilobytes
+
+

@@ -1,0 +1,136 @@
+Release 5.2i - Map F.28
+Xilinx Mapping Report File for Design 'freq_div'
+
+Design Information
+------------------
+Command Line   : C:/Xilinx/bin/nt/map.exe -quiet -p xc2s200-fg456-5 -cm area -pr
+b -k 4 -c 100 -tx off -o freq_div_map.ncd freq_div.ngd freq_div.pcf 
+Target Device  : x2s200
+Target Package : fg456
+Target Speed   : -5
+Mapper Version : spartan2 -- $Revision: 1.4 $
+Mapped Date    : Mon Sep 20 09:21:23 2004
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:         4 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           4 out of  2,352    1%
+    Number of Slices containing only related logic:      4 out of      4  100%
+    Number of Slices containing unrelated logic:         0 out of      4    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+   Number of bonded IOBs:             1 out of    284    1%
+   Number of GCLKs:                   1 out of      4   25%
+   Number of GCLKIOBs:                1 out of      4   25%
+
+Total equivalent gate count for design:  32
+Additional JTAG gate count for IOBs:  96
+Peak Memory Usage:  55 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:95 - All of the external outputs in this design are using slew rate
+   limited output drivers. The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  10 block(s) optimized away
+   1 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "xlxn_24" is unused and has been removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+and3b2 		xlxi_10/i_36_37
+and2b1 		xlxi_10/i_36_43
+and3b2 		xlxi_11/i_36_37
+and2b1 		xlxi_11/i_36_43
+and3b2 		xlxi_12/i_36_37
+and2b1 		xlxi_12/i_36_43
+vcc 		xlxi_15
+and3b2 		xlxi_2/i_36_37
+and2b1 		xlxi_2/i_36_43
+gnd 		xlxi_20
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| in_clk                             | GCLKIOB | INPUT     | LVTTL       |          |      |          |          |       |
+| clk_16                             | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+XLXI_2_3                                
+XLXI_12_2                               
+XLXI_11_1                               
+XLXI_10_0                               
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group Summary
+------------------------------
+No area groups were found in this design.
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.

@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+Release 5.2i - Trace F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -quiet -e 3 -l 3 -xml sevensegdec sevensegdec.ncd -o
+sevensegdec.twr sevensegdec.pcf
+
+Design file:              sevensegdec.ncd
+Physical constraint file: sevensegdec.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2002-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+en             |a              |   10.049|
+en             |b              |    9.699|
+en             |c              |   10.385|
+en             |d              |   10.081|
+en             |e              |   10.009|
+en             |f              |    9.690|
+en             |g              |    9.823|
+sw1            |a              |   10.853|
+sw1            |b              |   10.820|
+sw1            |c              |   11.583|
+sw1            |d              |   11.401|
+sw1            |e              |   10.820|
+sw1            |f              |   10.716|
+sw1            |g              |   10.325|
+sw2            |a              |   11.120|
+sw2            |b              |   10.905|
+sw2            |c              |   11.092|
+sw2            |d              |   10.803|
+sw2            |e              |   10.817|
+sw2            |f              |   11.061|
+sw2            |g              |   10.988|
+sw3            |a              |   11.476|
+sw3            |b              |   10.798|
+sw3            |c              |   11.014|
+sw3            |d              |   11.212|
+sw3            |e              |   10.820|
+sw3            |f              |   10.582|
+sw3            |g              |   10.461|
+sw4            |a              |   10.944|
+sw4            |b              |   10.673|
+sw4            |c              |   11.361|
+sw4            |d              |   11.136|
+sw4            |e              |   10.922|
+sw4            |f              |   10.355|
+sw4            |g              |   10.477|
+---------------+---------------+---------+
+
+Analysis completed Mon Sep 20 09:21:42 2004
+--------------------------------------------------------------------------------
+

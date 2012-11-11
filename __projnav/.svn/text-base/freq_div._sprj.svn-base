@@ -1,0 +1,2 @@
+set p_VhdlLibrary  {}
+set VHDLSources {freq_div.vhf }

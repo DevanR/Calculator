@@ -1,0 +1,9 @@
+MODULE sevensegenable
+	SUBMODULE mod1_counter
+		INSTANCE XLXI_1
+	SUBMODULE mod2_counter
+		INSTANCE XLXI_2
+	SUBMODULE mod3_counter
+		INSTANCE XLXI_3
+	SUBMODULE mod4_counter
+		INSTANCE XLXI_4

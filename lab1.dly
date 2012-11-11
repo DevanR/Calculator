@@ -1,0 +1,191 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 20 09:22:03 2004
+
+File: lab1.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   4.857            sw2_ibuf
+   3.797            c_obuf
+   3.380            b_obuf
+   2.904            en_ibuf
+   2.774            sw4_ibuf
+   2.754            sw3_ibuf
+   2.625            sw1_ibuf
+   2.526            a_obuf
+   2.488            e_obuf
+   2.381            d_obuf
+   2.232            f_obuf
+   1.526            g_obuf
+   0.936            xlxn_147
+   0.923            xlxn_145
+   0.761            xlxn_146
+   0.434            xlxn_9
+   0.428            xlxi_102/1.0
+   0.385            xlxi_98/1.0
+   0.362            xlxn_5
+   0.222            xlxi_99/1.0
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+a_obuf
+   xlxi_96/1.0.Y
+         2.526  a.O
+
+b_obuf
+   xlxi_97/i35.Y
+         3.380  b.O
+
+c_obuf
+   xlxn_10.Y
+         3.797  c.O
+
+d_obuf
+   xlxi_99/1.0.Y
+         2.381  d.O
+
+e_obuf
+   xlxi_100/1.0.Y
+         2.488  e.O
+
+en_ibuf
+   en.I
+         2.353  xlxi_97/i35.F3
+         2.545  xlxi_102/free/1.2.F4
+         2.881  xlxi_100/1.0.G2
+         2.823  xlxn_10.G1
+         0.898  xlxi_101/1.0.G2
+         2.904  xlxi_99/1.0.G3
+         0.896  xlxi_96/1.0.G3
+
+f_obuf
+   xlxi_101/1.0.Y
+         2.232  f.O
+
+g_obuf
+   xlxi_102/free/1.2.Y
+         1.526  g.O
+
+sw1_ibuf
+   sw1.I
+         1.371  xlxi_102/free/1.2.F3
+         2.306  xlxi_100/1.0.F3
+         2.625  xlxi_100/1.0.G1
+         1.741  xlxn_10.F3
+         1.025  xlxi_101/1.0.F2
+         2.450  xlxi_99/1.0.F3
+         0.716  xlxi_96/1.0.F3
+         1.592  xlxn_147.F2
+         1.731  xlxn_147.G4
+         1.881  xlxn_9.F3
+         2.468  xlxn_9.G1
+         1.734  xlxn_145.F4
+         1.922  xlxi_98/1.0.G2
+
+sw2_ibuf
+   sw2.I
+         3.106  xlxi_102/free/1.2.F2
+         4.329  xlxi_100/1.0.F4
+         3.597  xlxn_10.F2
+         1.194  xlxi_101/1.0.F3
+         4.857  xlxi_99/1.0.F2
+         1.149  xlxi_96/1.0.F2
+         2.919  xlxn_147.F4
+         3.594  xlxn_147.G2
+         3.653  xlxn_9.G3
+         3.725  xlxn_145.F1
+         3.703  xlxn_145.G1
+         3.223  xlxi_98/1.0.G4
+
+sw3_ibuf
+   sw3.I
+         2.264  xlxi_102/free/1.2.F1
+         2.550  xlxi_100/1.0.F2
+         2.170  xlxn_10.F1
+         1.150  xlxi_101/1.0.F4
+         2.754  xlxi_99/1.0.F1
+         1.309  xlxi_96/1.0.F1
+         2.401  xlxn_147.F1
+         2.044  xlxn_147.G3
+         2.194  xlxn_9.F4
+         2.239  xlxn_9.G4
+         2.311  xlxn_145.F2
+         2.404  xlxn_145.G2
+
+sw4_ibuf
+   sw4.I
+         2.564  xlxi_100/1.0.F1
+         2.534  xlxi_100/1.0.G3
+         2.310  xlxn_10.F4
+         1.359  xlxi_101/1.0.F1
+         2.167  xlxi_99/1.0.F4
+         1.139  xlxi_96/1.0.F4
+         1.828  xlxn_147.F3
+         2.493  xlxn_147.G1
+         2.774  xlxn_9.F1
+         2.346  xlxn_9.G2
+         2.381  xlxn_145.G4
+
+xlxi_100/1.0
+   xlxi_100/1.0.X
+         0.222  xlxi_100/1.0.G4
+
+xlxi_101/1.0
+   xlxi_101/1.0.X
+         0.222  xlxi_101/1.0.G4
+
+xlxi_102/1.0
+   xlxn_147.Y
+         0.428  xlxi_102/free/1.2.G3
+
+xlxi_102/free/1.2
+   xlxi_102/free/1.2.X
+         0.222  xlxi_102/free/1.2.G4
+
+xlxi_96/1.0
+   xlxi_96/1.0.X
+         0.222  xlxi_96/1.0.G4
+
+xlxi_97/i35
+   xlxi_97/i35.X
+         0.222  xlxi_97/i35.G4
+
+xlxi_98/1.0
+   xlxi_98/1.0.Y
+         0.385  xlxn_10.G2
+
+xlxi_99/1.0
+   xlxi_99/1.0.X
+         0.222  xlxi_99/1.0.G4
+
+xlxn_10
+   xlxn_10.X
+         0.222  xlxn_10.G4
+
+xlxn_145
+   xlxn_145.X
+         0.923  xlxi_97/i35.G2
+
+xlxn_146
+   xlxn_145.Y
+         0.761  xlxi_97/i35.G3
+
+xlxn_147
+   xlxn_147.X
+         0.936  xlxi_97/i35.F4
+
+xlxn_5
+   xlxn_9.Y
+         0.362  xlxi_97/i35.F2
+
+xlxn_9
+   xlxn_9.X
+         0.434  xlxi_97/i35.G1
+

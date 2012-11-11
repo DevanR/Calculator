@@ -1,0 +1,305 @@
+Release 5.2.03i - Par F.31
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Thu Sep 30 12:34:12 2004
+
+File: testadder.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   1.799            xlxi_14_xlxn_187
+   1.771            ena_dummy
+   1.758            xlxi_14_xlxn_197
+   1.727            xlxi_14_xlxn_195
+   1.678            xlxi_14_xlxn_193
+   1.654            xlxi_16_xlxn_96
+   1.591            xlxi_9_xlxn_78
+   1.526            xlxi_16_xlxn_94
+   1.513            xlxi_14_xlxn_189
+   1.497            xlxi_14_xlxn_201
+   1.465            xlxi_9_xlxi_2_xlxi_4/i0
+   1.445            xlxi_14_xlxn_199
+   1.326            xlxi_16_xlxi_2_xlxi_23_xlxn_16
+   1.326            xlxi_16_xlxi_2_xlxi_25_xlxn_16
+   1.326            xlxi_16_xlxi_2_xlxi_25_xlxn_14
+   1.326            xlxi_16_xlxi_2_xlxi_16_xlxn_16
+   1.326            xlxi_16_xlxi_2_xlxi_24_xlxn_16
+   1.326            xlxi_16_xlxi_2_xlxn_34
+   1.305            xlxn_138
+   1.300            xlxi_16_xlxi_2_xlxi_25_xlxn_15
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+GLOBAL_LOGIC0
+   PWR_GND_0.Y
+         0.626  xlxi_9_xlxn_78.G1
+
+GLOBAL_LOGIC0_0
+   xlxi_16_xlxn_96.X
+         0.684  xlxi_16_xlxn_96.CLK
+         0.712  xlxi_16_xlxn_86.CLK
+
+ena_dummy
+   xlxi_16_xlxi_2_xlxn_45.Y
+         1.771  ena.O
+
+enb_dummy
+   enb_dummy.Y
+         1.210  enb.O
+         0.947  xlxn_139.BX
+         1.244  xlxn_136.BX
+         1.145  xlxn_137.BX
+         0.687  xlxn_138.BX
+
+xlxi_14_xlxn_187
+   xlxi_14_xlxn_187.X
+         1.799  a.O
+
+xlxi_14_xlxn_189
+   xlxi_14_xlxn_189.X
+         1.513  b.O
+
+xlxi_14_xlxn_193
+   xlxi_14_xlxn_193.Y
+         1.678  d.O
+
+xlxi_14_xlxn_195
+   xlxi_14_xlxn_187.Y
+         1.727  e.O
+
+xlxi_14_xlxn_197
+   xlxi_14_xlxn_197.X
+         1.758  f.O
+
+xlxi_14_xlxn_199
+   xlxi_14_xlxn_197.Y
+         1.445  g.O
+
+xlxi_14_xlxn_201
+   xlxi_14_xlxn_189.Y
+         1.497  c.O
+
+xlxi_16_xlxi_2_xlxi_16_xlxn_14
+   xlxi_16_xlxi_2_xlxi_16_xlxn_14.YQ
+         0.900  xlxi_16_xlxi_2_xlxi_16_xlxn_14.BY
+         1.051  xlxi_16_xlxi_2_xlxn_24.CLK
+
+xlxi_16_xlxi_2_xlxi_16_xlxn_15
+   xlxi_16_xlxi_2_xlxi_16_xlxn_15.YQ
+         0.930  xlxi_16_xlxi_2_xlxi_16_xlxn_15.BY
+         0.874  xlxi_16_xlxi_2_xlxi_16_xlxn_16.CLK
+
+xlxi_16_xlxi_2_xlxi_16_xlxn_16
+   xlxi_16_xlxi_2_xlxi_16_xlxn_16.YQ
+         0.900  xlxi_16_xlxi_2_xlxi_16_xlxn_16.BY
+         1.326  xlxi_16_xlxi_2_xlxi_16_xlxn_14.CLK
+
+xlxi_16_xlxi_2_xlxi_23_xlxn_14
+   xlxi_16_xlxi_2_xlxi_23_xlxn_14.YQ
+         0.930  xlxi_16_xlxi_2_xlxi_23_xlxn_14.BY
+         0.890  xlxi_16_xlxi_2_xlxn_34.CLK
+
+xlxi_16_xlxi_2_xlxi_23_xlxn_15
+   xlxi_16_xlxi_2_xlxi_23_xlxn_15.YQ
+         0.900  xlxi_16_xlxi_2_xlxi_23_xlxn_15.BY
+         1.051  xlxi_16_xlxi_2_xlxi_23_xlxn_16.CLK
+
+xlxi_16_xlxi_2_xlxi_23_xlxn_16
+   xlxi_16_xlxi_2_xlxi_23_xlxn_16.YQ
+         1.326  xlxi_16_xlxi_2_xlxi_23_xlxn_14.CLK
+         0.930  xlxi_16_xlxi_2_xlxi_23_xlxn_16.BY
+
+xlxi_16_xlxi_2_xlxi_24_xlxn_14
+   xlxi_16_xlxi_2_xlxi_24_xlxn_14.YQ
+         0.930  xlxi_16_xlxi_2_xlxi_24_xlxn_14.BY
+         1.300  xlxi_16_xlxi_2_xlxn_35.CLK
+
+xlxi_16_xlxi_2_xlxi_24_xlxn_15
+   xlxi_16_xlxi_2_xlxi_24_xlxn_15.YQ
+         0.930  xlxi_16_xlxi_2_xlxi_24_xlxn_15.BY
+         0.906  xlxi_16_xlxi_2_xlxi_24_xlxn_16.CLK
+
+xlxi_16_xlxi_2_xlxi_24_xlxn_16
+   xlxi_16_xlxi_2_xlxi_24_xlxn_16.YQ
+         0.893  xlxi_16_xlxi_2_xlxi_24_xlxn_16.BY
+         1.326  xlxi_16_xlxi_2_xlxi_24_xlxn_14.CLK
+
+xlxi_16_xlxi_2_xlxi_25_xlxn_14
+   xlxi_16_xlxi_2_xlxi_25_xlxn_14.YQ
+         0.930  xlxi_16_xlxi_2_xlxi_25_xlxn_14.BY
+         1.326  xlxi_16_xlxi_2_xlxn_33.CLK
+
+xlxi_16_xlxi_2_xlxi_25_xlxn_15
+   xlxi_16_xlxi_2_xlxi_25_xlxn_15.YQ
+         1.300  xlxi_16_xlxi_2_xlxi_25_xlxn_16.CLK
+         0.899  xlxi_16_xlxi_2_xlxi_25_xlxn_15.BY
+
+xlxi_16_xlxi_2_xlxi_25_xlxn_16
+   xlxi_16_xlxi_2_xlxi_25_xlxn_16.YQ
+         1.326  xlxi_16_xlxi_2_xlxi_25_xlxn_14.CLK
+         0.900  xlxi_16_xlxi_2_xlxi_25_xlxn_16.BY
+
+xlxi_16_xlxi_2_xlxn_24
+   xlxi_16_xlxi_2_xlxn_24.YQ
+         1.300  xlxi_16_xlxi_2_xlxi_23_xlxn_15.CLK
+         0.899  xlxi_16_xlxi_2_xlxn_24.BY
+
+xlxi_16_xlxi_2_xlxn_33
+   xlxi_16_xlxi_2_xlxn_33.YQ
+         1.030  xlxi_16_xlxn_94.CLK
+         0.904  xlxi_16_xlxi_2_xlxn_33.BY
+
+xlxi_16_xlxi_2_xlxn_34
+   xlxi_16_xlxi_2_xlxn_34.YQ
+         1.326  xlxi_16_xlxi_2_xlxi_24_xlxn_15.CLK
+         0.900  xlxi_16_xlxi_2_xlxn_34.BY
+
+xlxi_16_xlxi_2_xlxn_35
+   xlxi_16_xlxi_2_xlxn_35.YQ
+         0.900  xlxi_16_xlxi_2_xlxn_35.BY
+         1.051  xlxi_16_xlxi_2_xlxi_25_xlxn_15.CLK
+
+xlxi_16_xlxi_2_xlxn_45
+   xlxi_16_xlxi_2_xlxn_45.X
+         0.857  xlxi_16_xlxn_94.SR
+         0.714  xlxi_16_xlxn_88.SR
+
+xlxi_16_xlxi_5/s2
+   xlxi_16_xlxi_5/s2.X
+         0.222  xlxi_16_xlxi_5/s2.G4
+
+xlxi_16_xlxn_16
+   xlxi_16_xlxi_5/s2.Y
+         0.709  xlxi_16_xlxn_96.BY
+         0.695  xlxi_16_xlxn_96.SR
+         0.903  xlxi_16_xlxn_86.BY
+         0.693  xlxi_16_xlxn_86.SR
+
+xlxi_16_xlxn_86
+   xlxi_16_xlxn_86.XQ
+         0.719  enb_dummy.G2
+
+xlxi_16_xlxn_88
+   xlxi_16_xlxn_88.YQ
+         1.078  xlxi_16_xlxi_2_xlxn_45.F2
+         1.196  enb_dummy.G3
+         0.984  xlxi_16_xlxn_88.BY
+
+xlxi_16_xlxn_94
+   xlxi_16_xlxn_94.YQ
+         1.505  xlxn_139.F3
+         0.804  xlxn_136.F4
+         1.085  xlxn_137.F1
+         1.526  xlxn_138.F3
+         1.145  xlxi_16_xlxn_94.BY
+         1.268  xlxi_16_xlxi_2_xlxn_45.F4
+         1.273  xlxi_16_xlxi_2_xlxn_45.G3
+         1.470  xlxi_16_xlxn_88.CLK
+
+xlxi_16_xlxn_96
+   xlxi_16_xlxn_96.XQ
+         1.441  xlxn_139.F2
+         1.444  xlxn_136.F3
+         1.654  xlxn_137.F2
+         1.219  xlxn_138.F4
+         1.420  xlxi_16_xlxi_2_xlxn_45.G4
+
+xlxi_9_xlxi_1_xlxi_3/c2o
+   xlxi_9_xlxi_1_xlxn_21.XB
+         1.288  xlxi_9_xlxn_78.G3
+         0.680  xlxi_9_xlxi_1_xlxn_5.F4
+
+xlxi_9_xlxi_1_xlxi_3/i_36_55/O
+   xlxi_9_xlxi_1_xlxn_20.COUT
+         0.000  xlxi_9_xlxi_1_xlxn_21.CIN
+
+xlxi_9_xlxi_1_xlxi_4/i_36_55/O
+   xlxi_9_xlxn_77.COUT
+         0.000  xlxi_9_xlxn_78.CIN
+
+xlxi_9_xlxi_1_xlxn_20
+   xlxi_9_xlxi_1_xlxn_20.X
+         1.120  xlxi_9_xlxn_77.F2
+         1.163  xlxi_9_xlxi_1_xlxn_5.F1
+
+xlxi_9_xlxi_1_xlxn_21
+   xlxi_9_xlxi_1_xlxn_21.X
+         1.120  xlxi_9_xlxn_78.F2
+         0.396  xlxi_9_xlxi_1_xlxn_5.F3
+
+xlxi_9_xlxi_1_xlxn_5
+   xlxi_9_xlxi_1_xlxn_5.X
+         0.991  xlxi_9_xlxn_78.F1
+         0.455  xlxi_9_xlxn_77.F1
+         0.221  xlxi_9_xlxi_1_xlxn_5.G4
+
+xlxi_9_xlxi_2_xlxi_4/i0
+   xlxi_9_xlxi_1_xlxn_5.Y
+         0.934  xlxi_16_xlxi_5/s2.F4
+         1.465  xlxn_136.F1
+
+xlxi_9_xlxn_77
+   xlxi_9_xlxn_77.X
+         1.118  xlxn_137.F4
+
+xlxi_9_xlxn_78
+   xlxi_9_xlxn_78.X
+         1.591  xlxn_138.F1
+
+xlxi_9_xlxn_79
+   xlxi_9_xlxn_78.Y
+         1.282  xlxn_139.F4
+
+xlxn_136
+   xlxn_136.X
+         0.812  xlxi_14_xlxn_189.F3
+         0.936  xlxi_14_xlxn_189.G4
+         1.250  xlxi_14_xlxn_187.F2
+         1.003  xlxi_14_xlxn_187.G4
+         1.039  xlxi_14_xlxn_197.F4
+         0.956  xlxi_14_xlxn_197.G4
+         1.151  xlxi_14_xlxn_193.G2
+
+xlxn_137
+   xlxn_137.X
+         0.779  xlxi_14_xlxn_189.F4
+         0.997  xlxi_14_xlxn_189.G1
+         1.217  xlxi_14_xlxn_187.F1
+         1.239  xlxi_14_xlxn_187.G1
+         1.147  xlxi_14_xlxn_197.F2
+         0.989  xlxi_14_xlxn_197.G3
+         1.066  xlxi_14_xlxn_193.G1
+
+xlxn_138
+   xlxn_138.X
+         0.715  xlxi_14_xlxn_189.F2
+         0.738  xlxi_14_xlxn_189.G2
+         0.915  xlxi_14_xlxn_187.F3
+         0.947  xlxi_14_xlxn_187.G3
+         1.070  xlxi_14_xlxn_197.F3
+         1.305  xlxi_14_xlxn_197.G1
+         0.589  xlxi_14_xlxn_193.G3
+
+xlxn_139
+   xlxn_139.X
+         0.674  xlxi_14_xlxn_189.F1
+         0.904  xlxi_14_xlxn_189.G3
+         0.839  xlxi_14_xlxn_187.F4
+         1.127  xlxi_14_xlxn_187.G2
+         1.086  xlxi_14_xlxn_197.F1
+         1.051  xlxi_14_xlxn_197.G2
+         0.440  xlxi_14_xlxn_193.G4
+
+xlxn_57
+   clkpulse.GCLKOUT
+         0.007  xlxi_18.IN
+
+xlxn_58
+   xlxi_18.OUT
+         0.778  xlxi_16_xlxi_2_xlxi_16_xlxn_15.CLK
+

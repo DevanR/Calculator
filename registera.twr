@@ -1,0 +1,149 @@
+--------------------------------------------------------------------------------
+Release 5.2i - Trace F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -quiet -e 3 -l 3 -xml registera registera.ncd -o
+registera.twr registera.pcf
+
+Design file:              registera.ncd
+Physical constraint file: registera.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2002-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock regclk
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+a1          |    2.069(R)|   -1.327(R)|regclk_bufgp      |   0.000|
+a2          |    1.635(R)|   -0.893(R)|regclk_bufgp      |   0.000|
+a3          |    1.063(R)|   -0.321(R)|regclk_bufgp      |   0.000|
+a4          |    1.758(R)|   -1.016(R)|regclk_bufgp      |   0.000|
+addsub      |    2.534(R)|   -0.986(R)|regclk_bufgp      |   0.000|
+b1          |    1.528(R)|   -0.786(R)|regclk_bufgp      |   0.000|
+b2          |    0.940(R)|   -0.198(R)|regclk_bufgp      |   0.000|
+b3          |    1.411(R)|   -0.669(R)|regclk_bufgp      |   0.000|
+b4          |    1.805(R)|   -1.063(R)|regclk_bufgp      |   0.000|
+c1          |    1.809(R)|   -1.067(R)|regclk_bufgp      |   0.000|
+c2          |    1.309(R)|   -0.567(R)|regclk_bufgp      |   0.000|
+c3          |    1.263(R)|   -0.521(R)|regclk_bufgp      |   0.000|
+c4          |    2.372(R)|   -1.630(R)|regclk_bufgp      |   0.000|
+d1          |    1.689(R)|   -0.947(R)|regclk_bufgp      |   0.000|
+d2          |    1.454(R)|   -0.712(R)|regclk_bufgp      |   0.000|
+d3          |    1.549(R)|   -0.807(R)|regclk_bufgp      |   0.000|
+d4          |    3.039(R)|   -2.297(R)|regclk_bufgp      |   0.000|
+switch21a   |    2.281(R)|   -0.860(R)|regclk_bufgp      |   0.000|
+xlxn_294    |   24.715(R)|   -3.872(R)|regclk_bufgp      |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock xlxn_314
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+xlxn_294    |    3.171(R)|   -1.163(R)|xlxn_314_bufgp    |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock regclk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+oa1         |   14.144(R)|regclk_bufgp      |   0.000|
+oa2         |   12.922(R)|regclk_bufgp      |   0.000|
+oa3         |   13.708(R)|regclk_bufgp      |   0.000|
+oa4         |   15.000(R)|regclk_bufgp      |   0.000|
+ob1         |   12.559(R)|regclk_bufgp      |   0.000|
+ob2         |   13.882(R)|regclk_bufgp      |   0.000|
+ob3         |   12.680(R)|regclk_bufgp      |   0.000|
+ob4         |   14.278(R)|regclk_bufgp      |   0.000|
+oc1         |   12.606(R)|regclk_bufgp      |   0.000|
+oc2         |   13.161(R)|regclk_bufgp      |   0.000|
+oc3         |   12.502(R)|regclk_bufgp      |   0.000|
+oc4         |   14.583(R)|regclk_bufgp      |   0.000|
+od1         |   12.428(R)|regclk_bufgp      |   0.000|
+od2         |   12.139(R)|regclk_bufgp      |   0.000|
+od3         |   12.151(R)|regclk_bufgp      |   0.000|
+od4         |   16.741(R)|regclk_bufgp      |   0.000|
+overflow    |   31.885(R)|regclk_bufgp      |   0.000|
+------------+------------+------------------+--------+
+
+Clock xlxn_314 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+overflow    |   31.186(R)|xlxn_314_bufgp    |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock regclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+regclk         |   26.897|         |         |         |
+xlxn_314       |   26.193|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock xlxn_314
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+regclk         |    4.738|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a1             |oa1            |   11.888|
+a2             |oa2            |    9.634|
+a3             |oa3            |   11.063|
+a4             |oa4            |   12.627|
+b1             |ob1            |   10.364|
+b2             |ob2            |   10.830|
+b3             |ob3            |   10.988|
+b4             |ob4            |   10.736|
+c1             |oc1            |   10.652|
+c2             |oc2            |    9.913|
+c3             |oc3            |    9.869|
+c4             |oc4            |   12.827|
+d1             |od1            |   10.510|
+d2             |od2            |    9.988|
+d3             |od3            |    9.803|
+d4             |od4            |   15.162|
+switch21b      |oa1            |   14.559|
+switch21b      |oa2            |   12.947|
+switch21b      |oa3            |   13.711|
+switch21b      |oa4            |   15.190|
+switch21b      |ob1            |   13.325|
+switch21b      |ob2            |   14.069|
+switch21b      |ob3            |   13.778|
+switch21b      |ob4            |   14.424|
+switch21b      |oc1            |   13.231|
+switch21b      |oc2            |   13.758|
+switch21b      |oc3            |   13.040|
+switch21b      |oc4            |   14.021|
+switch21b      |od1            |   13.791|
+switch21b      |od2            |   12.906|
+switch21b      |od3            |   13.355|
+switch21b      |od4            |   16.448|
+xlxn_294       |overflow       |   29.708|
+---------------+---------------+---------+
+
+Analysis completed Thu Sep 23 23:58:56 2004
+--------------------------------------------------------------------------------
+

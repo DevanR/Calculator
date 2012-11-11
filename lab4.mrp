@@ -1,0 +1,1236 @@
+Release 5.2.03i - Map F.31
+Xilinx Mapping Report File for Design 'lab4'
+
+Design Information
+------------------
+Command Line   : C:/Xilinx52i/bin/nt/map.exe -quiet -p xc2s200-fg456-5 -cm area
+-pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf 
+Target Device  : x2s200
+Target Package : fg456
+Target Speed   : -5
+Mapper Version : spartan2 -- $Revision: 1.4 $
+Mapped Date    : Wed Oct 06 12:16:20 2004
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   25
+Logic Utilization:
+  Total Number Slice Registers:     160 out of  4,704    3%
+    Number used as Flip Flops:                    157
+    Number used as Latches:                         3
+  Number of 4 input LUTs:           419 out of  4,704    8%
+Logic Distribution:
+    Number of occupied Slices:                         329 out of  2,352   13%
+    Number of Slices containing only related logic:    329 out of    329  100%
+    Number of Slices containing unrelated logic:         0 out of    329    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:       419 out of  4,704    8%
+   Number of bonded IOBs:            18 out of    284    6%
+   Number of GCLKs:                   1 out of      4   25%
+   Number of GCLKIOBs:                1 out of      4   25%
+
+   Number of RPM macros:           43
+Total equivalent gate count for design:  4,133
+Additional JTAG gate count for IOBs:  912
+Peak Memory Usage:  60 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:176 - Clock buffer is designated to drive clock loads. BUFG symbol
+   "xlxi_31" (output signal=xlxn_394) has a mix of clock and non-clock loads.
+   The non-clock loads are:
+   Pin I1 of xlxi_52_xlxi_19
+   Pin I1 of xlxi_52_xlxi_9
+   Pin I0 of xlxi_52_xlxi_15
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/i_36_55
+   	xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/i_36_55
+   	xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_3_xlxi_16_xlxi_4_xlxi_4/i_36_55
+   	xlxi_3_xlxi_16_xlxi_4_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_3_xlxi_16_xlxi_2_xlxi_4/i_36_55
+   	xlxi_3_xlxi_16_xlxi_2_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/i_36_55
+   	xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/i_36_55
+   	xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_3_xlxi_16_xlxi_3_xlxi_4/i_36_55
+   	xlxi_3_xlxi_16_xlxi_3_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_3_xlxi_16_xlxi_1_xlxi_4/i_36_55
+   	xlxi_3_xlxi_16_xlxi_1_xlxi_4/i_36_62
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_3_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_4_xlxi_4/co has no load.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxn_414 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxn_178 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_1_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_2_xlxi_4/co has no load.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxn_398 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxn_388 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxi_9_xlxn_16 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxi_52_xlxn_119 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxi_52_xlxn_110 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxi_52_xlxn_90 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:95 - All of the external outputs in this design are using slew rate
+   limited output drivers. The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 114 block(s) removed
+ 437 block(s) optimized away
+ 114 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "xlxi_1_xlxi_9/gt" is sourceless and has been removed.
+The signal "xlxi_1_xlxi_9/gt0_1" is sourceless and has been removed.
+ Sourceless block "xlxi_1_xlxi_9/i_36_1" (AND) removed.
+  The signal "xlxi_1_xlxi_9/gta" is sourceless and has been removed.
+   Sourceless block "xlxi_1_xlxi_9/i_36_12" (OR) removed.
+The signal "xlxi_1_xlxi_9/gt_1" is sourceless and has been removed.
+ Sourceless block "xlxi_1_xlxi_9/i_36_18" (OR) removed.
+The signal "xlxi_1_xlxi_9/eq_1" is sourceless and has been removed.
+ Sourceless block "xlxi_1_xlxi_9/i_36_16" (AND) removed.
+  The signal "xlxi_1_xlxi_9/ge0_1" is sourceless and has been removed.
+The signal "xlxi_1_xlxi_2_xlxi_22/dummy" is sourceless and has been removed.
+The signal "xlxi_1_xlxi_2_xlxi_1/d7" is sourceless and has been removed.
+The signal "xlxi_52_xlxi_5/dummy" is sourceless and has been removed.
+The signal "xlxi_52_xlxi_6/dummy" is sourceless and has been removed.
+The signal "xlxi_3_xlxi_16_xlxi_37_xlxi_21/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_38_xlxi_21/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_36_xlxi_21/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_35_xlxi_21/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_1_xlxi_3/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_1_xlxi_3/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_1_xlxi_4/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_1_xlxi_4/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_2_xlxi_3/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_2_xlxi_3/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_2_xlxi_4/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_2_xlxi_4/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_3_xlxi_3/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_3_xlxi_3/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_3_xlxi_4/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_3_xlxi_4/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_4_xlxi_3/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_4_xlxi_3/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_4_xlxi_4/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_4_xlxi_4/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_35_xlxi_11/ab3" is sourceless and has been
+removed.
+ Sourceless block "xlxi_3_xlxi_16_xlxi_35_xlxi_11/i_36_32" (AND) removed.
+  The signal "xlxi_3_xlxi_16_xlxi_35_xlxn_105" is sourceless and has been removed.
+The signal "xlxi_3_xlxi_16_xlxi_35_xlxi_11/ab2" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_35_xlxi_11/ab1" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_35_xlxi_11/ab0" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/ab3" is sourceless and has
+been removed.
+ Sourceless block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/i_36_32" (AND) removed.
+  The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxn_105" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/ab2" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/ab1" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/ab0" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_35_xlxi_24/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_35_xlxi_23/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_35_xlxi_22/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_36_xlxi_11/ab3" is sourceless and has been
+removed.
+ Sourceless block "xlxi_3_xlxi_16_xlxi_36_xlxi_11/i_36_32" (AND) removed.
+  The signal "xlxi_3_xlxi_16_xlxi_36_xlxn_105" is sourceless and has been removed.
+The signal "xlxi_3_xlxi_16_xlxi_36_xlxi_11/ab2" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_36_xlxi_11/ab1" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_36_xlxi_11/ab0" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_36_xlxi_24/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_36_xlxi_23/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_36_xlxi_22/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_38_xlxi_11/ab3" is sourceless and has been
+removed.
+ Sourceless block "xlxi_3_xlxi_16_xlxi_38_xlxi_11/i_36_32" (AND) removed.
+  The signal "xlxi_3_xlxi_16_xlxi_38_xlxn_105" is sourceless and has been removed.
+The signal "xlxi_3_xlxi_16_xlxi_38_xlxi_11/ab2" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_38_xlxi_11/ab1" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_38_xlxi_11/ab0" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_38_xlxi_24/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_38_xlxi_23/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_38_xlxi_22/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_37_xlxi_11/ab3" is sourceless and has been
+removed.
+ Sourceless block "xlxi_3_xlxi_16_xlxi_37_xlxi_11/i_36_32" (AND) removed.
+  The signal "xlxi_3_xlxi_16_xlxi_37_xlxn_105" is sourceless and has been removed.
+The signal "xlxi_3_xlxi_16_xlxi_37_xlxi_11/ab2" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_37_xlxi_11/ab1" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_37_xlxi_11/ab0" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_37_xlxi_24/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_37_xlxi_23/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_37_xlxi_22/dummy" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_23/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_24/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_21/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_21/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_21/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_21/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_3/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_3/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_3/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_3/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_3/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_3/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_3/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_3/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/ofl" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/ab3" is sourceless and has
+been removed.
+ Sourceless block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/i_36_32" (AND) removed.
+  The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxn_105" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/ab2" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/ab1" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/ab0" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_22/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_24/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_23/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_22/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/ab3" is sourceless and has
+been removed.
+ Sourceless block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/i_36_32" (AND) removed.
+  The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxn_105" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/ab2" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/ab1" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/ab0" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_24/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_23/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_22/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/ab3" is sourceless and has
+been removed.
+ Sourceless block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/i_36_32" (AND) removed.
+  The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxn_105" is sourceless and has been
+removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/ab2" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/ab1" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/ab0" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_24/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_23/dummy" is sourceless and has
+been removed.
+The signal "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_22/dummy" is sourceless and has
+been removed.
+Unused block "xlxi_1_xlxi_2_xlxi_1/i_36_30" (AND) removed.
+Unused block "xlxi_1_xlxi_2_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_1_xlxi_9/i_36_13" (XOR) removed.
+Unused block "xlxi_1_xlxi_9/i_36_9" (AND) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_1_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_1_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_1_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_1_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_2_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_2_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_2_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_2_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_35_xlxi_11/i_36_33" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_35_xlxi_11/i_36_34" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_35_xlxi_11/i_36_42" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_35_xlxi_11/i_36_43" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_35_xlxi_21/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_35_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_35_xlxi_23/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_35_xlxi_24/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_36_xlxi_11/i_36_33" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_36_xlxi_11/i_36_34" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_36_xlxi_11/i_36_42" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_36_xlxi_11/i_36_43" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_36_xlxi_21/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_36_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_36_xlxi_23/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_36_xlxi_24/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_37_xlxi_11/i_36_33" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_37_xlxi_11/i_36_34" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_37_xlxi_11/i_36_42" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_37_xlxi_11/i_36_43" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_37_xlxi_21/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_37_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_37_xlxi_23/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_37_xlxi_24/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_38_xlxi_11/i_36_33" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_38_xlxi_11/i_36_34" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_38_xlxi_11/i_36_42" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_38_xlxi_11/i_36_43" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_38_xlxi_21/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_38_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_38_xlxi_23/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_38_xlxi_24/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_3_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_3_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_3_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_3_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_4_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_4_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_4_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_4_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/i_36_33" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/i_36_34" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/i_36_42" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_11/i_36_43" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_21/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_23/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_24/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/i_36_33" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/i_36_34" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/i_36_42" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_11/i_36_43" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_21/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_23/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_24/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/i_36_33" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/i_36_34" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/i_36_42" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_11/i_36_43" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_21/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_23/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_24/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/i_36_33" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/i_36_34" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/i_36_42" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_11/i_36_43" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_21/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_22/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_23/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_24/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_52_xlxi_5/xst_gnd" (ZERO) removed.
+Unused block "xlxi_52_xlxi_6/xst_gnd" (ZERO) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+and3b2 		xlxi_1_xlxi_5_xlxi_1_xlxi_10/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_1_xlxi_10/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_1_xlxi_11/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_1_xlxi_11/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_1_xlxi_12/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_1_xlxi_12/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_1_xlxi_2/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_1_xlxi_2/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_2_xlxi_10/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_2_xlxi_10/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_2_xlxi_11/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_2_xlxi_11/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_2_xlxi_12/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_2_xlxi_12/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_2_xlxi_2/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_2_xlxi_2/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_3_xlxi_10/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_3_xlxi_10/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_3_xlxi_11/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_3_xlxi_11/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_3_xlxi_12/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_3_xlxi_12/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_3_xlxi_2/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_3_xlxi_2/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_4_xlxi_10/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_4_xlxi_10/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_4_xlxi_11/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_4_xlxi_11/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_4_xlxi_12/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_4_xlxi_12/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_4_xlxi_2/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_4_xlxi_2/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_5_xlxi_10/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_5_xlxi_10/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_5_xlxi_11/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_5_xlxi_11/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_5_xlxi_12/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_5_xlxi_12/i_36_43
+and3b2 		xlxi_1_xlxi_5_xlxi_5_xlxi_2/i_36_37
+and2b1 		xlxi_1_xlxi_5_xlxi_5_xlxi_2/i_36_43
+and3b1 		xlxi_1_xlxi_9/i_36_15
+and3b1 		xlxi_1_xlxi_9/i_36_17
+and2b1 		xlxi_1_xlxi_9/i_36_6
+gnd 		xlxi_25
+vcc 		xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_17
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_18
+or4 		xlxi_3_xlxi_16_xlxi_35_xlxi_22/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_35_xlxi_23/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_35_xlxi_24/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_35_xlxi_24/i_36_127
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_25
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_27
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_36
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_37
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_40
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_43
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_45
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_46
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_47
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_49
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_52
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_53
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_54
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_56
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_57
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_59
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_60
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_61
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_62
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_63
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_64
+and2 		xlxi_3_xlxi_16_xlxi_35_xlxi_65
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_17
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_18
+or4 		xlxi_3_xlxi_16_xlxi_36_xlxi_22/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_36_xlxi_23/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_36_xlxi_24/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_36_xlxi_24/i_36_127
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_25
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_27
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_36
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_37
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_40
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_43
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_45
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_46
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_47
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_49
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_52
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_53
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_54
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_56
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_57
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_59
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_60
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_61
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_62
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_63
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_64
+and2 		xlxi_3_xlxi_16_xlxi_36_xlxi_65
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_17
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_18
+or4 		xlxi_3_xlxi_16_xlxi_37_xlxi_22/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_37_xlxi_23/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_37_xlxi_24/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_37_xlxi_24/i_36_127
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_25
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_27
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_36
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_37
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_40
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_43
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_45
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_46
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_47
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_49
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_52
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_53
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_54
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_56
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_57
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_59
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_60
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_61
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_62
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_63
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_64
+and2 		xlxi_3_xlxi_16_xlxi_37_xlxi_65
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_17
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_18
+or4 		xlxi_3_xlxi_16_xlxi_38_xlxi_22/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_38_xlxi_23/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_38_xlxi_24/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_38_xlxi_24/i_36_127
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_25
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_27
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_36
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_37
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_40
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_43
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_45
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_46
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_47
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_49
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_52
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_53
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_54
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_56
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_57
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_59
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_60
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_61
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_62
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_63
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_64
+and2 		xlxi_3_xlxi_16_xlxi_38_xlxi_65
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_17
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_18
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_22/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_23/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_24/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_24/i_36_127
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_25
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_27
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_36
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_37
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_40
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_43
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_45
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_46
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_47
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_49
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_52
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_53
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_54
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_56
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_57
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_59
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_60
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_61
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_62
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_63
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_64
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_35_xlxi_65
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_17
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_18
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_22/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_23/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_24/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_24/i_36_127
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_25
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_27
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_36
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_37
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_40
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_43
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_45
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_46
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_47
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_49
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_52
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_53
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_54
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_56
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_57
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_59
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_60
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_61
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_62
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_63
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_64
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_36_xlxi_65
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_17
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_18
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_22/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_23/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_24/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_24/i_36_127
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_25
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_27
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_36
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_37
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_40
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_43
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_45
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_46
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_47
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_49
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_52
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_53
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_54
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_56
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_57
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_59
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_60
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_61
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_62
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_63
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_64
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_37_xlxi_65
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_17
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_18
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_22/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_23/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_24/i_36_110
+or4 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_24/i_36_127
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_25
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_26
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_27
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_36
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_37
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_40
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_43
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_45
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_46
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_47
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_49
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_52
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_53
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_54
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_56
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_57
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_59
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_60
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_61
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_62
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_63
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_64
+and2 		xlxi_3_xlxi_16_xlxi_97_xlxi_38_xlxi_65
+vcc 		xlxi_49
+vcc 		xlxi_51
+and3b2 		xlxi_52_xlxi_2_xlxi_16_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_16_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_16_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_16_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_16_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_16_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_16_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_16_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_23_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_23_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_23_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_23_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_23_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_23_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_23_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_23_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_24_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_24_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_24_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_24_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_24_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_24_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_24_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_24_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_25_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_25_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_25_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_25_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_25_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_25_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_25_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_25_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_31/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_31/i_36_43
+and3b2 		xlxi_52_xlxi_2_xlxi_32/i_36_37
+and2b1 		xlxi_52_xlxi_2_xlxi_32/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_16_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_16_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_16_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_16_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_16_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_16_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_16_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_16_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_23_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_23_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_23_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_23_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_23_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_23_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_23_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_23_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_24_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_24_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_24_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_24_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_24_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_24_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_24_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_24_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_25_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_25_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_25_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_25_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_25_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_25_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_25_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_25_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_31/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_31/i_36_43
+and3b2 		xlxi_52_xlxi_3_xlxi_32/i_36_37
+and2b1 		xlxi_52_xlxi_3_xlxi_32/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_16_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_16_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_16_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_16_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_16_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_16_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_16_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_16_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_23_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_23_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_23_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_23_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_23_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_23_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_23_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_23_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_24_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_24_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_24_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_24_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_24_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_24_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_24_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_24_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_25_xlxi_10/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_25_xlxi_10/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_25_xlxi_11/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_25_xlxi_11/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_25_xlxi_12/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_25_xlxi_12/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_25_xlxi_2/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_25_xlxi_2/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_3/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_3/i_36_43
+and3b2 		xlxi_52_xlxi_4_xlxi_4/i_36_37
+and2b1 		xlxi_52_xlxi_4_xlxi_4/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_1_xlxi_10/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_1_xlxi_10/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_1_xlxi_11/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_1_xlxi_11/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_1_xlxi_12/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_1_xlxi_12/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_1_xlxi_2/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_1_xlxi_2/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_2_xlxi_10/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_2_xlxi_10/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_2_xlxi_11/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_2_xlxi_11/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_2_xlxi_12/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_2_xlxi_12/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_2_xlxi_2/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_2_xlxi_2/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_3_xlxi_10/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_3_xlxi_10/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_3_xlxi_11/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_3_xlxi_11/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_3_xlxi_12/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_3_xlxi_12/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_3_xlxi_2/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_3_xlxi_2/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_4_xlxi_10/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_4_xlxi_10/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_4_xlxi_11/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_4_xlxi_11/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_4_xlxi_12/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_4_xlxi_12/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_4_xlxi_2/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_4_xlxi_2/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_5_xlxi_10/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_5_xlxi_10/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_5_xlxi_11/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_5_xlxi_11/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_5_xlxi_12/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_5_xlxi_12/i_36_43
+and3b2 		xlxi_9_xlxi_22_xlxi_5_xlxi_2/i_36_37
+and2b1 		xlxi_9_xlxi_22_xlxi_5_xlxi_2/i_36_43
+GND 		xst_gnd
+VCC 		xst_vcc
+muxcy_l 		xlxi_3_xlxi_16_xlxi_1_xlxi_4/i_36_111
+muxcy_l 		xlxi_3_xlxi_16_xlxi_2_xlxi_4/i_36_111
+muxcy_l 		xlxi_3_xlxi_16_xlxi_3_xlxi_4/i_36_111
+muxcy_l 		xlxi_3_xlxi_16_xlxi_4_xlxi_4/i_36_111
+muxcy_l 		xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/i_36_111
+muxcy_l 		xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/i_36_111
+muxcy_l 		xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/i_36_111
+muxcy_l 		xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/i_36_111
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| pulse                              | GCLKIOB | INPUT     | LVTTL       |          |      |          |          |       |
+| a                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| b                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| c                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| c1                                 | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| c2                                 | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| c3                                 | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| c4                                 | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| d                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| e                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ena                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| enb                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| f                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| g                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ledovrflow                         | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| r1                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| r2                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| r3                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| r4                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+xlxi_9_xlxi_22_xlxi_5_XLXI_2_3          
+xlxi_9_xlxi_22_xlxi_5_XLXI_12_2         
+xlxi_9_xlxi_22_xlxi_5_XLXI_11_1         
+xlxi_9_xlxi_22_xlxi_5_XLXI_10_0         
+xlxi_9_xlxi_22_xlxi_4_XLXI_2_3          
+xlxi_9_xlxi_22_xlxi_4_XLXI_12_2         
+xlxi_9_xlxi_22_xlxi_4_XLXI_11_1         
+xlxi_9_xlxi_22_xlxi_4_XLXI_10_0         
+xlxi_9_xlxi_22_xlxi_3_XLXI_2_3          
+xlxi_9_xlxi_22_xlxi_3_XLXI_12_2         
+xlxi_9_xlxi_22_xlxi_3_XLXI_11_1         
+xlxi_9_xlxi_22_xlxi_3_XLXI_10_0         
+xlxi_9_xlxi_22_xlxi_2_XLXI_2_3          
+xlxi_9_xlxi_22_xlxi_2_XLXI_12_2         
+xlxi_9_xlxi_22_xlxi_2_XLXI_11_1         
+xlxi_9_xlxi_22_xlxi_2_XLXI_10_0         
+xlxi_9_xlxi_22_xlxi_1_XLXI_2_3          
+xlxi_9_xlxi_22_xlxi_1_XLXI_12_2         
+xlxi_9_xlxi_22_xlxi_1_XLXI_11_1         
+xlxi_9_xlxi_22_xlxi_1_XLXI_10_0         
+xlxi_52_XLXI_6_1                        
+xlxi_52_XLXI_5_0                        
+xlxi_52_xlxi_4_XLXI_4_1                 
+xlxi_52_xlxi_4_XLXI_3_0                 
+xlxi_52_xlxi_4_xlxi_25_XLXI_2_3         
+xlxi_52_xlxi_4_xlxi_25_XLXI_12_2        
+xlxi_52_xlxi_4_xlxi_25_XLXI_11_1        
+xlxi_52_xlxi_4_xlxi_25_XLXI_10_0        
+xlxi_52_xlxi_4_xlxi_24_XLXI_2_3         
+xlxi_52_xlxi_4_xlxi_24_XLXI_12_2        
+xlxi_52_xlxi_4_xlxi_24_XLXI_11_1        
+xlxi_52_xlxi_4_xlxi_24_XLXI_10_0        
+xlxi_52_xlxi_4_xlxi_23_XLXI_2_3         
+xlxi_52_xlxi_4_xlxi_23_XLXI_12_2        
+xlxi_52_xlxi_4_xlxi_23_XLXI_11_1        
+xlxi_52_xlxi_4_xlxi_23_XLXI_10_0        
+xlxi_52_xlxi_4_xlxi_16_XLXI_2_3         
+xlxi_52_xlxi_4_xlxi_16_XLXI_12_2        
+xlxi_52_xlxi_4_xlxi_16_XLXI_11_1        
+xlxi_52_xlxi_4_xlxi_16_XLXI_10_0        
+xlxi_52_xlxi_3_XLXI_32_1                
+xlxi_52_xlxi_3_XLXI_31_0                
+xlxi_52_xlxi_3_xlxi_25_XLXI_2_3         
+xlxi_52_xlxi_3_xlxi_25_XLXI_12_2        
+xlxi_52_xlxi_3_xlxi_25_XLXI_11_1        
+xlxi_52_xlxi_3_xlxi_25_XLXI_10_0        
+xlxi_52_xlxi_3_xlxi_24_XLXI_2_3         
+xlxi_52_xlxi_3_xlxi_24_XLXI_12_2        
+xlxi_52_xlxi_3_xlxi_24_XLXI_11_1        
+xlxi_52_xlxi_3_xlxi_24_XLXI_10_0        
+xlxi_52_xlxi_3_xlxi_23_XLXI_2_3         
+xlxi_52_xlxi_3_xlxi_23_XLXI_12_2        
+xlxi_52_xlxi_3_xlxi_23_XLXI_11_1        
+xlxi_52_xlxi_3_xlxi_23_XLXI_10_0        
+xlxi_52_xlxi_3_xlxi_16_XLXI_2_3         
+xlxi_52_xlxi_3_xlxi_16_XLXI_12_2        
+xlxi_52_xlxi_3_xlxi_16_XLXI_11_1        
+xlxi_52_xlxi_3_xlxi_16_XLXI_10_0        
+xlxi_52_xlxi_2_XLXI_32_1                
+xlxi_52_xlxi_2_XLXI_31_0                
+xlxi_52_xlxi_2_xlxi_25_XLXI_2_3         
+xlxi_52_xlxi_2_xlxi_25_XLXI_12_2        
+xlxi_52_xlxi_2_xlxi_25_XLXI_11_1        
+xlxi_52_xlxi_2_xlxi_25_XLXI_10_0        
+xlxi_52_xlxi_2_xlxi_24_XLXI_2_3         
+xlxi_52_xlxi_2_xlxi_24_XLXI_12_2        
+xlxi_52_xlxi_2_xlxi_24_XLXI_11_1        
+xlxi_52_xlxi_2_xlxi_24_XLXI_10_0        
+xlxi_52_xlxi_2_xlxi_23_XLXI_2_3         
+xlxi_52_xlxi_2_xlxi_23_XLXI_12_2        
+xlxi_52_xlxi_2_xlxi_23_XLXI_11_1        
+xlxi_52_xlxi_2_xlxi_23_XLXI_10_0        
+xlxi_52_xlxi_2_xlxi_16_XLXI_2_3         
+xlxi_52_xlxi_2_xlxi_16_XLXI_12_2        
+xlxi_52_xlxi_2_xlxi_16_XLXI_11_1        
+xlxi_52_xlxi_2_xlxi_16_XLXI_10_0        
+XLXI_46_6                               
+xlxi_46/xlxi_46_I_M23_0                 
+xlxi_46/xlxi_46_I_M01_1                 
+XLXI_45_5                               
+xlxi_45/xlxi_45_I_M23_0                 
+xlxi_45/xlxi_45_I_M01_1                 
+XLXI_44_4                               
+xlxi_44/xlxi_44_I_M23_0                 
+xlxi_44/xlxi_44_I_M01_1                 
+XLXI_43_3                               
+xlxi_43/xlxi_43_I_M23_0                 
+xlxi_43/xlxi_43_I_M01_1                 
+xlxi_3_xlxi_16_xlxi_97_xlxi_4_XLXI_4_1  
+xlxi_3_xlxi_16_xlxi_97_xlxi_4_XLXI_3_0  
+xlxi_3_xlxi_16_xlxi_97_xlxi_3_XLXI_4_1  
+xlxi_3_xlxi_16_xlxi_97_xlxi_3_XLXI_3_0  
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_9_7 
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_8_6 
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_7_5 
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_6_4 
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_5_3 
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_4_2 
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_3_1 
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_2_0 
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_24_13
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_23_12
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_22_11
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_21_10
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_11_9
+xlxi_3_xlxi_16_xlxi_97_xlxi_38_XLXI_10_8
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_9_7 
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_8_6 
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_7_5 
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_6_4 
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_5_3 
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_4_2 
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_3_1 
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_2_0 
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_24_13
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_23_12
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_22_11
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_21_10
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_11_9
+xlxi_3_xlxi_16_xlxi_97_xlxi_37_XLXI_10_8
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_9_7 
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_8_6 
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_7_5 
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_6_4 
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_5_3 
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_4_2 
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_3_1 
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_2_0 
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_24_13
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_23_12
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_22_11
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_21_10
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_11_9
+xlxi_3_xlxi_16_xlxi_97_xlxi_36_XLXI_10_8
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_9_7 
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_8_6 
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_7_5 
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_6_4 
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_5_3 
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_4_2 
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_3_1 
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_2_0 
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_24_13
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_23_12
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_22_11
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_21_10
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_11_9
+xlxi_3_xlxi_16_xlxi_97_xlxi_35_XLXI_10_8
+xlxi_3_xlxi_16_xlxi_97_xlxi_2_XLXI_4_1  
+xlxi_3_xlxi_16_xlxi_97_xlxi_2_XLXI_3_0  
+xlxi_3_xlxi_16_xlxi_97_xlxi_1_XLXI_4_1  
+xlxi_3_xlxi_16_xlxi_97_xlxi_1_XLXI_3_0  
+xlxi_3_xlxi_16_xlxi_4_XLXI_4_1          
+xlxi_3_xlxi_16_xlxi_4_XLXI_3_0          
+xlxi_3_xlxi_16_xlxi_3_XLXI_4_1          
+xlxi_3_xlxi_16_xlxi_3_XLXI_3_0          
+xlxi_3_xlxi_16_xlxi_38_XLXI_9_7         
+xlxi_3_xlxi_16_xlxi_38_XLXI_8_6         
+xlxi_3_xlxi_16_xlxi_38_XLXI_7_5         
+xlxi_3_xlxi_16_xlxi_38_XLXI_6_4         
+xlxi_3_xlxi_16_xlxi_38_XLXI_5_3         
+xlxi_3_xlxi_16_xlxi_38_XLXI_4_2         
+xlxi_3_xlxi_16_xlxi_38_XLXI_3_1         
+xlxi_3_xlxi_16_xlxi_38_XLXI_2_0         
+xlxi_3_xlxi_16_xlxi_38_XLXI_24_13       
+xlxi_3_xlxi_16_xlxi_38_XLXI_23_12       
+xlxi_3_xlxi_16_xlxi_38_XLXI_22_11       
+xlxi_3_xlxi_16_xlxi_38_XLXI_21_10       
+xlxi_3_xlxi_16_xlxi_38_XLXI_11_9        
+xlxi_3_xlxi_16_xlxi_38_XLXI_10_8        
+xlxi_3_xlxi_16_xlxi_37_XLXI_9_7         
+xlxi_3_xlxi_16_xlxi_37_XLXI_8_6         
+xlxi_3_xlxi_16_xlxi_37_XLXI_7_5         
+xlxi_3_xlxi_16_xlxi_37_XLXI_6_4         
+xlxi_3_xlxi_16_xlxi_37_XLXI_5_3         
+xlxi_3_xlxi_16_xlxi_37_XLXI_4_2         
+xlxi_3_xlxi_16_xlxi_37_XLXI_3_1         
+xlxi_3_xlxi_16_xlxi_37_XLXI_2_0         
+xlxi_3_xlxi_16_xlxi_37_XLXI_24_13       
+xlxi_3_xlxi_16_xlxi_37_XLXI_23_12       
+xlxi_3_xlxi_16_xlxi_37_XLXI_22_11       
+xlxi_3_xlxi_16_xlxi_37_XLXI_21_10       
+xlxi_3_xlxi_16_xlxi_37_XLXI_11_9        
+xlxi_3_xlxi_16_xlxi_37_XLXI_10_8        
+xlxi_3_xlxi_16_xlxi_36_XLXI_9_7         
+xlxi_3_xlxi_16_xlxi_36_XLXI_8_6         
+xlxi_3_xlxi_16_xlxi_36_XLXI_7_5         
+xlxi_3_xlxi_16_xlxi_36_XLXI_6_4         
+xlxi_3_xlxi_16_xlxi_36_XLXI_5_3         
+xlxi_3_xlxi_16_xlxi_36_XLXI_4_2         
+xlxi_3_xlxi_16_xlxi_36_XLXI_3_1         
+xlxi_3_xlxi_16_xlxi_36_XLXI_2_0         
+xlxi_3_xlxi_16_xlxi_36_XLXI_24_13       
+xlxi_3_xlxi_16_xlxi_36_XLXI_23_12       
+xlxi_3_xlxi_16_xlxi_36_XLXI_22_11       
+xlxi_3_xlxi_16_xlxi_36_XLXI_21_10       
+xlxi_3_xlxi_16_xlxi_36_XLXI_11_9        
+xlxi_3_xlxi_16_xlxi_36_XLXI_10_8        
+xlxi_3_xlxi_16_xlxi_35_XLXI_9_7         
+xlxi_3_xlxi_16_xlxi_35_XLXI_8_6         
+xlxi_3_xlxi_16_xlxi_35_XLXI_7_5         
+xlxi_3_xlxi_16_xlxi_35_XLXI_6_4         
+xlxi_3_xlxi_16_xlxi_35_XLXI_5_3         
+xlxi_3_xlxi_16_xlxi_35_XLXI_4_2         
+xlxi_3_xlxi_16_xlxi_35_XLXI_3_1         
+xlxi_3_xlxi_16_xlxi_35_XLXI_2_0         
+xlxi_3_xlxi_16_xlxi_35_XLXI_24_13       
+xlxi_3_xlxi_16_xlxi_35_XLXI_23_12       
+xlxi_3_xlxi_16_xlxi_35_XLXI_22_11       
+xlxi_3_xlxi_16_xlxi_35_XLXI_21_10       
+xlxi_3_xlxi_16_xlxi_35_XLXI_11_9        
+xlxi_3_xlxi_16_xlxi_35_XLXI_10_8        
+xlxi_3_xlxi_16_xlxi_2_XLXI_4_1          
+xlxi_3_xlxi_16_xlxi_2_XLXI_3_0          
+xlxi_3_xlxi_16_xlxi_1_XLXI_4_1          
+xlxi_3_xlxi_16_xlxi_1_XLXI_3_0          
+XLXI_24_2                               
+xlxi_1_XLXI_9_0                         
+xlxi_1_xlxi_5_xlxi_5_XLXI_2_3           
+xlxi_1_xlxi_5_xlxi_5_XLXI_12_2          
+xlxi_1_xlxi_5_xlxi_5_XLXI_11_1          
+xlxi_1_xlxi_5_xlxi_5_XLXI_10_0          
+xlxi_1_xlxi_5_xlxi_4_XLXI_2_3           
+xlxi_1_xlxi_5_xlxi_4_XLXI_12_2          
+xlxi_1_xlxi_5_xlxi_4_XLXI_11_1          
+xlxi_1_xlxi_5_xlxi_4_XLXI_10_0          
+xlxi_1_xlxi_5_xlxi_3_XLXI_2_3           
+xlxi_1_xlxi_5_xlxi_3_XLXI_12_2          
+xlxi_1_xlxi_5_xlxi_3_XLXI_11_1          
+xlxi_1_xlxi_5_xlxi_3_XLXI_10_0          
+xlxi_1_xlxi_5_xlxi_2_XLXI_2_3           
+xlxi_1_xlxi_5_xlxi_2_XLXI_12_2          
+xlxi_1_xlxi_5_xlxi_2_XLXI_11_1          
+xlxi_1_xlxi_5_xlxi_2_XLXI_10_0          
+xlxi_1_xlxi_5_xlxi_1_XLXI_2_3           
+xlxi_1_xlxi_5_xlxi_1_XLXI_12_2          
+xlxi_1_xlxi_5_xlxi_1_XLXI_11_1          
+xlxi_1_xlxi_5_xlxi_1_XLXI_10_0          
+xlxi_1_xlxi_2_XLXI_22_2                 
+xlxi_1_xlxi_2_XLXI_1_0                  
+xlxi_1_xlxi_2_XLXI_17_1                 
+xlxi_1_XLXI_18_3                        
+xlxi_1_XLXI_16_2                        
+xlxi_1_XLXI_15_1                        
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group Summary
+------------------------------
+No area groups were found in this design.
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.

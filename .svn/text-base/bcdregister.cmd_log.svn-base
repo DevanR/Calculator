@@ -1,0 +1,6 @@
+sch2vhdl -family=spartan2 -flat -suppress -w BCDRegister.sch bcdregister.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w bcdregister.sch bcdregister.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w bcdregister.sch bcdregister.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w bcdregister.sch bcdregister.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w bcdregister.sch bcdregister.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w bcdregister.sch bcdregister.vhf

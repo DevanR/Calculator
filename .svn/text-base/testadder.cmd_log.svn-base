@@ -1,0 +1,39 @@
+sch2vhdl -family=spartan2 -flat -suppress -w testadder.sch testadder.vhf
+xst -quiet -ifn __projnav/testadder.xst -ofn testadder.syr
+sch2vhdl -family=spartan2 -flat -suppress -w testadder.sch testadder.vhf
+xst -quiet -ifn __projnav/testadder.xst -ofn testadder.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 testadder.ngc testadder.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o testadder_map.ncd testadder.ngd testadder.pcf
+par -w -ol 2 -t 1 testadder_map.ncd testadder.ncd testadder.pcf
+trce -quiet -e 3 -l 3 -xml testadder testadder.ncd -o testadder.twr testadder.pcf
+bitgen -f testadder.ut testadder.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w testadder.sch testadder.vhf
+xst -quiet -ifn __projnav/testadder.xst -ofn testadder.syr
+sch2vhdl -family=spartan2 -flat -suppress -w testadder.sch testadder.vhf
+xst -quiet -ifn __projnav/testadder.xst -ofn testadder.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 testadder.ngc testadder.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o testadder_map.ncd testadder.ngd testadder.pcf
+par -w -ol 2 -t 1 testadder_map.ncd testadder.ncd testadder.pcf
+trce -quiet -e 3 -l 3 -xml testadder testadder.ncd -o testadder.twr testadder.pcf
+bitgen -f testadder.ut testadder.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w testadder.sch testadder.vhf
+xst -quiet -ifn __projnav/testadder.xst -ofn testadder.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 testadder.ngc testadder.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o testadder_map.ncd testadder.ngd testadder.pcf
+par -w -ol 2 -t 1 testadder_map.ncd testadder.ncd testadder.pcf
+trce -quiet -e 3 -l 3 -xml testadder testadder.ncd -o testadder.twr testadder.pcf
+bitgen -f testadder.ut testadder.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w testadder.sch testadder.vhf
+xst -quiet -ifn __projnav/testadder.xst -ofn testadder.syr
+ngdbuild -quiet -dd c:\sc201\sc201danlatest/_ngo -i  -p xc2s200-fg456-5 testadder.ngc testadder.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o testadder_map.ncd testadder.ngd testadder.pcf
+par -w -ol 2 -t 1 testadder_map.ncd testadder.ncd testadder.pcf
+trce -quiet -e 3 -l 3 -xml testadder testadder.ncd -o testadder.twr testadder.pcf
+bitgen -f testadder.ut testadder.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w testadder.sch testadder.vhf
+xst -quiet -ifn __projnav/testadder.xst -ofn testadder.syr
+ngdbuild -quiet -dd c:\sc201\290904/_ngo -i  -p xc2s200-fg456-5 testadder.ngc testadder.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o testadder_map.ncd testadder.ngd testadder.pcf
+par -w -ol 2 -t 1 testadder_map.ncd testadder.ncd testadder.pcf
+trce -quiet -e 3 -l 3 -xml testadder testadder.ncd -o testadder.twr testadder.pcf
+bitgen -f testadder.ut testadder.ncd

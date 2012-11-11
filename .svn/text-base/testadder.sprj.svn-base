@@ -1,0 +1,10 @@
+work adder.vhf
+work bcdadder.vhf
+work sevensegdec.vhf
+work mod1_counter.vhf
+work freq_div.vhf
+work mod2_counter.vhf
+work mod3_counter.vhf
+work mod4_counter.vhf
+work sevensegenable.vhf
+work testadder.vhf

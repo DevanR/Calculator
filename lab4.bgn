@@ -1,0 +1,143 @@
+Release 5.2.03i - Bitgen F.31
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Loading device database for application Bitgen from file "lab4.ncd".
+   "lab4" is an NCD, version 2.37, device xc2s200, package fg456, speed -5
+Loading device for application Bitgen from file 'v200.nph' in environment
+C:/Xilinx52i.
+Opened constraints file lab4.pcf.
+
+Wed Oct 06 12:16:44 2004
+
+C:/Xilinx52i/bin/nt/bitgen.exe -w -g Binary:no -g Gclkdel0:11111 -g Gclkdel1:11111 -g Gclkdel2:11111 -g Gclkdel3:11111 -g ConfigRate:4 -g CclkPin:PullUp -g M0Pin:PullUp -g M1Pin:PullUp -g M2Pin:PullUp -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullNone -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GSR_cycle:6 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:No lab4.ncd 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 4**                  |
++----------------------+----------------------+
+| StartupClk           | Cclk**               |
++----------------------+----------------------+
+| CclkPin              | Pullup**             |
++----------------------+----------------------+
+| DonePin              | Pullup**             |
++----------------------+----------------------+
+| M0Pin                | Pullup**             |
++----------------------+----------------------+
+| M1Pin                | Pullup**             |
++----------------------+----------------------+
+| M2Pin                | Pullup**             |
++----------------------+----------------------+
+| ProgPin              | Pullup**             |
++----------------------+----------------------+
+| TckPin               | Pullup**             |
++----------------------+----------------------+
+| TdiPin               | Pullup**             |
++----------------------+----------------------+
+| TdoPin               | Pullnone**           |
++----------------------+----------------------+
+| TmsPin               | Pullup**             |
++----------------------+----------------------+
+| UnusedPin            | Pulldown**           |
++----------------------+----------------------+
+| GSR_cycle            | 6**                  |
++----------------------+----------------------+
+| GWE_cycle            | 6**                  |
++----------------------+----------------------+
+| GTS_cycle            | 5**                  |
++----------------------+----------------------+
+| LCK_cycle            | NoWait**             |
++----------------------+----------------------+
+| DONE_cycle           | 4**                  |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DriveDone            | No**                 |
++----------------------+----------------------+
+| DonePipe             | No**                 |
++----------------------+----------------------+
+| Security             | None**               |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF**         |
++----------------------+----------------------+
+| Gclkdel0             | 11111**              |
++----------------------+----------------------+
+| Gclkdel1             | 11111**              |
++----------------------+----------------------+
+| Gclkdel2             | 11111**              |
++----------------------+----------------------+
+| Gclkdel3             | 11111**              |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| ActivateGclk         | No*                  |
++----------------------+----------------------+
+| PartialMask0         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask1         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialGclk          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialLeft          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialRight         | (Not Specified)*     |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No**                 |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+Running DRC.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_3_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_4_xlxi_4/co has no load.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxn_414 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxn_178 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_1_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/co has no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net
+   xlxi_3_xlxi_16_xlxi_2_xlxi_4/co has no load.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxn_398 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxn_388 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxi_9_xlxn_16 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxi_52_xlxn_119 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxi_52_xlxn_110 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net xlxi_52_xlxn_90 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+DRC detected 0 errors and 16 warnings.
+Creating bit map...
+Saving bit stream in "lab4.bit".
+Bitstream generation is complete.

@@ -1,0 +1,4 @@
+Post Route Timing Report for Module lab4 . . .
+TRACE command line and options:
+trce -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr lab4.pcf
+Post Route Timing Report for Module lab4 : DONE

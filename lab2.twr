@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+Release 5.2i - Trace F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -quiet -e 3 -l 3 -xml lab2 lab2.ncd -o lab2.twr
+lab2.pcf
+
+Design file:              lab2.ncd
+Physical constraint file: lab2.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2002-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+c1          |   13.976(R)|xlxn_20           |   0.000|
+c2          |   14.666(R)|xlxn_20           |   0.000|
+c3          |   14.901(R)|xlxn_20           |   0.000|
+c4          |   13.497(R)|xlxn_20           |   0.000|
+------------+------------+------------------+--------+
+
+Clock dv to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+c1          |   14.982(R)|xlxn_20           |   0.000|
+c2          |   15.672(R)|xlxn_20           |   0.000|
+c3          |   15.907(R)|xlxn_20           |   0.000|
+c4          |   14.503(R)|xlxn_20           |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.233|         |         |         |
+dv             |    4.239|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock dv
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.159|         |         |         |
+dv             |    3.233|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Sun Aug 15 16:42:17 2004
+--------------------------------------------------------------------------------
+

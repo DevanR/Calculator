@@ -1,0 +1,166 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+
+ACER-DEVAN::  Mon Sep 20 09:20:49 2004
+
+
+C:/Xilinx/bin/nt/par.exe -w -ol 2 -t 1 ring_map.ncd ring.ncd ring.pcf 
+
+
+Constraints file: ring.pcf
+
+Loading device database for application par from file "ring_map.ncd".
+   "ring" is an NCD, version 2.37, device xc2s200, package fg456, speed -5
+Loading device for application par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2002-12-13.
+
+
+Resolved that GCLKIOB <pulse> must be placed at site A11.
+
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         1 out of 4      25%
+   Number of External IOBs             5 out of 284     1%
+      Number of LOCed External IOBs    0 out of 5       0%
+
+   Number of SLICEs                   25 out of 2352    1%
+
+   Number of GCLKs                     1 out of 4      25%
+
+
+
+Overall effort level (-ol):   2 (set by user)
+Placer effort level (-pl):    2 (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    2 (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896ff) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:9fa5eb) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file ring.ncd.
+
+Total REAL time to placer completion: 0 secs 
+Total CPU time to placer completion: 0 secs 
+
+
+Starting Router          REAL time: 0 secs 
+
+Phase 1: 58 unrouted;       REAL time: 0 secs 
+
+Phase 2: 54 unrouted;       REAL time: 0 secs 
+
+Phase 3: 5 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Finished Router          REAL time: 0 secs 
+
+Total REAL time to router completion: 0 secs 
+Total CPU time to router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Max Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|           xlxn_27          |  Global  |    1   |  0.000     |  0.774      |
++----------------------------+----------+--------+------------+-------------+
+|           xlxn_16          |   Local  |    4   |  0.074     |  3.439      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_5_xlxn_14    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_5_xlxn_16    |   Local  |    2   |  0.000     |  0.874      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_1_xlxn_15    |   Local  |    2   |  0.000     |  0.874      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_4_xlxn_14    |   Local  |    2   |  0.000     |  0.874      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_4_xlxn_16    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_4_xlxn_15    |   Local  |    2   |  0.000     |  0.888      |
++----------------------------+----------+--------+------------+-------------+
+|    xlxi_22_xlxn_5          |   Local  |    2   |  0.000     |  1.093      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_3_xlxn_14    |   Local  |    2   |  0.000     |  0.874      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_3_xlxn_16    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_2_xlxn_16    |   Local  |    2   |  0.000     |  0.920      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_2_xlxn_15    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|    xlxi_22_xlxn_3          |   Local  |    2   |  0.000     |  1.356      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_2_xlxn_14    |   Local  |    2   |  0.000     |  1.085      |
++----------------------------+----------+--------+------------+-------------+
+|    xlxi_22_xlxn_2          |   Local  |    2   |  0.000     |  0.888      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_1_xlxn_14    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_1_xlxn_16    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_5_xlxn_15    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|    xlxi_22_xlxn_1          |   Local  |    2   |  0.000     |  1.105      |
++----------------------------+----------+--------+------------+-------------+
+|  xlxi_22_xlxi_3_xlxn_15    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The Score for this design is: 151
+
+
+The Number of signals not completely routed for this design is: 0
+
+   The Average Connection Delay for this design is:        1.176 ns
+   The Maximum Pin Delay is:                               3.439 ns
+   The Average Connection Delay on the 10 Worst Nets is:   1.711 ns
+
+   Listing Pin Delays by value: (ns)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 5.00  d >= 5.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+          41          11           1           5           0           0
+
+
+All signals are completely routed.
+
+Total REAL time to par completion: 0 secs 
+Total CPU time to par completion: 1 secs 
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file ring.ncd.
+
+
+PAR done.

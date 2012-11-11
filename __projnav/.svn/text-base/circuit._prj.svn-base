@@ -1,0 +1,2 @@
+set p_VhdlLibrary {}
+set VHDLSources {decodera.vhf decoderb.vhf decoderc.vhf decoderd.vhf decoder.vhf sevensegdec.vhf freq_div.vhf multi_divider.vhf ring.vhf circuit.vhf }

@@ -1,0 +1,238 @@
+Release 5.2i - Map F.28
+Xilinx Mapping Report File for Design 'registera'
+
+Design Information
+------------------
+Command Line   : C:/Xilinx/bin/nt/map.exe -quiet -p xc2s200-fg456-5 -cm area -pr
+b -k 4 -c 100 -tx off -o registera_map.ncd registera.ngd registera.pcf 
+Target Device  : x2s200
+Target Package : fg456
+Target Speed   : -5
+Mapper Version : spartan2 -- $Revision: 1.4 $
+Mapped Date    : Thu Sep 23 23:58:45 2004
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    8
+Logic Utilization:
+  Number of Slice Flip Flops:        32 out of  4,704    1%
+  Number of 4 input LUTs:            84 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                          44 out of  2,352    1%
+    Number of Slices containing only related logic:     44 out of     44  100%
+    Number of Slices containing unrelated logic:         0 out of     44    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:        84 out of  4,704    1%
+   Number of bonded IOBs:            39 out of    284   13%
+   Number of GCLKs:                   2 out of      4   50%
+   Number of GCLKIOBs:                2 out of      4   50%
+
+   Number of RPM macros:            8
+Total equivalent gate count for design:  928
+Additional JTAG gate count for IOBs:  1,968
+Peak Memory Usage:  58 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_16_xlxi_2_xlxi_4/i_36_55
+   	xlxi_16_xlxi_2_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_16_xlxi_3_xlxi_4/i_36_55
+   	xlxi_16_xlxi_3_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_16_xlxi_1_xlxi_4/i_36_55
+   	xlxi_16_xlxi_1_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_16_xlxi_4_xlxi_4/i_36_55
+   	xlxi_16_xlxi_4_xlxi_4/i_36_62
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_16_xlxi_3_xlxi_4/co has
+   no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_16_xlxi_2_xlxi_4/co has
+   no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_16_xlxi_4_xlxi_4/co has
+   no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_16_xlxi_1_xlxi_4/co has
+   no load.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:95 - All of the external outputs in this design are using slew rate
+   limited output drivers. The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  16 block(s) removed
+   5 block(s) optimized away
+  16 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "xlxi_16_xlxi_1_xlxi_4/ofl" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_1_xlxi_4/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_3/ofl" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_3/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_4/ofl" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_4/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_3/ofl" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_3/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_4/ofl" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_4/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_2_xlxi_3/ofl" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_2_xlxi_3/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_2_xlxi_4/ofl" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_2_xlxi_4/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_1_xlxi_3/ofl" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_1_xlxi_3/dummy" is sourceless and has been removed.
+Unused block "xlxi_16_xlxi_1_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_16_xlxi_1_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_16_xlxi_1_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_16_xlxi_1_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_16_xlxi_2_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_16_xlxi_2_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_16_xlxi_2_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_16_xlxi_2_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_4/xst_gnd" (ZERO) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		xst_gnd
+muxcy_l 		xlxi_16_xlxi_1_xlxi_4/i_36_111
+muxcy_l 		xlxi_16_xlxi_2_xlxi_4/i_36_111
+muxcy_l 		xlxi_16_xlxi_3_xlxi_4/i_36_111
+muxcy_l 		xlxi_16_xlxi_4_xlxi_4/i_36_111
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| regclk                             | GCLKIOB | INPUT     | LVTTL       |          |      |          |          |       |
+| xlxn_314                           | GCLKIOB | INPUT     | LVTTL       |          |      |          |          |       |
+| a1                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| a2                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| a3                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| a4                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| addsub                             | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| b1                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| b2                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| b3                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| b4                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| c1                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| c2                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| c3                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| c4                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| d1                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| d2                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| d3                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| d4                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| oa1                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| oa2                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| oa3                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| oa4                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ob1                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ob2                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ob3                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ob4                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| oc1                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| oc2                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| oc3                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| oc4                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| od1                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| od2                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| od3                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| od4                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| overflow                           | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| regclr                             | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| switch21a                          | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| switch21b                          | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| xlxn_294                           | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| xlxn_313                           | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+xlxi_16_xlxi_4_XLXI_4_1                 
+xlxi_16_xlxi_4_XLXI_3_0                 
+xlxi_16_xlxi_3_XLXI_4_1                 
+xlxi_16_xlxi_3_XLXI_3_0                 
+xlxi_16_xlxi_2_XLXI_4_1                 
+xlxi_16_xlxi_2_XLXI_3_0                 
+xlxi_16_xlxi_1_XLXI_4_1                 
+xlxi_16_xlxi_1_XLXI_3_0                 
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group Summary
+------------------------------
+No area groups were found in this design.
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.

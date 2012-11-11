@@ -1,0 +1,179 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 20 09:20:50 2004
+
+File: ring.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   3.439            xlxn_16
+   3.326            dv_ibuf
+   2.087            c1_dummy
+   1.356            xlxi_22_xlxn_3
+   1.246            xlxn_25
+   1.211            c2_dummy
+   1.211            c3_dummy
+   1.164            c4_dummy
+   1.105            xlxi_22_xlxn_1
+   1.093            xlxi_22_xlxn_5
+   1.085            xlxi_22_xlxi_2_xlxn_14
+   0.930            xlxi_22_xlxi_1_xlxn_14
+   0.930            xlxi_22_xlxi_1_xlxn_15
+   0.930            xlxi_22_xlxi_4_xlxn_14
+   0.930            xlxi_22_xlxi_3_xlxn_14
+   0.930            xlxi_22_xlxn_2
+   0.922            xlxi_22_xlxi_2_xlxn_15
+   0.920            xlxi_22_xlxi_2_xlxn_16
+   0.900            xlxi_22_xlxi_3_xlxn_15
+   0.900            xlxi_22_xlxi_5_xlxn_14
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+c1_dummy
+   c1_dummy.YQ
+         2.087  c1.O
+         1.204  c1_dummy.G1
+         0.946  c2_dummy.BY
+
+c2_dummy
+   c2_dummy.YQ
+         1.211  c2.O
+         0.999  c1_dummy.G3
+         0.945  c3_dummy.BY
+
+c3_dummy
+   c3_dummy.YQ
+         1.211  c3.O
+         1.158  c1_dummy.G2
+         1.160  c4_dummy.BY
+
+c4_dummy
+   c4_dummy.YQ
+         1.164  c4.O
+         0.977  c1_dummy.G4
+
+dv_ibuf
+   dv.I
+         3.326  xlxn_16.G3
+
+xlxi_22_xlxi_1_xlxn_14
+   xlxi_22_xlxi_1_xlxn_14.YQ
+         0.930  xlxi_22_xlxi_1_xlxn_14.BY
+         0.890  xlxi_22_xlxn_1.CLK
+
+xlxi_22_xlxi_1_xlxn_15
+   xlxi_22_xlxi_1_xlxn_15.YQ
+         0.930  xlxi_22_xlxi_1_xlxn_15.BY
+         0.874  xlxi_22_xlxi_1_xlxn_16.CLK
+
+xlxi_22_xlxi_1_xlxn_16
+   xlxi_22_xlxi_1_xlxn_16.YQ
+         0.890  xlxi_22_xlxi_1_xlxn_14.CLK
+         0.900  xlxi_22_xlxi_1_xlxn_16.BY
+
+xlxi_22_xlxi_2_xlxn_14
+   xlxi_22_xlxi_2_xlxn_14.YQ
+         0.922  xlxi_22_xlxi_2_xlxn_14.BY
+         1.085  xlxi_22_xlxn_2.CLK
+
+xlxi_22_xlxi_2_xlxn_15
+   xlxi_22_xlxi_2_xlxn_15.YQ
+         0.890  xlxi_22_xlxi_2_xlxn_16.CLK
+         0.922  xlxi_22_xlxi_2_xlxn_15.BY
+
+xlxi_22_xlxi_2_xlxn_16
+   xlxi_22_xlxi_2_xlxn_16.YQ
+         0.899  xlxi_22_xlxi_2_xlxn_16.BY
+         0.920  xlxi_22_xlxi_2_xlxn_14.CLK
+
+xlxi_22_xlxi_3_xlxn_14
+   xlxi_22_xlxi_3_xlxn_14.YQ
+         0.930  xlxi_22_xlxi_3_xlxn_14.BY
+         0.874  xlxi_22_xlxn_3.CLK
+
+xlxi_22_xlxi_3_xlxn_15
+   xlxi_22_xlxi_3_xlxn_15.YQ
+         0.890  xlxi_22_xlxi_3_xlxn_16.CLK
+         0.900  xlxi_22_xlxi_3_xlxn_15.BY
+
+xlxi_22_xlxi_3_xlxn_16
+   xlxi_22_xlxi_3_xlxn_16.YQ
+         0.890  xlxi_22_xlxi_3_xlxn_14.CLK
+         0.900  xlxi_22_xlxi_3_xlxn_16.BY
+
+xlxi_22_xlxi_4_xlxn_14
+   xlxi_22_xlxi_4_xlxn_14.YQ
+         0.930  xlxi_22_xlxi_4_xlxn_14.BY
+         0.874  xlxi_22_xlxn_5.CLK
+
+xlxi_22_xlxi_4_xlxn_15
+   xlxi_22_xlxi_4_xlxn_15.YQ
+         0.888  xlxi_22_xlxi_4_xlxn_16.CLK
+         0.899  xlxi_22_xlxi_4_xlxn_15.BY
+
+xlxi_22_xlxi_4_xlxn_16
+   xlxi_22_xlxi_4_xlxn_16.YQ
+         0.890  xlxi_22_xlxi_4_xlxn_14.CLK
+         0.900  xlxi_22_xlxi_4_xlxn_16.BY
+
+xlxi_22_xlxi_5_xlxn_14
+   xlxi_22_xlxi_5_xlxn_14.YQ
+         0.900  xlxi_22_xlxi_5_xlxn_14.BY
+         0.890  xlxn_25.CLK
+
+xlxi_22_xlxi_5_xlxn_15
+   xlxi_22_xlxi_5_xlxn_15.YQ
+         0.900  xlxi_22_xlxi_5_xlxn_15.BY
+         0.890  xlxi_22_xlxi_5_xlxn_16.CLK
+
+xlxi_22_xlxi_5_xlxn_16
+   xlxi_22_xlxi_5_xlxn_16.YQ
+         0.874  xlxi_22_xlxi_5_xlxn_14.CLK
+         0.899  xlxi_22_xlxi_5_xlxn_16.BY
+
+xlxi_22_xlxn_1
+   xlxi_22_xlxn_1.YQ
+         0.900  xlxi_22_xlxn_1.BY
+         1.105  xlxi_22_xlxi_2_xlxn_15.CLK
+
+xlxi_22_xlxn_2
+   xlxi_22_xlxn_2.YQ
+         0.930  xlxi_22_xlxn_2.BY
+         0.888  xlxi_22_xlxi_3_xlxn_15.CLK
+
+xlxi_22_xlxn_3
+   xlxi_22_xlxn_3.YQ
+         0.983  xlxi_22_xlxn_3.BY
+         1.356  xlxi_22_xlxi_4_xlxn_15.CLK
+
+xlxi_22_xlxn_5
+   xlxi_22_xlxn_5.YQ
+         0.900  xlxi_22_xlxn_5.BY
+         1.093  xlxi_22_xlxi_5_xlxn_15.CLK
+
+xlxn_16
+   xlxn_16.Y
+         3.381  c1_dummy.CLK
+         3.381  c2_dummy.CLK
+         3.365  c3_dummy.CLK
+         3.439  c4_dummy.CLK
+
+xlxn_25
+   xlxn_25.YQ
+         0.930  xlxn_25.BY
+         1.246  xlxn_16.G2
+
+xlxn_27
+   xlxi_25.OUT
+         0.774  xlxi_22_xlxi_1_xlxn_15.CLK
+
+xlxn_28
+   pulse.GCLKOUT
+         0.007  xlxi_25.IN
+

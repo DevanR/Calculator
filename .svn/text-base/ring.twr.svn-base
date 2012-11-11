@@ -1,0 +1,54 @@
+--------------------------------------------------------------------------------
+Release 5.2i - Trace F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -quiet -e 3 -l 3 -xml ring ring.ncd -o ring.twr
+ring.pcf
+
+Design file:              ring.ncd
+Physical constraint file: ring.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2002-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock dv to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+c1          |   17.219(F)|xlxn_16           |   0.000|
+c2          |   16.343(F)|xlxn_16           |   0.000|
+c3          |   16.327(F)|xlxn_16           |   0.000|
+c4          |   16.354(F)|xlxn_16           |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock dv
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+dv             |         |         |         |    3.848|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock pulse
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+pulse          |    3.054|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Mon Sep 20 09:20:52 2004
+--------------------------------------------------------------------------------
+

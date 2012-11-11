@@ -1,0 +1,5 @@
+sch2vhdl -family=spartan2 -flat -suppress -w control.sch control.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w control.sch control.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w control.sch control.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w control.sch control.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w control.sch control.vhf

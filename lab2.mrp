@@ -1,0 +1,37 @@
+Release 5.2i - Map F.28
+Xilinx Mapping Report File for Design 'lab2'
+
+Design Information
+------------------
+Command Line   : C:/Xilinx/bin/nt/map.exe -quiet -p xc2s200-fg456-5 -cm area -pr
+b -k 4 -c 100 -tx off -o lab2_map.ncd lab2.ngd lab2.pcf 
+Target Device  : x2s200
+Target Package : fg456
+Target Speed   : -5
+Mapper Version : spartan2 -- $Revision: 1.4 $
+Mapped Date    : Mon Sep 20 09:13:06 2004
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Pack:1107 - Unable to combine the following symbols into a single IOB
+   component:
+   	PAD symbol "clk" (Pad Signal = clk)
+   	BUF symbol "clk_ibuf" (Output Signal = clk_ibuf)
+   Each of the following constraints specifies an illegal physical site for a
+   component of type IOB:
+   	Symbol "clk" (LOC=A11)
+   Please correct the constraints accordingly.
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:95 - All of the external outputs in this design are using slew rate
+   limited output drivers. The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the schematic.

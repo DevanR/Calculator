@@ -1,0 +1,2 @@
+set p_VhdlLibrary  {}
+set VHDLSources {bcdregister.vhf twooneswitch.vhf adder.vhf bcdadder.vhf onetwoswitch.vhf registera.vhf }

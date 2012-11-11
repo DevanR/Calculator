@@ -1,0 +1,949 @@
+Release 5.2.03i - Map F.31
+Xilinx Mapping Report File for Design 'testadder'
+
+Design Information
+------------------
+Command Line   : C:/Xilinx52i/bin/nt/map.exe -quiet -p xc2s200-fg456-5 -cm area
+-pr b -k 4 -c 100 -tx off -o testadder_map.ncd testadder.ngd testadder.pcf 
+Target Device  : x2s200
+Target Package : fg456
+Target Speed   : -5
+Mapper Version : spartan2 -- $Revision: 1.4 $
+Mapped Date    : Thu Sep 30 12:34:09 2004
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    3
+Logic Utilization:
+  Number of Slice Flip Flops:        20 out of  4,704    1%
+  Number of 4 input LUTs:            21 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                          36 out of  2,352    1%
+    Number of Slices containing only related logic:     36 out of     36  100%
+    Number of Slices containing unrelated logic:         0 out of     36    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:        21 out of  4,704    1%
+   Number of bonded IOBs:             9 out of    284    3%
+   Number of GCLKs:                   1 out of      4   25%
+   Number of GCLKIOBs:                1 out of      4   25%
+
+   Number of RPM macros:            2
+Total equivalent gate count for design:  328
+Additional JTAG gate count for IOBs:  480
+Peak Memory Usage:  56 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_9_xlxi_1_xlxi_4/i_36_55
+   	xlxi_9_xlxi_1_xlxi_4/i_36_62
+WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
+   slice components.  The resulting carry chain will have suboptimal timing.
+   	xlxi_9_xlxi_1_xlxi_3/i_36_55
+   	xlxi_9_xlxi_1_xlxi_3/i_36_62
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_9_xlxi_1_xlxi_4/co has no
+   load.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:95 - All of the external outputs in this design are using slew rate
+   limited output drivers. The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  97 block(s) removed
+ 283 block(s) optimized away
+ 239 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "xlxi_9_xlxi_1_xlxi_3/ofl" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_1_xlxi_3/i0" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_1_xlxi_3/dummy" is sourceless and has been removed.
+The signal "xlxi_10/m01" is sourceless and has been removed.
+The signal "xlxi_10/i_m01/m1" is sourceless and has been removed.
+The signal "xlxi_10/i_m01/m0" is sourceless and has been removed.
+The signal "xlxi_11/m01" is sourceless and has been removed.
+The signal "xlxi_11/i_m01/m1" is sourceless and has been removed.
+The signal "xlxi_11/i_m01/m0" is sourceless and has been removed.
+The signal "xlxi_12/m01" is sourceless and has been removed.
+The signal "xlxi_12/i_m01/m1" is sourceless and has been removed.
+The signal "xlxi_12/i_m01/m0" is sourceless and has been removed.
+The signal "xlxi_13/m01" is sourceless and has been removed.
+The signal "xlxi_13/i_m01/m1" is sourceless and has been removed.
+The signal "xlxi_13/i_m01/m0" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_24_xlxi_10/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_24_xlxi_10/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_24_xlxi_10/ad" is sourceless and has been
+removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/ofl" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/i0" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/dummy" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/i3" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/i2" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/i1" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/c2o" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_4_xlxi_3/i_36_259" (XOR) removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/i_36_55/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_3/i_36_111/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/co" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_4_xlxi_4/i_36_259" (XOR) removed.
+  The signal "xlxi_9_xlxi_4_xlxi_4/ofl" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/i0" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/dummy" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/i3" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_4_xlxi_4/i_36_58" (MUX) removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/i2" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/i1" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/c2o" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/i_36_55/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_4_xlxi_4/i_36_111/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_1_xlxi_4/ofl" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_1_xlxi_4/i0" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_1_xlxi_4/dummy" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/ofl" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/i0" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/dummy" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/i3" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/i2" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/i1" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/c2o" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_3_xlxi_3/i_36_259" (XOR) removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/i_36_55/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_3/i_36_111/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/co" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_3_xlxi_4/i_36_259" (XOR) removed.
+  The signal "xlxi_9_xlxi_3_xlxi_4/ofl" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/i0" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/dummy" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/i3" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_3_xlxi_4/i_36_58" (MUX) removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/i2" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/i1" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/c2o" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/i_36_55/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_3_xlxi_4/i_36_111/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_3/ofl" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_3/dummy" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_3/i3" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_3/i2" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_3/i1" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_3/c2o" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_2_xlxi_3/i_36_259" (XOR) removed.
+The signal "xlxi_9_xlxi_2_xlxi_3/i_36_55/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_3/i_36_111/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_4/co" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_2_xlxi_4/i_36_259" (XOR) removed.
+  The signal "xlxi_9_xlxi_2_xlxi_4/ofl" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_4/dummy" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_4/i3" is sourceless and has been removed.
+ Sourceless block "xlxi_9_xlxi_2_xlxi_4/i_36_58" (MUX) removed.
+The signal "xlxi_9_xlxi_2_xlxi_4/i2" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_4/i1" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_4/c2o" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_4/i_36_55/O" is sourceless and has been removed.
+The signal "xlxi_9_xlxi_2_xlxi_4/i_36_111/O" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_23_xlxi_11/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_23_xlxi_11/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_23_xlxi_11/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_23_xlxi_10/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_23_xlxi_10/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_23_xlxi_10/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_5/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_6/s1" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_6/dummy" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_6/s0" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_24_xlxi_11/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_24_xlxi_11/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_24_xlxi_11/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_24_xlxi_12/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_24_xlxi_12/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_24_xlxi_12/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_16_xlxi_12/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_16_xlxi_12/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_16_xlxi_12/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_16_xlxi_11/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_16_xlxi_11/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_16_xlxi_11/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_31/a1" is sourceless and has been removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_31/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_31/ad" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_32/a1" is sourceless and has been removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_32/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_32/ad" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_16_xlxi_2/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_16_xlxi_2/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_16_xlxi_2/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_23_xlxi_2/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_23_xlxi_2/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_23_xlxi_2/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_24_xlxi_2/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_24_xlxi_2/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_24_xlxi_2/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_16_xlxi_10/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_16_xlxi_10/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_16_xlxi_10/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_25_xlxi_10/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_25_xlxi_10/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_25_xlxi_10/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_25_xlxi_11/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_25_xlxi_11/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_25_xlxi_11/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_25_xlxi_12/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_25_xlxi_12/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_25_xlxi_12/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_25_xlxi_2/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_25_xlxi_2/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_25_xlxi_2/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_23_xlxi_12/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_23_xlxi_12/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_23_xlxi_12/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_24_xlxi_10/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_24_xlxi_10/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_24_xlxi_10/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_24_xlxi_11/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_24_xlxi_11/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_24_xlxi_11/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_24_xlxi_12/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_24_xlxi_12/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_24_xlxi_12/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_3_xlxi_23_xlxi_10/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_3_xlxi_23_xlxi_10/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_3_xlxi_23_xlxi_10/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_16_xlxi_12/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_16_xlxi_12/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_16_xlxi_12/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_3/a1" is sourceless and has been removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_3/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_3/ad" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_4/a1" is sourceless and has been removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_4/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_4/ad" is sourceless and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_16_xlxi_2/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_16_xlxi_2/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_16_xlxi_2/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_23_xlxi_2/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_23_xlxi_2/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_23_xlxi_2/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_24_xlxi_2/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_24_xlxi_2/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_24_xlxi_2/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_16_xlxi_11/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_16_xlxi_11/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_16_xlxi_11/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_23_xlxi_12/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_23_xlxi_12/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_23_xlxi_12/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_16_xlxi_10/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_16_xlxi_10/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_16_xlxi_10/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_25_xlxi_10/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_25_xlxi_10/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_25_xlxi_10/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_25_xlxi_11/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_25_xlxi_11/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_25_xlxi_11/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_25_xlxi_12/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_25_xlxi_12/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_25_xlxi_12/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_25_xlxi_2/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_25_xlxi_2/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_25_xlxi_2/ad" is sourceless and has been
+removed.
+The signal "xlxi_16_xlxi_4_xlxi_23_xlxi_11/a1" is sourceless and has been
+removed.
+ Sourceless block "xlxi_16_xlxi_4_xlxi_23_xlxi_11/i_36_41" (OR) removed.
+  The signal "xlxi_16_xlxi_4_xlxi_23_xlxi_11/ad" is sourceless and has been
+removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "xlxi_9_xlxi_1_xlxn_28" is unused and has been removed.
+The signal "xlxn_50" is unused and has been removed.
+The signal "xlxn_46" is unused and has been removed.
+The signal "xlxn_38" is unused and has been removed.
+The signal "xlxn_51" is unused and has been removed.
+The signal "xlxn_47" is unused and has been removed.
+The signal "xlxn_52" is unused and has been removed.
+The signal "xlxn_48" is unused and has been removed.
+The signal "xlxn_53" is unused and has been removed.
+The signal "xlxn_49" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_24_xlxn_16" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_24_xlxn_14" is unused and has been removed.
+The signal "xlxi_9_xlxi_2_xlxn_4" is unused and has been removed.
+The signal "xlxi_9_xlxi_2_xlxn_5" is unused and has been removed.
+The signal "xlxi_9_xlxn_3" is unused and has been removed.
+The signal "xlxi_9_xlxi_3_xlxn_4" is unused and has been removed.
+The signal "xlxi_9_xlxi_3_xlxn_5" is unused and has been removed.
+The signal "xlxi_9_xlxn_4" is unused and has been removed.
+The signal "xlxi_9_xlxi_4_xlxn_4" is unused and has been removed.
+The signal "xlxi_9_xlxi_4_xlxn_5" is unused and has been removed.
+The signal "xlxi_9_overflow" is unused and has been removed.
+The signal "xlxi_9_xlxn_76" is unused and has been removed.
+The signal "xlxi_9_xlxn_73" is unused and has been removed.
+The signal "xlxi_9_xlxn_74" is unused and has been removed.
+The signal "xlxi_9_xlxn_75" is unused and has been removed.
+The signal "xlxi_9_xlxn_68" is unused and has been removed.
+The signal "xlxi_9_xlxn_69" is unused and has been removed.
+The signal "xlxi_9_xlxn_70" is unused and has been removed.
+The signal "xlxi_9_xlxn_71" is unused and has been removed.
+The signal "xlxi_9_xlxn_64" is unused and has been removed.
+The signal "xlxi_9_xlxn_65" is unused and has been removed.
+The signal "xlxi_9_xlxn_66" is unused and has been removed.
+The signal "xlxi_9_xlxn_67" is unused and has been removed.
+The signal "xlxi_9_xlxi_4_xlxn_21" is unused and has been removed.
+The signal "xlxi_9_xlxi_4_xlxn_20" is unused and has been removed.
+The signal "xlxi_9_xlxi_4_xlxn_41" is unused and has been removed.
+The signal "xlxi_9_xlxi_4_xlxn_28" is unused and has been removed.
+The signal "xlxi_9_xlxi_4_xlxn_31" is unused and has been removed.
+The signal "xlxi_9_xlxi_3_xlxn_21" is unused and has been removed.
+The signal "xlxi_9_xlxi_3_xlxn_20" is unused and has been removed.
+The signal "xlxi_9_xlxi_3_xlxn_41" is unused and has been removed.
+The signal "xlxi_9_xlxi_3_xlxn_28" is unused and has been removed.
+The signal "xlxi_9_xlxi_3_xlxn_31" is unused and has been removed.
+The signal "xlxi_9_xlxi_2_xlxn_21" is unused and has been removed.
+The signal "xlxi_9_xlxi_2_xlxn_20" is unused and has been removed.
+The signal "xlxi_9_xlxi_2_xlxn_41" is unused and has been removed.
+The signal "xlxi_9_xlxi_2_xlxn_31" is unused and has been removed.
+The signal "xlxi_16_xlxn_122" is unused and has been removed.
+The signal "xlxi_16_xlxn_121" is unused and has been removed.
+The signal "xlxi_16_xlxn_124" is unused and has been removed.
+The signal "xlxi_16_xlxn_119" is unused and has been removed.
+The signal "xlxi_16_xlxn_108" is unused and has been removed.
+The signal "xlxi_16_xlxn_113" is unused and has been removed.
+The signal "xlxi_16_xlxn_111" is unused and has been removed.
+The signal "xlxi_16_xlxn_110" is unused and has been removed.
+The signal "xlxi_16_xlxn_107" is unused and has been removed.
+The signal "xlxi_16_xlxn_106" is unused and has been removed.
+ Unused block "xlxi_16_xlxi_12" (OR) removed.
+The signal "xlxi_16_xlxi_3_xlxn_24" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_23_xlxn_15" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_23_xlxn_16" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_23_xlxn_14" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxn_34" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_24_xlxn_15" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxn_35" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_16_xlxn_14" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_16_xlxn_15" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxn_43" is unused and has been removed.
+ Unused block "xlxi_16_xlxi_3_xlxi_30" (BUF) removed.
+The signal "xlxi_16_xlxi_3_xlxn_42" is unused and has been removed.
+ Unused block "xlxi_16_xlxi_3_xlxi_28" (BUF) removed.
+The signal "xlxi_16_xlxi_3_xlxn_45" is unused and has been removed.
+ Unused block "xlxi_16_xlxi_3_xlxi_26" (AND) removed.
+The signal "xlxi_16_xlxi_3_xlxn_33" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_16_xlxn_16" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_23_xlxn_16" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_24_xlxn_15" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_24_xlxn_16" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_25_xlxn_16" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_25_xlxn_14" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxn_35" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_25_xlxn_15" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_23_xlxn_14" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxn_34" is unused and has been removed.
+The signal "xlxi_16_xlxi_3_xlxi_24_xlxn_14" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_16_xlxn_14" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxn_24" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxn_33" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_16_xlxn_15" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_16_xlxn_16" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_23_xlxn_15" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_25_xlxn_16" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_25_xlxn_14" is unused and has been removed.
+The signal "xlxi_16_xlxi_4_xlxi_25_xlxn_15" is unused and has been removed.
+Unused block "xlxi_16_xlxi_3_xlxi_16_xlxi_10/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_16_xlxi_11/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_16_xlxi_12/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_16_xlxi_2/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_23_xlxi_10/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_23_xlxi_11/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_23_xlxi_12/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_23_xlxi_2/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_24_xlxi_10/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_24_xlxi_11/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_24_xlxi_12/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_24_xlxi_2/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_25_xlxi_10/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_25_xlxi_11/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_25_xlxi_12/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_25_xlxi_2/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_31/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_3_xlxi_32/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_16_xlxi_10/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_16_xlxi_11/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_16_xlxi_12/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_16_xlxi_2/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_23_xlxi_10/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_23_xlxi_11/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_23_xlxi_12/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_23_xlxi_2/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_24_xlxi_10/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_24_xlxi_11/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_24_xlxi_12/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_24_xlxi_2/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_25_xlxi_10/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_25_xlxi_11/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_25_xlxi_12/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_25_xlxi_2/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_3/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_4_xlxi_4/i_36_40" (AND) removed.
+Unused block "xlxi_16_xlxi_5/xst_gnd" (ZERO) removed.
+Unused block "xlxi_16_xlxi_6/xst_gnd" (ZERO) removed.
+Unused block "xlxi_9_xlxi_1_xlxi_3/i_36_259" (XOR) removed.
+Unused block "xlxi_9_xlxi_1_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_9_xlxi_1_xlxi_4/i_36_259" (XOR) removed.
+Unused block "xlxi_9_xlxi_1_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_9_xlxi_2_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_9_xlxi_2_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_9_xlxi_3_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_9_xlxi_3_xlxi_4/xst_gnd" (ZERO) removed.
+Unused block "xlxi_9_xlxi_4_xlxi_3/xst_gnd" (ZERO) removed.
+Unused block "xlxi_9_xlxi_4_xlxi_4/xst_gnd" (ZERO) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+and3 		xlxi_10/i_m01/i_36_30
+and3b1 		xlxi_10/i_m01/i_36_31
+or2 		xlxi_10/i_m01/i_36_38
+and3 		xlxi_10/i_m23/i_36_30
+LUT1 		xlxi_10/m01_rt
+and3 		xlxi_11/i_m01/i_36_30
+and3b1 		xlxi_11/i_m01/i_36_31
+or2 		xlxi_11/i_m01/i_36_38
+and3b1 		xlxi_11/i_m23/i_36_31
+LUT1 		xlxi_11/m01_rt
+and3 		xlxi_12/i_m01/i_36_30
+and3b1 		xlxi_12/i_m01/i_36_31
+or2 		xlxi_12/i_m01/i_36_38
+and3b1 		xlxi_12/i_m23/i_36_31
+LUT1 		xlxi_12/m01_rt
+and3 		xlxi_13/i_m01/i_36_30
+and3b1 		xlxi_13/i_m01/i_36_31
+or2 		xlxi_13/i_m01/i_36_38
+and3b1 		xlxi_13/i_m23/i_36_31
+LUT1 		xlxi_13/m01_rt
+vcc 		xlxi_15
+or4 		xlxi_16_xlxi_13
+and2 		xlxi_16_xlxi_14
+and2 		xlxi_16_xlxi_15
+and2 		xlxi_16_xlxi_16
+and2 		xlxi_16_xlxi_17
+or4 		xlxi_16_xlxi_18
+and2 		xlxi_16_xlxi_19
+and2 		xlxi_16_xlxi_20
+and2 		xlxi_16_xlxi_21
+and3b2 		xlxi_16_xlxi_2_xlxi_16_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_16_xlxi_10/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_16_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_16_xlxi_11/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_16_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_16_xlxi_12/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_16_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_16_xlxi_2/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_23_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_23_xlxi_10/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_23_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_23_xlxi_11/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_23_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_23_xlxi_12/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_23_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_23_xlxi_2/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_24_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_24_xlxi_10/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_24_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_24_xlxi_11/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_24_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_24_xlxi_12/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_24_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_24_xlxi_2/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_25_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_25_xlxi_10/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_25_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_25_xlxi_11/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_25_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_25_xlxi_12/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_25_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_25_xlxi_2/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_31/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_31/i_36_43
+and3b2 		xlxi_16_xlxi_2_xlxi_32/i_36_37
+and2b1 		xlxi_16_xlxi_2_xlxi_32/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_16_xlxi_10/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_16_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_16_xlxi_10/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_16_xlxi_11/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_16_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_16_xlxi_11/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_16_xlxi_12/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_16_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_16_xlxi_12/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_16_xlxi_2/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_16_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_16_xlxi_2/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_23_xlxi_10/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_23_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_23_xlxi_10/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_23_xlxi_11/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_23_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_23_xlxi_11/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_23_xlxi_12/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_23_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_23_xlxi_12/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_23_xlxi_2/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_23_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_23_xlxi_2/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_24_xlxi_10/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_24_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_24_xlxi_10/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_24_xlxi_11/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_24_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_24_xlxi_11/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_24_xlxi_12/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_24_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_24_xlxi_12/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_24_xlxi_2/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_24_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_24_xlxi_2/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_25_xlxi_10/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_25_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_25_xlxi_10/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_25_xlxi_11/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_25_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_25_xlxi_11/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_25_xlxi_12/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_25_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_25_xlxi_12/i_36_43
+FDC 		xlxi_16_xlxi_3_xlxi_25_xlxi_2/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_3_xlxi_25_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_25_xlxi_2/i_36_43
+FDP 		xlxi_16_xlxi_3_xlxi_31/i_36_32
+   optimized to 1
+and3b2 		xlxi_16_xlxi_3_xlxi_31/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_31/i_36_43
+FDP 		xlxi_16_xlxi_3_xlxi_32/i_36_32
+   optimized to 1
+and3b2 		xlxi_16_xlxi_3_xlxi_32/i_36_37
+and2b1 		xlxi_16_xlxi_3_xlxi_32/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_16_xlxi_10/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_16_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_16_xlxi_10/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_16_xlxi_11/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_16_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_16_xlxi_11/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_16_xlxi_12/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_16_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_16_xlxi_12/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_16_xlxi_2/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_16_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_16_xlxi_2/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_23_xlxi_10/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_23_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_23_xlxi_10/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_23_xlxi_11/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_23_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_23_xlxi_11/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_23_xlxi_12/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_23_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_23_xlxi_12/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_23_xlxi_2/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_23_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_23_xlxi_2/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_24_xlxi_10/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_24_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_24_xlxi_10/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_24_xlxi_11/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_24_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_24_xlxi_11/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_24_xlxi_12/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_24_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_24_xlxi_12/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_24_xlxi_2/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_24_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_24_xlxi_2/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_25_xlxi_10/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_25_xlxi_10/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_25_xlxi_10/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_25_xlxi_11/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_25_xlxi_11/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_25_xlxi_11/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_25_xlxi_12/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_25_xlxi_12/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_25_xlxi_12/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_25_xlxi_2/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_25_xlxi_2/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_25_xlxi_2/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_3/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_3/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_3/i_36_43
+FDC 		xlxi_16_xlxi_4_xlxi_4/i_36_32
+   optimized to 0
+and3b2 		xlxi_16_xlxi_4_xlxi_4/i_36_37
+and2b1 		xlxi_16_xlxi_4_xlxi_4/i_36_43
+or4 		xlxi_16_xlxi_5/i_36_110
+or4 		xlxi_16_xlxi_5/i_36_127
+or4 		xlxi_16_xlxi_6/i_36_110
+or4 		xlxi_16_xlxi_6/i_36_127
+nor2 		xlxi_16_xlxi_6/i_36_140
+gnd 		xlxi_19
+gnd 		xlxi_20
+vcc 		xlxi_21
+vcc 		xlxi_22
+gnd 		xlxi_26
+vcc 		xlxi_28
+and2 		xlxi_9_xlxi_10
+and2 		xlxi_9_xlxi_11
+and2 		xlxi_9_xlxi_12
+and2 		xlxi_9_xlxi_13
+and2 		xlxi_9_xlxi_14
+and2 		xlxi_9_xlxi_15
+and2 		xlxi_9_xlxi_16
+xor2 		xlxi_9_xlxi_1_xlxi_3/i_36_239
+xor2 		xlxi_9_xlxi_1_xlxi_3/i_36_240
+xor2 		xlxi_9_xlxi_1_xlxi_3/i_36_241
+xor2 		xlxi_9_xlxi_1_xlxi_3/i_36_242
+xor2 		xlxi_9_xlxi_1_xlxi_4/i_36_239
+and2 		xlxi_9_xlxi_21
+inv 		xlxi_9_xlxi_23
+xor2 		xlxi_9_xlxi_2_xlxi_3/i_36_239
+xor2 		xlxi_9_xlxi_2_xlxi_3/i_36_240
+xor2 		xlxi_9_xlxi_2_xlxi_3/i_36_241
+xor2 		xlxi_9_xlxi_2_xlxi_3/i_36_242
+xor2 		xlxi_9_xlxi_2_xlxi_4/i_36_240
+xor2 		xlxi_9_xlxi_2_xlxi_4/i_36_241
+xor2 		xlxi_9_xlxi_2_xlxi_4/i_36_242
+or2 		xlxi_9_xlxi_2_xlxi_6
+or2 		xlxi_9_xlxi_2_xlxi_7
+and2 		xlxi_9_xlxi_2_xlxi_8
+xor2 		xlxi_9_xlxi_3_xlxi_3/i_36_239
+xor2 		xlxi_9_xlxi_3_xlxi_3/i_36_240
+xor2 		xlxi_9_xlxi_3_xlxi_3/i_36_241
+xor2 		xlxi_9_xlxi_3_xlxi_3/i_36_242
+xor2 		xlxi_9_xlxi_3_xlxi_4/i_36_239
+xor2 		xlxi_9_xlxi_3_xlxi_4/i_36_240
+xor2 		xlxi_9_xlxi_3_xlxi_4/i_36_241
+xor2 		xlxi_9_xlxi_3_xlxi_4/i_36_242
+or2 		xlxi_9_xlxi_3_xlxi_6
+or2 		xlxi_9_xlxi_3_xlxi_7
+and2 		xlxi_9_xlxi_3_xlxi_8
+xor2 		xlxi_9_xlxi_4_xlxi_3/i_36_239
+xor2 		xlxi_9_xlxi_4_xlxi_3/i_36_240
+xor2 		xlxi_9_xlxi_4_xlxi_3/i_36_241
+xor2 		xlxi_9_xlxi_4_xlxi_3/i_36_242
+xor2 		xlxi_9_xlxi_4_xlxi_4/i_36_239
+xor2 		xlxi_9_xlxi_4_xlxi_4/i_36_240
+xor2 		xlxi_9_xlxi_4_xlxi_4/i_36_241
+xor2 		xlxi_9_xlxi_4_xlxi_4/i_36_242
+or2 		xlxi_9_xlxi_4_xlxi_6
+or2 		xlxi_9_xlxi_4_xlxi_7
+and2 		xlxi_9_xlxi_4_xlxi_8
+and2 		xlxi_9_xlxi_6
+and2 		xlxi_9_xlxi_7
+and2 		xlxi_9_xlxi_8
+and2 		xlxi_9_xlxi_9
+xorcy 		xlxi_9_xlxi_1_xlxi_3/i_36_73
+muxcy_l 		xlxi_9_xlxi_1_xlxi_3/i_36_111
+muxcy 		xlxi_9_xlxi_1_xlxi_3/i_36_58
+xorcy 		xlxi_9_xlxi_1_xlxi_4/i_36_73
+muxcy_l 		xlxi_9_xlxi_1_xlxi_4/i_36_111
+muxcy_l 		xlxi_9_xlxi_2_xlxi_3/i_36_111
+xorcy 		xlxi_9_xlxi_2_xlxi_3/i_36_74
+muxcy_l 		xlxi_9_xlxi_2_xlxi_3/i_36_55
+xorcy 		xlxi_9_xlxi_2_xlxi_3/i_36_76
+muxcy_d 		xlxi_9_xlxi_2_xlxi_3/i_36_62
+xorcy 		xlxi_9_xlxi_2_xlxi_3/i_36_75
+muxcy 		xlxi_9_xlxi_2_xlxi_3/i_36_58
+muxcy_l 		xlxi_9_xlxi_2_xlxi_4/i_36_111
+xorcy 		xlxi_9_xlxi_2_xlxi_4/i_36_74
+muxcy_l 		xlxi_9_xlxi_2_xlxi_4/i_36_55
+xorcy 		xlxi_9_xlxi_2_xlxi_4/i_36_76
+muxcy_d 		xlxi_9_xlxi_2_xlxi_4/i_36_62
+xorcy 		xlxi_9_xlxi_2_xlxi_4/i_36_75
+xorcy 		xlxi_9_xlxi_3_xlxi_3/i_36_73
+muxcy_l 		xlxi_9_xlxi_3_xlxi_3/i_36_111
+xorcy 		xlxi_9_xlxi_3_xlxi_3/i_36_74
+muxcy_l 		xlxi_9_xlxi_3_xlxi_3/i_36_55
+xorcy 		xlxi_9_xlxi_3_xlxi_3/i_36_76
+muxcy_d 		xlxi_9_xlxi_3_xlxi_3/i_36_62
+xorcy 		xlxi_9_xlxi_3_xlxi_3/i_36_75
+muxcy 		xlxi_9_xlxi_3_xlxi_3/i_36_58
+xorcy 		xlxi_9_xlxi_3_xlxi_4/i_36_73
+muxcy_l 		xlxi_9_xlxi_3_xlxi_4/i_36_111
+xorcy 		xlxi_9_xlxi_3_xlxi_4/i_36_74
+muxcy_l 		xlxi_9_xlxi_3_xlxi_4/i_36_55
+xorcy 		xlxi_9_xlxi_3_xlxi_4/i_36_76
+muxcy_d 		xlxi_9_xlxi_3_xlxi_4/i_36_62
+xorcy 		xlxi_9_xlxi_3_xlxi_4/i_36_75
+xorcy 		xlxi_9_xlxi_4_xlxi_3/i_36_73
+muxcy_l 		xlxi_9_xlxi_4_xlxi_3/i_36_111
+xorcy 		xlxi_9_xlxi_4_xlxi_3/i_36_74
+muxcy_l 		xlxi_9_xlxi_4_xlxi_3/i_36_55
+xorcy 		xlxi_9_xlxi_4_xlxi_3/i_36_76
+muxcy_d 		xlxi_9_xlxi_4_xlxi_3/i_36_62
+xorcy 		xlxi_9_xlxi_4_xlxi_3/i_36_75
+muxcy 		xlxi_9_xlxi_4_xlxi_3/i_36_58
+xorcy 		xlxi_9_xlxi_4_xlxi_4/i_36_73
+muxcy_l 		xlxi_9_xlxi_4_xlxi_4/i_36_111
+xorcy 		xlxi_9_xlxi_4_xlxi_4/i_36_74
+muxcy_l 		xlxi_9_xlxi_4_xlxi_4/i_36_55
+xorcy 		xlxi_9_xlxi_4_xlxi_4/i_36_76
+muxcy_d 		xlxi_9_xlxi_4_xlxi_4/i_36_62
+xorcy 		xlxi_9_xlxi_4_xlxi_4/i_36_75
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| clkpulse                           | GCLKIOB | INPUT     | LVTTL       |          |      |          |          |       |
+| a                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| b                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| c                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| d                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| e                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ena                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| enb                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| f                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| g                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+xlxi_9_xlxi_4_XLXI_4_1                  
+xlxi_9_xlxi_4_XLXI_3_0                  
+xlxi_9_xlxi_3_XLXI_4_1                  
+xlxi_9_xlxi_3_XLXI_3_0                  
+xlxi_9_xlxi_2_XLXI_4_1                  
+xlxi_9_xlxi_2_XLXI_3_0                  
+xlxi_9_xlxi_1_XLXI_4_1                  
+xlxi_9_xlxi_1_XLXI_3_0                  
+xlxi_16_XLXI_6_1                        
+xlxi_16_XLXI_5_0                        
+xlxi_16_xlxi_4_XLXI_4_1                 
+xlxi_16_xlxi_4_XLXI_3_0                 
+xlxi_16_xlxi_4_xlxi_25_XLXI_2_3         
+xlxi_16_xlxi_4_xlxi_25_XLXI_12_2        
+xlxi_16_xlxi_4_xlxi_25_XLXI_11_1        
+xlxi_16_xlxi_4_xlxi_25_XLXI_10_0        
+xlxi_16_xlxi_4_xlxi_24_XLXI_2_3         
+xlxi_16_xlxi_4_xlxi_24_XLXI_12_2        
+xlxi_16_xlxi_4_xlxi_24_XLXI_11_1        
+xlxi_16_xlxi_4_xlxi_24_XLXI_10_0        
+xlxi_16_xlxi_4_xlxi_23_XLXI_2_3         
+xlxi_16_xlxi_4_xlxi_23_XLXI_12_2        
+xlxi_16_xlxi_4_xlxi_23_XLXI_11_1        
+xlxi_16_xlxi_4_xlxi_23_XLXI_10_0        
+xlxi_16_xlxi_4_xlxi_16_XLXI_2_3         
+xlxi_16_xlxi_4_xlxi_16_XLXI_12_2        
+xlxi_16_xlxi_4_xlxi_16_XLXI_11_1        
+xlxi_16_xlxi_4_xlxi_16_XLXI_10_0        
+xlxi_16_xlxi_3_XLXI_32_1                
+xlxi_16_xlxi_3_XLXI_31_0                
+xlxi_16_xlxi_3_xlxi_25_XLXI_2_3         
+xlxi_16_xlxi_3_xlxi_25_XLXI_12_2        
+xlxi_16_xlxi_3_xlxi_25_XLXI_11_1        
+xlxi_16_xlxi_3_xlxi_25_XLXI_10_0        
+xlxi_16_xlxi_3_xlxi_24_XLXI_2_3         
+xlxi_16_xlxi_3_xlxi_24_XLXI_12_2        
+xlxi_16_xlxi_3_xlxi_24_XLXI_11_1        
+xlxi_16_xlxi_3_xlxi_24_XLXI_10_0        
+xlxi_16_xlxi_3_xlxi_23_XLXI_2_3         
+xlxi_16_xlxi_3_xlxi_23_XLXI_12_2        
+xlxi_16_xlxi_3_xlxi_23_XLXI_11_1        
+xlxi_16_xlxi_3_xlxi_23_XLXI_10_0        
+xlxi_16_xlxi_3_xlxi_16_XLXI_2_3         
+xlxi_16_xlxi_3_xlxi_16_XLXI_12_2        
+xlxi_16_xlxi_3_xlxi_16_XLXI_11_1        
+xlxi_16_xlxi_3_xlxi_16_XLXI_10_0        
+xlxi_16_xlxi_2_XLXI_32_1                
+xlxi_16_xlxi_2_XLXI_31_0                
+xlxi_16_xlxi_2_xlxi_25_XLXI_2_3         
+xlxi_16_xlxi_2_xlxi_25_XLXI_12_2        
+xlxi_16_xlxi_2_xlxi_25_XLXI_11_1        
+xlxi_16_xlxi_2_xlxi_25_XLXI_10_0        
+xlxi_16_xlxi_2_xlxi_24_XLXI_2_3         
+xlxi_16_xlxi_2_xlxi_24_XLXI_12_2        
+xlxi_16_xlxi_2_xlxi_24_XLXI_11_1        
+xlxi_16_xlxi_2_xlxi_24_XLXI_10_0        
+xlxi_16_xlxi_2_xlxi_23_XLXI_2_3         
+xlxi_16_xlxi_2_xlxi_23_XLXI_12_2        
+xlxi_16_xlxi_2_xlxi_23_XLXI_11_1        
+xlxi_16_xlxi_2_xlxi_23_XLXI_10_0        
+xlxi_16_xlxi_2_xlxi_16_XLXI_2_3         
+xlxi_16_xlxi_2_xlxi_16_XLXI_12_2        
+xlxi_16_xlxi_2_xlxi_16_XLXI_11_1        
+xlxi_16_xlxi_2_xlxi_16_XLXI_10_0        
+XLXI_13_5                               
+xlxi_13/xlxi_13_I_M23_0                 
+xlxi_13/xlxi_13_I_M01_1                 
+XLXI_12_4                               
+xlxi_12/xlxi_12_I_M23_0                 
+xlxi_12/xlxi_12_I_M01_1                 
+XLXI_11_3                               
+xlxi_11/xlxi_11_I_M23_0                 
+xlxi_11/xlxi_11_I_M01_1                 
+XLXI_10_2                               
+xlxi_10/xlxi_10_I_M23_0                 
+xlxi_10/xlxi_10_I_M01_1                 
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group Summary
+------------------------------
+No area groups were found in this design.
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.

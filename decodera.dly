@@ -1,0 +1,80 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 20 09:19:34 2004
+
+File: decodera.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   2.518            a_obuf
+   1.430            r1_ibuf
+   1.429            c2_ibuf
+   1.426            c4_ibuf
+   1.167            c1_ibuf
+   0.908            c3_ibuf
+   0.777            r2_ibuf
+   0.745            r3_ibuf
+   0.536            r4_ibuf
+   0.434            xlxn_4
+   0.385            xlxi_9/free/1.2
+   0.222            xlxn_3
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+a_obuf
+   xlxn_3.Y
+         2.518  a.O
+
+c1_ibuf
+   c1.I
+         1.167  xlxn_4.F3
+
+c2_ibuf
+   c2.I
+         1.429  xlxn_3.F1
+
+c3_ibuf
+   c3.I
+         0.627  xlxn_3.F4
+         0.908  xlxn_4.F1
+
+c4_ibuf
+   c4.I
+         1.408  xlxn_3.F2
+         1.426  xlxn_4.F2
+         1.421  xlxn_4.G2
+
+r1_ibuf
+   r1.I
+         1.430  xlxn_4.G1
+
+r2_ibuf
+   r2.I
+         0.777  xlxn_4.G4
+
+r3_ibuf
+   r3.I
+         0.745  xlxn_3.F3
+
+r4_ibuf
+   r4.I
+         0.536  xlxn_4.F4
+
+xlxi_9/free/1.2
+   xlxn_4.Y
+         0.385  xlxn_3.G2
+
+xlxn_3
+   xlxn_3.X
+         0.222  xlxn_3.G4
+
+xlxn_4
+   xlxn_4.X
+         0.434  xlxn_3.G1
+

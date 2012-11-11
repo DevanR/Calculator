@@ -1,0 +1,4 @@
+SCHEMATIC START ;
+// created by map version F.28 on Mon Sep 20 09:20:48 2004 
+COMP "pulse" LOCATE =  SITE "A11" LEVEL 1; 
+SCHEMATIC END ;

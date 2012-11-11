@@ -1,0 +1,8 @@
+sch2vhdl -family=spartan2 -flat -suppress -w c:\xilinx\bin\S10_Sc201Project\multi_divider.sch multi_divider.vhf
+xst -quiet -ifn __projnav/multi_divider.xst -ofn multi_divider.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 multi_divider.ngc multi_divider.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o multi_divider_map.ncd multi_divider.ngd multi_divider.pcf
+par -w -ol 2 -t 1 multi_divider_map.ncd multi_divider.ncd multi_divider.pcf
+trce -quiet -e 3 -l 3 -xml multi_divider multi_divider.ncd -o multi_divider.twr multi_divider.pcf
+bitgen -f multi_divider.ut multi_divider.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w multi_divider.sch multi_divider.vhf

@@ -1,0 +1,117 @@
+Release 5.2.03i - ngdbuild F.31
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -quiet -dd c:\sc201\calculator/_ngo -i -p xc2s200-fg456-5
+lab4.ngc lab4.ngd 
+
+Reading NGO file "C:/SC201/Calculator/lab4.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+WARNING:NgdBuild:477 - clock net 'xlxn_394' has non-clock connections. These
+   problematic connections include: pin i1 on block xlxi_52_xlxi_19 with type
+   and2, pin i1 on block xlxi_52_xlxi_15 with type and2, pin i1 on block
+   xlxi_52_xlxi_9 with type and2
+WARNING:NgdBuild:483 - Attribute "LOC" on "r4_ibuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "r3_ibuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "r2_ibuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "r1_ibuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxn_420" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "sw21b" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "sw21a" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:454 - logical net 'xlxi_1_xlxi_9/gt' has no load
+WARNING:NgdBuild:483 - Attribute "LOC" on "g_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "f_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "e_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "d_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "c_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "b_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "a_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:454 - logical net 'xlxi_1_xlxi_2_xlxi_1/d7' has no load
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_52_xlxn_122" is on the wrong
+   type of object.  Please see the Constraints Guide for more information on
+   this attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_52_xlxn_124" is on the wrong
+   type of object.  Please see the Constraints Guide for more information on
+   this attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_52_xlxn_16" is on the wrong type
+   of object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_52_xlxn_96" is on the wrong type
+   of object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_52_xlxn_86" is on the wrong type
+   of object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_3_xlxi_16_neg" is on the wrong
+   type of object.  Please see the Constraints Guide for more information on
+   this attribute.
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_1_xlxi_3/ofl' has no
+   load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_1_xlxi_4/ofl' has no
+   load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_2_xlxi_3/ofl' has no
+   load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_2_xlxi_4/ofl' has no
+   load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_3_xlxi_3/ofl' has no
+   load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_3_xlxi_4/ofl' has no
+   load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_4_xlxi_3/ofl' has no
+   load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_4_xlxi_4/ofl' has no
+   load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_3/ofl'
+   has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_97_xlxi_1_xlxi_4/ofl'
+   has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_3/ofl'
+   has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_97_xlxi_2_xlxi_4/ofl'
+   has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_3/ofl'
+   has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_97_xlxi_3_xlxi_4/ofl'
+   has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_3/ofl'
+   has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_3_xlxi_16_xlxi_97_xlxi_4_xlxi_4/ofl'
+   has no load
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  39
+
+Writing NGD file "lab4.ngd" ...
+
+Writing NGDBUILD log file "lab4.bld"...

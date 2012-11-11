@@ -1,0 +1,2 @@
+sch2vhdl -family=spartan2 -flat -suppress -w switchcontrolmain.sch switchcontrolmain.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w switchcontrolmain.sch switchcontrolmain.vhf

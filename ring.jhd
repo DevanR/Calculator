@@ -1,0 +1,3 @@
+MODULE ring
+	SUBMODULE multi_divider
+		INSTANCE XLXI_22

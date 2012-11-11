@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------------
+Release 5.2i - Trace F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -quiet -e 3 -l 3 -xml test test.ncd -o test.twr
+test.pcf
+
+Design file:              test.ncd
+Physical constraint file: test.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2002-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock r1 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+a           |   34.795(F)|xlxi_4_xlxn_16    |   0.000|
+b           |   34.534(F)|xlxi_4_xlxn_16    |   0.000|
+c           |   34.835(F)|xlxi_4_xlxn_16    |   0.000|
+c1          |   22.128(F)|xlxi_4_xlxn_16    |   0.000|
+c2          |   23.388(F)|xlxi_4_xlxn_16    |   0.000|
+c3          |   21.534(F)|xlxi_4_xlxn_16    |   0.000|
+c4          |   22.186(F)|xlxi_4_xlxn_16    |   0.000|
+d           |   35.482(F)|xlxi_4_xlxn_16    |   0.000|
+e           |   35.728(F)|xlxi_4_xlxn_16    |   0.000|
+f           |   35.390(F)|xlxi_4_xlxn_16    |   0.000|
+g           |   36.538(F)|xlxi_4_xlxn_16    |   0.000|
+------------+------------+------------------+--------+
+
+Clock r2 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+a           |   35.144(F)|xlxi_4_xlxn_16    |   0.000|
+b           |   34.883(F)|xlxi_4_xlxn_16    |   0.000|
+c           |   35.184(F)|xlxi_4_xlxn_16    |   0.000|
+c1          |   22.477(F)|xlxi_4_xlxn_16    |   0.000|
+c2          |   23.737(F)|xlxi_4_xlxn_16    |   0.000|
+c3          |   21.883(F)|xlxi_4_xlxn_16    |   0.000|
+c4          |   22.535(F)|xlxi_4_xlxn_16    |   0.000|
+d           |   35.831(F)|xlxi_4_xlxn_16    |   0.000|
+e           |   36.077(F)|xlxi_4_xlxn_16    |   0.000|
+f           |   35.739(F)|xlxi_4_xlxn_16    |   0.000|
+g           |   36.887(F)|xlxi_4_xlxn_16    |   0.000|
+------------+------------+------------------+--------+
+
+Clock r3 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+a           |   34.997(F)|xlxi_4_xlxn_16    |   0.000|
+b           |   34.736(F)|xlxi_4_xlxn_16    |   0.000|
+c           |   35.037(F)|xlxi_4_xlxn_16    |   0.000|
+c1          |   22.330(F)|xlxi_4_xlxn_16    |   0.000|
+c2          |   23.590(F)|xlxi_4_xlxn_16    |   0.000|
+c3          |   21.736(F)|xlxi_4_xlxn_16    |   0.000|
+c4          |   22.388(F)|xlxi_4_xlxn_16    |   0.000|
+d           |   35.684(F)|xlxi_4_xlxn_16    |   0.000|
+e           |   35.930(F)|xlxi_4_xlxn_16    |   0.000|
+f           |   35.592(F)|xlxi_4_xlxn_16    |   0.000|
+g           |   36.740(F)|xlxi_4_xlxn_16    |   0.000|
+------------+------------+------------------+--------+
+
+Clock r4 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+a           |   36.060(F)|xlxi_4_xlxn_16    |   0.000|
+b           |   35.799(F)|xlxi_4_xlxn_16    |   0.000|
+c           |   36.100(F)|xlxi_4_xlxn_16    |   0.000|
+c1          |   23.393(F)|xlxi_4_xlxn_16    |   0.000|
+c2          |   24.653(F)|xlxi_4_xlxn_16    |   0.000|
+c3          |   22.799(F)|xlxi_4_xlxn_16    |   0.000|
+c4          |   23.451(F)|xlxi_4_xlxn_16    |   0.000|
+d           |   36.747(F)|xlxi_4_xlxn_16    |   0.000|
+e           |   36.993(F)|xlxi_4_xlxn_16    |   0.000|
+f           |   36.655(F)|xlxi_4_xlxn_16    |   0.000|
+g           |   37.803(F)|xlxi_4_xlxn_16    |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    3.054|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock r1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+r1             |         |         |         |    8.881|
+r2             |         |         |         |    9.230|
+r3             |         |         |         |    9.083|
+r4             |         |         |         |   10.146|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock r2
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+r1             |         |         |         |    8.828|
+r2             |         |         |         |    9.177|
+r3             |         |         |         |    9.030|
+r4             |         |         |         |   10.093|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock r3
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+r1             |         |         |         |    7.740|
+r2             |         |         |         |    8.089|
+r3             |         |         |         |    7.942|
+r4             |         |         |         |    9.005|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock r4
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+r1             |         |         |         |    9.937|
+r2             |         |         |         |   10.286|
+r3             |         |         |         |   10.139|
+r4             |         |         |         |   11.202|
+---------------+---------+---------+---------+---------+
+
+Analysis completed Mon Sep 20 09:57:09 2004
+--------------------------------------------------------------------------------
+

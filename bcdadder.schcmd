@@ -1,0 +1,3 @@
+select figure at 5457 2490 20 -branches -sn=1
+select figure at 5457 2490 20 -branches -extend -extend -sn=1
+select figure at 5099 2198 20 -branches -sn=1

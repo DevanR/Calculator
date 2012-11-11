@@ -1,0 +1,10 @@
+sch2vhdl -family=spartan2 -flat -suppress -w c:\xilinx\bin\S10_Sc201Project\ring.sch ring.vhf
+xst -quiet -ifn __projnav/ring.xst -ofn ring.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 ring.ngc ring.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o ring_map.ncd ring.ngd ring.pcf
+par -w -ol 2 -t 1 ring_map.ncd ring.ncd ring.pcf
+trce -quiet -e 3 -l 3 -xml ring ring.ncd -o ring.twr ring.pcf
+bitgen -f ring.ut ring.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w ring.sch ring.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w ring.sch ring.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w ring.sch ring.vhf

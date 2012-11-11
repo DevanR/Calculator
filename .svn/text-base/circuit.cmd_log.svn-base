@@ -1,0 +1,7 @@
+sch2vhdl -family=spartan2 -flat -suppress -w circuit.sch circuit.vhf
+xst -quiet -ifn __projnav/circuit.xst -ofn circuit.syr
+ngdbuild -quiet -dd c:\sc201\sc201dan/_ngo -i  -p xc2s200-fg456-5 circuit.ngc circuit.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o circuit_map.ncd circuit.ngd circuit.pcf
+par -w -ol 2 -t 1 circuit_map.ncd circuit.ncd circuit.pcf
+trce -quiet -e 3 -l 3 -xml circuit circuit.ncd -o circuit.twr circuit.pcf
+bitgen -f circuit.ut circuit.ncd

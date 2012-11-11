@@ -1,0 +1,9 @@
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_16_xlxi_3_xlxi_4/co has
+   no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_16_xlxi_2_xlxi_4/co has
+   no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_16_xlxi_4_xlxi_4/co has
+   no load.
+WARNING:DesignRules:367 - Netcheck: Loadless. Net xlxi_16_xlxi_1_xlxi_4/co has
+   no load.
+DRC detected 0 errors and 4 warnings.

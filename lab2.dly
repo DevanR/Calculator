@@ -1,0 +1,75 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Sun Aug 15 16:42:16 2004
+
+File: lab2.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   3.663            xlxn_20
+   2.511            c3_dummy
+   2.276            c2_dummy
+   2.266            ground_ibuf
+   1.823            preset_ibuf
+   1.660            c1_dummy
+   1.308            dv_ibuf
+   1.181            c4_dummy
+   0.302            clk_ibuf
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+c1_dummy
+   c1_dummy.XQ
+         1.660  c1.O
+         1.079  c2_dummy.BX
+
+c2_dummy
+   c2_dummy.XQ
+         2.276  c2.O
+         0.900  c3_dummy.BX
+
+c3_dummy
+   c3_dummy.XQ
+         2.511  c3.O
+         1.114  c4_dummy.BX
+
+c4_dummy
+   c4_dummy.XQ
+         1.181  c4.O
+         0.900  c1_dummy.BX
+
+clk_ibuf
+   clk.I
+         0.302  xlxn_20.G4
+
+dv_ibuf
+   dv.I
+         1.308  xlxn_20.G2
+
+ground_ibuf
+   ground.I
+         2.005  c1_dummy.SR
+         1.783  c2_dummy.BY
+         1.916  c3_dummy.BY
+         2.266  c4_dummy.BY
+
+preset_ibuf
+   preset.I
+         1.728  c1_dummy.BY
+         1.299  c2_dummy.SR
+         1.299  c3_dummy.SR
+         1.823  c4_dummy.SR
+
+xlxn_20
+   xlxn_20.Y
+         3.589  c1_dummy.CLK
+         3.663  c2_dummy.CLK
+         3.663  c3_dummy.CLK
+         3.589  c4_dummy.CLK
+

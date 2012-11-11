@@ -1,0 +1,123 @@
+--------------------------------------------------------------------------------
+Release 5.2.03i - Trace F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx52i/bin/nt/trce.exe -quiet -e 3 -l 3 -xml lab4 lab4.ncd -o lab4.twr
+lab4.pcf
+
+Design file:              lab4.ncd
+Physical constraint file: lab4.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2002-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock r1 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+c1          |   14.808(F)|xlxi_9_xlxn_16    |   0.000|
+c2          |   14.352(F)|xlxi_9_xlxn_16    |   0.000|
+c3          |   16.581(F)|xlxi_9_xlxn_16    |   0.000|
+c4          |   16.357(F)|xlxi_9_xlxn_16    |   0.000|
+------------+------------+------------------+--------+
+
+Clock r2 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+c1          |   14.757(F)|xlxi_9_xlxn_16    |   0.000|
+c2          |   14.301(F)|xlxi_9_xlxn_16    |   0.000|
+c3          |   16.530(F)|xlxi_9_xlxn_16    |   0.000|
+c4          |   16.306(F)|xlxi_9_xlxn_16    |   0.000|
+------------+------------+------------------+--------+
+
+Clock r3 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+c1          |   14.479(F)|xlxi_9_xlxn_16    |   0.000|
+c2          |   14.023(F)|xlxi_9_xlxn_16    |   0.000|
+c3          |   16.252(F)|xlxi_9_xlxn_16    |   0.000|
+c4          |   16.028(F)|xlxi_9_xlxn_16    |   0.000|
+------------+------------+------------------+--------+
+
+Clock r4 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+c1          |   14.286(F)|xlxi_9_xlxn_16    |   0.000|
+c2          |   13.830(F)|xlxi_9_xlxn_16    |   0.000|
+c3          |   16.059(F)|xlxi_9_xlxn_16    |   0.000|
+c4          |   15.835(F)|xlxi_9_xlxn_16    |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock pulse
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+pulse          |    3.054|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock r1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+r1             |         |         |         |    5.730|
+r2             |         |         |         |    5.679|
+r3             |         |         |         |    5.401|
+r4             |         |         |         |    5.208|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock r2
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+r1             |         |         |         |    5.781|
+r2             |         |         |         |    5.730|
+r3             |         |         |         |    5.452|
+r4             |         |         |         |    5.259|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock r3
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+r1             |         |         |         |    6.059|
+r2             |         |         |         |    6.008|
+r3             |         |         |         |    5.730|
+r4             |         |         |         |    5.537|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock r4
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+r1             |         |         |         |    6.252|
+r2             |         |         |         |    6.201|
+r3             |         |         |         |    5.923|
+r4             |         |         |         |    5.730|
+---------------+---------+---------+---------+---------+
+
+Analysis completed Wed Oct 06 12:16:42 2004
+--------------------------------------------------------------------------------
+

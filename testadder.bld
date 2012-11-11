@@ -1,0 +1,68 @@
+Release 5.2.03i - ngdbuild F.31
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -quiet -dd c:\sc201\290904/_ngo -i -p xc2s200-fg456-5
+testadder.ngc testadder.ngd 
+
+Reading NGO file "C:/SC201/290904/testadder.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+WARNING:NgdBuild:454 - logical net 'xlxi_9_xlxi_1_xlxi_3/ofl' has no load
+WARNING:NgdBuild:477 - clock net 'xlxn_58' has non-clock connections. These
+   problematic connections include: pin i1 on block xlxi_16_xlxi_19 with type
+   and2, pin i1 on block xlxi_16_xlxi_15 with type and2, pin i1 on block
+   xlxi_16_xlxi_9 with type and2
+WARNING:NgdBuild:478 - clock net 'xlxn_58' drives no clock pins
+WARNING:NgdBuild:483 - Attribute "LOC" on "g_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "f_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "e_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "d_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "c_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "b_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "a_obuf" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:454 - logical net 'xlxi_9_xlxi_4_xlxi_3/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_9_xlxi_4_xlxi_4/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_9_xlxi_1_xlxi_4/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_9_xlxi_3_xlxi_3/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_9_xlxi_3_xlxi_4/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_9_xlxi_2_xlxi_3/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_9_xlxi_2_xlxi_4/ofl' has no load
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_16_xlxn_122" is on the wrong
+   type of object.  Please see the Constraints Guide for more information on
+   this attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_16_xlxn_124" is on the wrong
+   type of object.  Please see the Constraints Guide for more information on
+   this attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_16_xlxn_16" is on the wrong type
+   of object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_16_xlxn_96" is on the wrong type
+   of object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "LOC" on "xlxi_16_xlxn_86" is on the wrong type
+   of object.  Please see the Constraints Guide for more information on this
+   attribute.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  22
+
+Writing NGD file "testadder.ngd" ...
+
+Writing NGDBUILD log file "testadder.bld"...

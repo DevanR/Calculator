@@ -1,0 +1,27 @@
+Release 5.2i - ngdbuild F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i -p xc2s200-fg456-5
+registera.ngc registera.ngd 
+
+Reading NGO file "C:/Xilinx/bin/SC201/registera.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+WARNING:NgdBuild:454 - logical net 'xlxi_16_xlxi_1_xlxi_4/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_16_xlxi_4_xlxi_3/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_16_xlxi_4_xlxi_4/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_16_xlxi_3_xlxi_3/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_16_xlxi_3_xlxi_4/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_16_xlxi_2_xlxi_3/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_16_xlxi_2_xlxi_4/ofl' has no load
+WARNING:NgdBuild:454 - logical net 'xlxi_16_xlxi_1_xlxi_3/ofl' has no load
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   8
+
+Writing NGD file "registera.ngd" ...
+
+Writing NGDBUILD log file "registera.bld"...

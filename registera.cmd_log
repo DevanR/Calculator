@@ -1,0 +1,31 @@
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+xst -quiet -ifn __projnav/registera.xst -ofn registera.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 registera.ngc registera.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o registera_map.ncd registera.ngd registera.pcf
+par -w -ol 2 -t 1 registera_map.ncd registera.ncd registera.pcf
+trce -quiet -e 3 -l 3 -xml registera registera.ncd -o registera.twr registera.pcf
+bitgen -f registera.ut registera.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+xst -quiet -ifn __projnav/registera.xst -ofn registera.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 registera.ngc registera.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o registera_map.ncd registera.ngd registera.pcf
+par -w -ol 2 -t 1 registera_map.ncd registera.ncd registera.pcf
+trce -quiet -e 3 -l 3 -xml registera registera.ncd -o registera.twr registera.pcf
+bitgen -f registera.ut registera.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w registera.sch registera.vhf

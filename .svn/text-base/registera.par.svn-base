@@ -1,0 +1,130 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+
+ACER-DEVAN::  Thu Sep 23 23:58:47 2004
+
+
+C:/Xilinx/bin/nt/par.exe -w -ol 2 -t 1 registera_map.ncd registera.ncd
+registera.pcf 
+
+
+Constraints file: registera.pcf
+
+Loading device database for application par from file "registera_map.ncd".
+   "registera" is an NCD, version 2.37, device xc2s200, package fg456, speed -5
+Loading device for application par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2002-12-13.
+
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         2 out of 4      50%
+   Number of External IOBs            39 out of 284    13%
+      Number of LOCed External IOBs    0 out of 39      0%
+
+   Number of SLICEs                   44 out of 2352    1%
+
+   Number of GCLKs                     2 out of 4      50%
+
+
+
+Overall effort level (-ol):   2 (set by user)
+Placer effort level (-pl):    2 (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    2 (set by user)
+
+WARNING:Par:276 - The signal xlxi_16_xlxi_3_xlxi_4/co has no load
+WARNING:Par:276 - The signal xlxi_16_xlxi_2_xlxi_4/co has no load
+WARNING:Par:276 - The signal xlxi_16_xlxi_4_xlxi_4/co has no load
+WARNING:Par:276 - The signal xlxi_16_xlxi_1_xlxi_4/co has no load
+
+Phase 1.1
+Phase 1.1 (Checksum:989859) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+....
+Phase 5.8 (Checksum:9a6770) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file registera.ncd.
+
+Total REAL time to placer completion: 0 secs 
+Total CPU time to placer completion: 0 secs 
+
+
+Starting Router          REAL time: 0 secs 
+
+Phase 1: 298 unrouted;       REAL time: 0 secs 
+
+Phase 2: 278 unrouted;       REAL time: 7 secs 
+
+Phase 3: 54 unrouted;       REAL time: 7 secs 
+
+Phase 4: 0 unrouted;       REAL time: 7 secs 
+
+Finished Router          REAL time: 7 secs 
+
+Total REAL time to router completion: 7 secs 
+Total CPU time to router completion: 6 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Max Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|    xlxn_314_bufgp          |  Global  |    8   |  0.010     |  0.753      |
++----------------------------+----------+--------+------------+-------------+
+|      regclk_bufgp          |  Global  |    8   |  0.009     |  0.659      |
++----------------------------+----------+--------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The Score for this design is: 227
+
+
+The Number of signals not completely routed for this design is: 0
+
+   The Average Connection Delay for this design is:        1.642 ns
+   The Maximum Pin Delay is:                               5.251 ns
+   The Average Connection Delay on the 10 Worst Nets is:   3.147 ns
+
+   Listing Pin Delays by value: (ns)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 6.00  d >= 6.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+          76         142          59           6          15           0
+
+
+All signals are completely routed.
+
+Total REAL time to par completion: 7 secs 
+Total CPU time to par completion: 7 secs 
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file registera.ncd.
+
+
+PAR done.

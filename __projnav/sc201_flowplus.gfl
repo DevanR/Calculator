@@ -1,0 +1,1127 @@
+# xst flow : Check Syntax
+__projnav/lab2._sprj
+lab2.sprj
+lab2.sprj
+# xst flow : RunXST
+__projnav/lab2._prj
+lab2.prj
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab2._sprj
+lab2.sprj
+lab2.sprj
+# xst flow : RunXST
+__projnav/lab2._prj
+lab2.prj
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab2._sprj
+lab2.sprj
+lab2.sprj
+# xst flow : RunXST
+__projnav/lab2._prj
+lab2.prj
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab2._sprj
+lab2.sprj
+lab2.sprj
+# xst flow : RunXST
+__projnav/lab2._prj
+lab2.prj
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab3._sprj
+lab3.sprj
+lab3.sprj
+# xst flow : RunXST
+__projnav/lab3._prj
+lab3.prj
+# xst flow : RunXST
+lab3.prj
+__projnav/lab3.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab3._sprj
+lab3.sprj
+lab3.sprj
+# xst flow : RunXST
+__projnav/lab3._prj
+lab3.prj
+# xst flow : RunXST
+lab3.prj
+__projnav/lab3.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab2._sprj
+lab2.sprj
+lab2.sprj
+# xst flow : RunXST
+__projnav/lab2._prj
+lab2.prj
+# xst flow : RunXST
+lab2.prj
+__projnav/lab2.xst
+./xst
+# xst flow : Check Syntax
+__projnav/decodera._sprj
+decodera.sprj
+decodera.sprj
+# xst flow : RunXST
+__projnav/decodera._prj
+decodera.prj
+# xst flow : RunXST
+decodera.prj
+__projnav/decodera.xst
+./xst
+# xst flow : Check Syntax
+__projnav/decoderb._sprj
+decoderb.sprj
+decoderb.sprj
+# xst flow : RunXST
+__projnav/decoderb._prj
+decoderb.prj
+# xst flow : RunXST
+decoderb.prj
+__projnav/decoderb.xst
+./xst
+# xst flow : Check Syntax
+__projnav/decoderc._sprj
+decoderc.sprj
+decoderc.sprj
+# xst flow : RunXST
+__projnav/decoderc._prj
+decoderc.prj
+# xst flow : RunXST
+decoderc.prj
+__projnav/decoderc.xst
+./xst
+# xst flow : Check Syntax
+__projnav/decoderd._sprj
+decoderd.sprj
+decoderd.sprj
+# xst flow : RunXST
+__projnav/decoderd._prj
+decoderd.prj
+# xst flow : RunXST
+decoderd.prj
+__projnav/decoderd.xst
+./xst
+# xst flow : Check Syntax
+__projnav/ring._sprj
+ring.sprj
+ring.sprj
+# xst flow : RunXST
+__projnav/ring._prj
+ring.prj
+# xst flow : RunXST
+ring.prj
+__projnav/ring.xst
+./xst
+# xst flow : Check Syntax
+__projnav/multi_divider._sprj
+multi_divider.sprj
+multi_divider.sprj
+# xst flow : RunXST
+__projnav/multi_divider._prj
+multi_divider.prj
+# xst flow : RunXST
+multi_divider.prj
+__projnav/multi_divider.xst
+./xst
+# xst flow : Check Syntax
+__projnav/freq_div._sprj
+freq_div.sprj
+freq_div.sprj
+# xst flow : RunXST
+__projnav/freq_div._prj
+freq_div.prj
+# xst flow : RunXST
+freq_div.prj
+__projnav/freq_div.xst
+./xst
+# xst flow : Check Syntax
+__projnav/sevensegdec._sprj
+sevensegdec.sprj
+sevensegdec.sprj
+# xst flow : RunXST
+__projnav/sevensegdec._prj
+sevensegdec.prj
+# xst flow : RunXST
+sevensegdec.prj
+__projnav/sevensegdec.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab1._sprj
+lab1.sprj
+lab1.sprj
+# xst flow : RunXST
+__projnav/lab1._prj
+lab1.prj
+# xst flow : RunXST
+lab1.prj
+__projnav/lab1.xst
+./xst
+# xst flow : Check Syntax
+__projnav/test._sprj
+test.sprj
+test.sprj
+# xst flow : RunXST
+__projnav/test._prj
+test.prj
+# xst flow : RunXST
+test.prj
+__projnav/test.xst
+./xst
+# xst flow : Check Syntax
+__projnav/registera._sprj
+registera.sprj
+registera.sprj
+# xst flow : RunXST
+__projnav/registera._prj
+registera.prj
+# xst flow : RunXST
+registera.prj
+__projnav/registera.xst
+./xst
+# xst flow : Check Syntax
+__projnav/registera._sprj
+registera.sprj
+registera.sprj
+# xst flow : RunXST
+__projnav/registera._prj
+registera.prj
+# xst flow : RunXST
+registera.prj
+__projnav/registera.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/circuit._sprj
+circuit.sprj
+circuit.sprj
+# xst flow : RunXST
+__projnav/circuit._prj
+circuit.prj
+# xst flow : RunXST
+circuit.prj
+__projnav/circuit.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/testadder._sprj
+testadder.sprj
+testadder.sprj
+# xst flow : RunXST
+__projnav/testadder._prj
+testadder.prj
+# xst flow : RunXST
+testadder.prj
+__projnav/testadder.xst
+./xst
+# xst flow : Check Syntax
+__projnav/testadder._sprj
+testadder.sprj
+testadder.sprj
+# xst flow : RunXST
+__projnav/testadder._prj
+testadder.prj
+# xst flow : RunXST
+testadder.prj
+__projnav/testadder.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/testadder._sprj
+testadder.sprj
+testadder.sprj
+# xst flow : RunXST
+__projnav/testadder._prj
+testadder.prj
+# xst flow : RunXST
+testadder.prj
+__projnav/testadder.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst
+# xst flow : Check Syntax
+__projnav/lab4._sprj
+lab4.sprj
+lab4.sprj
+# xst flow : RunXST
+__projnav/lab4._prj
+lab4.prj
+# xst flow : RunXST
+lab4.prj
+__projnav/lab4.xst
+./xst

@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+Release 5.2i - Trace F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -quiet -e 3 -l 3 -xml decoderb decoderb.ncd -o
+decoderb.twr decoderb.pcf
+
+Design file:              decoderb.ncd
+Physical constraint file: decoderb.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2002-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+c1             |b              |   12.693|
+c2             |b              |   11.277|
+c3             |b              |   12.558|
+c4             |b              |   12.575|
+r2             |b              |   10.986|
+r3             |b              |   10.776|
+r4             |b              |   12.521|
+---------------+---------------+---------+
+
+Analysis completed Mon Sep 20 09:19:57 2004
+--------------------------------------------------------------------------------
+

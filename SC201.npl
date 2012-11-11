@@ -1,0 +1,95 @@
+JDF F
+// Created by Project Navigator ver 1.0
+PROJECT SC201
+DESIGN sc201 Normal
+DEVFAM spartan2
+DEVFAMTIME 0
+DEVICE xc2s200
+DEVICETIME 0
+DEVPKG fg456
+DEVPKGTIME 0
+DEVSPEED -5
+DEVSPEEDTIME 0
+FLOW XST VHDL
+FLOWTIME 0
+MODULE BCDadder.sch
+MODSTYLE bcdadder Normal
+MODULE ControlUnit.sch
+MODSTYLE controlunit Normal
+MODULE TWOONESWITCH.sch
+MODSTYLE twooneswitch Normal
+MODULE ring.sch
+MODSTYLE ring Normal
+MODULE switchcontrol.sch
+MODSTYLE switchcontrol Normal
+MODULE bcdregister.sch
+MODSTYLE bcdregister Normal
+MODULE multi_divider.sch
+MODSTYLE multi_divider Normal
+MODULE LAB1.SCH
+MODSTYLE lab1 Normal
+MODULE test.sch
+MODSTYLE test Normal
+MODULE sevensegdec.sch
+MODSTYLE sevensegdec Normal
+MODULE inputregister.sch
+MODSTYLE inputregister Normal
+MODULE registera.sch
+MODSTYLE registera Normal
+MODULE decoder.sch
+MODSTYLE decoder Normal
+MODULE ninecompl.sch
+MODSTYLE ninecompl Normal
+MODULE testadder.sch
+MODSTYLE testadder Normal
+MODULE ringcounter.sch
+MODSTYLE ringcounter Normal
+MODULE adder.sch
+MODSTYLE adder Normal
+MODULE control.sch
+MODSTYLE control Normal
+MODULE mod1_counter.sch
+MODSTYLE mod1_counter Normal
+MODULE mod2_counter.sch
+MODSTYLE mod2_counter Normal
+MODULE mod3_counter.sch
+MODSTYLE mod3_counter Normal
+MODULE mod4_counter.sch
+MODSTYLE mod4_counter Normal
+MODULE sevensegenable.sch
+MODSTYLE sevensegenable Normal
+MODULE freq_div.sch
+MODSTYLE freq_div Normal
+MODULE lcdcounter.sch
+MODSTYLE lcdcounter Normal
+MODULE ringcounterdev.sch
+MODSTYLE ringcounterdev Normal
+MODULE shiftregister4x4.sch
+MODSTYLE shiftregister4x4 Normal
+MODULE decodera.sch
+MODSTYLE decodera Normal
+MODULE decoderb.sch
+MODSTYLE decoderb Normal
+MODULE decoderc.sch
+MODSTYLE decoderc Normal
+MODULE decoderd.sch
+MODSTYLE decoderd Normal
+MODULE onetwoswitch.sch
+MODSTYLE onetwoswitch Normal
+MODULE negconverter.sch
+MODSTYLE negconverter Normal
+MODULE switchcontrolmain.sch
+MODSTYLE switchcontrolmain Normal
+MODULE lab2.sch
+MODSTYLE lab2 Normal
+MODULE lab3.sch
+MODSTYLE lab3 Normal
+MODULE lab4.sch
+MODSTYLE lab4 Normal
+[STATUS-ALL]
+lab4.bitFile=WARNINGS,1097036207
+lab4.ncdFile=WARNINGS,1097036207
+lab4.ngcFile=WARNINGS,1097036207
+lab4.ngdFile=WARNINGS,1097036207
+[STRATEGY-LIST]
+Normal=True

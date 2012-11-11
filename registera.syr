@@ -1,0 +1,594 @@
+Release 5.2i - xst F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.15 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.15 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: registera.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Low Level Synthesis
+  6) Final Report
+     6.1) Device utilization summary
+     6.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : registera.prj
+Input Format                       : VHDL
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : registera
+Output Format                      : NGC
+Target Device                      : xc2s200-5fg456
+
+---- Source Options
+Entity Name                        : registera
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Complex Clock Enable Extraction    : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Criterion             : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : lower
+Top module area constraint         : 100
+Top module allowed area overflow   : 5
+
+---- Other Options
+read_cores                         : YES
+cross_clock_analysis               : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/bin/SC201/adder.vhf in Library work.
+Architecture schematic of Entity add4_mxilinx_adder is up to date.
+Architecture schematic of Entity adder is up to date.
+Compiling vhdl file C:/Xilinx/bin/SC201/bcdadder.vhf in Library work.
+Architecture schematic of Entity bcdadder is up to date.
+Compiling vhdl file C:/Xilinx/bin/SC201/bcdregister.vhf in Library work.
+Architecture schematic of Entity bcdregister is up to date.
+Compiling vhdl file C:/Xilinx/bin/SC201/onetwoswitch.vhf in Library work.
+Architecture schematic of Entity onetwoswitch is up to date.
+Compiling vhdl file C:/Xilinx/bin/SC201/twooneswitch.vhf in Library work.
+Architecture schematic of Entity twooneswitch is up to date.
+Compiling vhdl file C:/Xilinx/bin/SC201/registera.vhf in Library work.
+Entity <registera> (Architecture <schematic>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+
+Analyzing Entity <registera> (Architecture <schematic>).
+Entity <registera> analyzed. Unit <registera> generated.
+
+Analyzing Entity <bcdadder> (Architecture <schematic>).
+Entity <bcdadder> analyzed. Unit <bcdadder> generated.
+
+Analyzing Entity <bcdregister> (Architecture <schematic>).
+    Set user-defined property "INIT =  0" for instance <xlxi_33> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_35> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_36> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_37> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_38> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_39> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_40> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_41> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_42> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_43> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_44> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_45> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_46> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_47> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_48> in unit <bcdregister>.
+    Set user-defined property "INIT =  0" for instance <xlxi_49> in unit <bcdregister>.
+Entity <bcdregister> analyzed. Unit <bcdregister> generated.
+
+Analyzing Entity <onetwoswitch> (Architecture <schematic>).
+Entity <onetwoswitch> analyzed. Unit <onetwoswitch> generated.
+
+Analyzing Entity <twooneswitch> (Architecture <schematic>).
+Entity <twooneswitch> analyzed. Unit <twooneswitch> generated.
+
+Analyzing Entity <adder> (Architecture <schematic>).
+WARNING:Xst:753 - C:/Xilinx/bin/SC201/adder.vhf line 245: Unconnected output port 'ofl' of component 'add4_mxilinx_adder'.
+    Set user-defined property "HU_SET =  XLXI_3_0" for instance <xlxi_3> in unit <adder>.
+WARNING:Xst:753 - C:/Xilinx/bin/SC201/adder.vhf line 250: Unconnected output port 'co' of component 'add4_mxilinx_adder'.
+WARNING:Xst:753 - C:/Xilinx/bin/SC201/adder.vhf line 250: Unconnected output port 'ofl' of component 'add4_mxilinx_adder'.
+    Set user-defined property "HU_SET =  XLXI_4_1" for instance <xlxi_4> in unit <adder>.
+Entity <adder> analyzed. Unit <adder> generated.
+
+Analyzing Entity <add4_mxilinx_adder> (Architecture <schematic>).
+    Set user-defined property "RLOC =  R0C0.S1" for instance <i_36_206> in unit <add4_mxilinx_adder>.
+    Set user-defined property "RLOC =  R0C0.S1" for instance <i_36_182> in unit <add4_mxilinx_adder>.
+    Set user-defined property "RLOC =  R1C0.S1" for instance <i_36_175> in unit <add4_mxilinx_adder>.
+    Set user-defined property "RLOC =  R1C0.S1" for instance <i_36_178> in unit <add4_mxilinx_adder>.
+    Set user-defined property "RLOC =  R0C0.S1" for instance <i_36_58> in unit <add4_mxilinx_adder>.
+    Set user-defined property "RLOC =  R0C0.S1" for instance <i_36_62> in unit <add4_mxilinx_adder>.
+    Set user-defined property "RLOC =  R1C0.S1" for instance <i_36_55> in unit <add4_mxilinx_adder>.
+    Set user-defined property "RLOC =  R1C0.S1" for instance <i_36_111> in unit <add4_mxilinx_adder>.
+Entity <add4_mxilinx_adder> analyzed. Unit <add4_mxilinx_adder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <add4_mxilinx_adder>.
+    Related source file is C:/Xilinx/bin/SC201/adder.vhf.
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. Tied to value 0.
+Unit <add4_mxilinx_adder> synthesized.
+
+
+Synthesizing Unit <adder>.
+    Related source file is C:/Xilinx/bin/SC201/adder.vhf.
+Unit <adder> synthesized.
+
+
+Synthesizing Unit <twooneswitch>.
+    Related source file is C:/Xilinx/bin/SC201/twooneswitch.vhf.
+Unit <twooneswitch> synthesized.
+
+
+Synthesizing Unit <onetwoswitch>.
+    Related source file is C:/Xilinx/bin/SC201/onetwoswitch.vhf.
+Unit <onetwoswitch> synthesized.
+
+
+Synthesizing Unit <bcdregister>.
+    Related source file is C:/Xilinx/bin/SC201/bcdregister.vhf.
+Unit <bcdregister> synthesized.
+
+
+Synthesizing Unit <bcdadder>.
+    Related source file is C:/Xilinx/bin/SC201/bcdadder.vhf.
+Unit <bcdadder> synthesized.
+
+
+Synthesizing Unit <registera>.
+    Related source file is C:/Xilinx/bin/SC201/registera.vhf.
+Unit <registera> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Library "C:/Xilinx/data/librtl.xst" Consulted
+
+Optimizing unit <registera> ...
+
+Optimizing unit <add4_mxilinx_adder> ...
+
+Optimizing unit <bcdadder> ...
+
+Mapping all equations...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block registera, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : registera.ngr
+Top Level Output File Name         : registera
+Output Format                      : NGC
+Optimization Criterion             : Speed
+Keep Hierarchy                     : NO
+Macro Generator                    : macro+
+
+Design Statistics
+# IOs                              : 41
+
+Cell Usage :
+# BELS                             : 293
+#      and2                        : 116
+#      GND                         : 9
+#      inv                         : 24
+#      muxcy                       : 8
+#      muxcy_d                     : 8
+#      muxcy_l                     : 16
+#      or2                         : 40
+#      xor2                        : 40
+#      xorcy                       : 32
+# FlipFlops/Latches                : 32
+#      FDC                         : 32
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 39
+#      IBUF                        : 22
+#      OBUF                        : 17
+# Others                           : 32
+#      fmap                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200fg456-5 
+
+ Number of Slices:                      34  out of   2352     1%  
+ Number of Slice Flip Flops:            32  out of   4704     0%  
+ Number of bonded IOBs:                 39  out of    288    13%  
+ Number of GCLKs:                        2  out of      4    50%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+regclk                             | BUFGP                  | 16    |
+xlxn_314                           | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 48.277ns (Maximum Frequency: 20.714MHz)
+   Minimum input arrival time before clock: 52.032ns
+   Maximum output required time after clock: 43.385ns
+   Maximum combinational path delay: 47.140ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'regclk'
+Delay:               48.277ns (Levels of Logic = 33)
+  Source:            xlxi_1_xlxi_33
+  Destination:       xlxi_1_xlxi_37
+  Source Clock:      regclk rising
+  Destination Clock: regclk rising
+
+  Data Path: xlxi_1_xlxi_33 to xlxi_1_xlxi_37
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:c->q              3   1.292   1.480  xlxi_1_xlxi_33 (xlxn_20)
+     and2:i1->o            1   0.653   1.150  xlxi_18_xlxi_1 (xlxn_183)
+     begin scope: 'xlxi_16_xlxi_1_xlxi_3'
+     xor2:i1->o            1   0.653   1.150  i_36_239 (i0)
+     muxcy_l:s->lo         1   0.784   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_1_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_1_xlxi_7 (xlxi_16_xlxi_1_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_1_xlxi_8 (xlxi_16_xlxi_1_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_1_xlxi_6 (xlxi_16_xlxn_2)
+     begin scope: 'xlxi_16_xlxi_2_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_2_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_2_xlxi_7 (xlxi_16_xlxi_2_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_2_xlxi_8 (xlxi_16_xlxi_2_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_2_xlxi_6 (xlxi_16_xlxn_3)
+     begin scope: 'xlxi_16_xlxi_3_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_3_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_3_xlxi_7 (xlxi_16_xlxi_3_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_3_xlxi_8 (xlxi_16_xlxi_3_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_3_xlxi_6 (xlxi_16_xlxn_4)
+     begin scope: 'xlxi_16_xlxi_4_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_4_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_4_xlxi_7 (xlxi_16_xlxi_4_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_4_xlxi_8 (xlxi_16_xlxi_4_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_4_xlxi_6 (overflow_obuf)
+     begin scope: 'xlxi_16_xlxi_4_xlxi_4'
+     xor2:i0->o            1   0.653   1.150  i_36_240 (i1)
+     muxcy_l:s->lo         1   0.784   0.000  i_36_55 (c1)
+     muxcy_d:ci->lo        1   0.050   0.000  i_36_62 (c2)
+     xorcy:ci->o           1   0.500   1.150  i_36_75 (s3)
+     end scope: 'xlxi_16_xlxi_4_xlxi_4'
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_6 (xlxn_102)
+     and2:i0->o            1   0.653   1.150  xlxi_8_xlxi_8 (xlxi_8_xlxn_31)
+     or2:i1->o             1   0.653   1.150  xlxi_8_xlxi_12 (xlxn_46)
+     FDC:d                     0.753          xlxi_1_xlxi_37
+    ----------------------------------------
+    Total                     48.277ns (18.267ns logic, 30.010ns route)
+                                       (37.8% logic, 62.2% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'regclk'
+Offset:              52.032ns (Levels of Logic = 35)
+  Source:            xlxn_294
+  Destination:       xlxi_1_xlxi_37
+  Destination Clock: regclk rising
+
+  Data Path: xlxn_294 to xlxi_1_xlxi_37
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:i->o            32   0.924   3.800  xlxn_294_ibuf (xlxn_294_ibuf)
+     inv:i->o              1   0.653   1.150  xlxi_18_xlxi_9 (xlxi_18_xlxn_9)
+     and2:i0->o            1   0.653   1.150  xlxi_18_xlxi_1 (xlxn_183)
+     begin scope: 'xlxi_16_xlxi_1_xlxi_3'
+     xor2:i1->o            1   0.653   1.150  i_36_239 (i0)
+     muxcy_l:s->lo         1   0.784   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_1_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_1_xlxi_7 (xlxi_16_xlxi_1_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_1_xlxi_8 (xlxi_16_xlxi_1_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_1_xlxi_6 (xlxi_16_xlxn_2)
+     begin scope: 'xlxi_16_xlxi_2_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_2_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_2_xlxi_7 (xlxi_16_xlxi_2_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_2_xlxi_8 (xlxi_16_xlxi_2_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_2_xlxi_6 (xlxi_16_xlxn_3)
+     begin scope: 'xlxi_16_xlxi_3_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_3_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_3_xlxi_7 (xlxi_16_xlxi_3_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_3_xlxi_8 (xlxi_16_xlxi_3_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_3_xlxi_6 (xlxi_16_xlxn_4)
+     begin scope: 'xlxi_16_xlxi_4_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_4_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_4_xlxi_7 (xlxi_16_xlxi_4_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_4_xlxi_8 (xlxi_16_xlxi_4_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_4_xlxi_6 (overflow_obuf)
+     begin scope: 'xlxi_16_xlxi_4_xlxi_4'
+     xor2:i0->o            1   0.653   1.150  i_36_240 (i1)
+     muxcy_l:s->lo         1   0.784   0.000  i_36_55 (c1)
+     muxcy_d:ci->lo        1   0.050   0.000  i_36_62 (c2)
+     xorcy:ci->o           1   0.500   1.150  i_36_75 (s3)
+     end scope: 'xlxi_16_xlxi_4_xlxi_4'
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_6 (xlxn_102)
+     and2:i0->o            1   0.653   1.150  xlxi_8_xlxi_8 (xlxi_8_xlxn_31)
+     or2:i1->o             1   0.653   1.150  xlxi_8_xlxi_12 (xlxn_46)
+     FDC:d                     0.753          xlxi_1_xlxi_37
+    ----------------------------------------
+    Total                     52.032ns (18.552ns logic, 33.480ns route)
+                                       (35.7% logic, 64.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'xlxn_314'
+Offset:              7.280ns (Levels of Logic = 2)
+  Source:            xlxn_294
+  Destination:       xlxi_23_xlxi_41
+  Destination Clock: xlxn_314 rising
+
+  Data Path: xlxn_294 to xlxi_23_xlxi_41
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:i->o            32   0.924   3.800  xlxn_294_ibuf (xlxn_294_ibuf)
+     and2:i0->o            1   0.653   1.150  xlxi_19_xlxi_8 (xlxn_258)
+     FDC:d                     0.753          xlxi_23_xlxi_41
+    ----------------------------------------
+    Total                      7.280ns (2.330ns logic, 4.950ns route)
+                                       (32.0% logic, 68.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'regclk'
+Offset:              43.385ns (Levels of Logic = 27)
+  Source:            xlxi_1_xlxi_33
+  Destination:       overflow
+  Source Clock:      regclk rising
+
+  Data Path: xlxi_1_xlxi_33 to overflow
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:c->q              3   1.292   1.480  xlxi_1_xlxi_33 (xlxn_20)
+     and2:i1->o            1   0.653   1.150  xlxi_18_xlxi_1 (xlxn_183)
+     begin scope: 'xlxi_16_xlxi_1_xlxi_3'
+     xor2:i1->o            1   0.653   1.150  i_36_239 (i0)
+     muxcy_l:s->lo         1   0.784   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_1_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_1_xlxi_7 (xlxi_16_xlxi_1_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_1_xlxi_8 (xlxi_16_xlxi_1_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_1_xlxi_6 (xlxi_16_xlxn_2)
+     begin scope: 'xlxi_16_xlxi_2_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_2_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_2_xlxi_7 (xlxi_16_xlxi_2_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_2_xlxi_8 (xlxi_16_xlxi_2_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_2_xlxi_6 (xlxi_16_xlxn_3)
+     begin scope: 'xlxi_16_xlxi_3_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_3_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_3_xlxi_7 (xlxi_16_xlxi_3_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_3_xlxi_8 (xlxi_16_xlxi_3_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_3_xlxi_6 (xlxi_16_xlxn_4)
+     begin scope: 'xlxi_16_xlxi_4_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_4_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_4_xlxi_7 (xlxi_16_xlxi_4_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_4_xlxi_8 (xlxi_16_xlxi_4_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_4_xlxi_6 (overflow_obuf)
+     OBUF:i->o                 5.557          overflow_obuf (overflow)
+    ----------------------------------------
+    Total                     43.385ns (19.125ns logic, 24.260ns route)
+                                       (44.1% logic, 55.9% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'xlxn_314'
+Offset:              41.252ns (Levels of Logic = 26)
+  Source:            xlxi_23_xlxi_33
+  Destination:       overflow
+  Source Clock:      xlxn_314 rising
+
+  Data Path: xlxi_23_xlxi_33 to overflow
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:c->q              1   1.292   1.150  xlxi_23_xlxi_33 (xlxn_345)
+     begin scope: 'xlxi_16_xlxi_1_xlxi_3'
+     xor2:i0->o            1   0.653   1.150  i_36_239 (i0)
+     muxcy_l:s->lo         1   0.784   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_1_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_1_xlxi_7 (xlxi_16_xlxi_1_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_1_xlxi_8 (xlxi_16_xlxi_1_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_1_xlxi_6 (xlxi_16_xlxn_2)
+     begin scope: 'xlxi_16_xlxi_2_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_2_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_2_xlxi_7 (xlxi_16_xlxi_2_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_2_xlxi_8 (xlxi_16_xlxi_2_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_2_xlxi_6 (xlxi_16_xlxn_3)
+     begin scope: 'xlxi_16_xlxi_3_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_3_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_3_xlxi_7 (xlxi_16_xlxi_3_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_3_xlxi_8 (xlxi_16_xlxi_3_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_3_xlxi_6 (xlxi_16_xlxn_4)
+     begin scope: 'xlxi_16_xlxi_4_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_4_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_4_xlxi_7 (xlxi_16_xlxi_4_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_4_xlxi_8 (xlxi_16_xlxi_4_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_4_xlxi_6 (overflow_obuf)
+     OBUF:i->o                 5.557          overflow_obuf (overflow)
+    ----------------------------------------
+    Total                     41.252ns (18.472ns logic, 22.780ns route)
+                                       (44.8% logic, 55.2% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               47.140ns (Levels of Logic = 29)
+  Source:            xlxn_294
+  Destination:       overflow
+
+  Data Path: xlxn_294 to overflow
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:i->o            32   0.924   3.800  xlxn_294_ibuf (xlxn_294_ibuf)
+     inv:i->o              1   0.653   1.150  xlxi_18_xlxi_9 (xlxi_18_xlxn_9)
+     and2:i0->o            1   0.653   1.150  xlxi_18_xlxi_1 (xlxn_183)
+     begin scope: 'xlxi_16_xlxi_1_xlxi_3'
+     xor2:i1->o            1   0.653   1.150  i_36_239 (i0)
+     muxcy_l:s->lo         1   0.784   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_1_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_1_xlxi_7 (xlxi_16_xlxi_1_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_1_xlxi_8 (xlxi_16_xlxi_1_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_1_xlxi_6 (xlxi_16_xlxn_2)
+     begin scope: 'xlxi_16_xlxi_2_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_2_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_2_xlxi_7 (xlxi_16_xlxi_2_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_2_xlxi_8 (xlxi_16_xlxi_2_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_2_xlxi_6 (xlxi_16_xlxn_3)
+     begin scope: 'xlxi_16_xlxi_3_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_3_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_3_xlxi_7 (xlxi_16_xlxi_3_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_3_xlxi_8 (xlxi_16_xlxi_3_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_3_xlxi_6 (xlxi_16_xlxn_4)
+     begin scope: 'xlxi_16_xlxi_4_xlxi_3'
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_111 (c0)
+     muxcy_l:ci->lo        1   0.050   0.000  i_36_55 (c1)
+     xorcy:ci->o           2   0.500   1.340  i_36_76 (s2)
+     end scope: 'xlxi_16_xlxi_4_xlxi_3'
+     or2:i0->o             1   0.653   1.150  xlxi_16_xlxi_4_xlxi_7 (xlxi_16_xlxi_4_xlxn_41)
+     and2:i1->o            1   0.653   1.150  xlxi_16_xlxi_4_xlxi_8 (xlxi_16_xlxi_4_xlxn_5)
+     or2:i1->o             3   0.653   1.480  xlxi_16_xlxi_4_xlxi_6 (overflow_obuf)
+     OBUF:i->o                 5.557          overflow_obuf (overflow)
+    ----------------------------------------
+    Total                     47.140ns (19.410ns logic, 27.730ns route)
+                                       (41.2% logic, 58.8% route)
+
+=========================================================================
+CPU : 1.91 / 2.17 s | Elapsed : 2.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 56436 kilobytes
+
+

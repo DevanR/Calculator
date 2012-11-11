@@ -1,0 +1,8 @@
+sch2vhdl -family=spartan2 -flat -suppress -w c:\xilinx\bin\S10_Sc201Project\decoderb.sch decoderb.vhf
+xst -quiet -ifn __projnav/decoderb.xst -ofn decoderb.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 decoderb.ngc decoderb.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o decoderb_map.ncd decoderb.ngd decoderb.pcf
+par -w -ol 2 -t 1 decoderb_map.ncd decoderb.ncd decoderb.pcf
+trce -quiet -e 3 -l 3 -xml decoderb decoderb.ncd -o decoderb.twr decoderb.pcf
+bitgen -f decoderb.ut decoderb.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w decoderb.sch decoderb.vhf

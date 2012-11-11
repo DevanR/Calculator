@@ -1,0 +1,3 @@
+sch2vhdl -family=spartan2 -flat -suppress -w negconverter.sch negconverter.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w negconverter.sch negconverter.vhf
+sch2vhdl -family=spartan2 -flat -suppress -w negconverter.sch negconverter.vhf

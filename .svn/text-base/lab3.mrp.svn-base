@@ -1,0 +1,130 @@
+Release 5.2i - Map F.28
+Xilinx Mapping Report File for Design 'lab3'
+
+Design Information
+------------------
+Command Line   : C:/Xilinx/bin/nt/map.exe -quiet -p xc2s200-fg456-5 -cm area -pr
+b -k 4 -c 100 -tx off -o lab3_map.ncd lab3.ngd lab3.pcf 
+Target Device  : x2s200
+Target Package : fg456
+Target Speed   : -5
+Mapper Version : spartan2 -- $Revision: 1.4 $
+Mapped Date    : Mon Aug 30 19:04:36 2004
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:            24 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                          13 out of  2,352    1%
+    Number of Slices containing only related logic:     13 out of     13  100%
+    Number of Slices containing unrelated logic:         0 out of     13    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:        24 out of  4,704    1%
+   Number of bonded IOBs:            13 out of    284    4%
+
+Total equivalent gate count for design:  144
+Additional JTAG gate count for IOBs:  624
+Peak Memory Usage:  55 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:95 - All of the external outputs in this design are using slew rate
+   limited output drivers. The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   1 block(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "xlxi_17" (AND) removed.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| a                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| b                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| c                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| c1                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| c2                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| c3                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| c4                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| d                                  | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| dv                                 | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| r1                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| r2                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| r3                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| r4                                 | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group Summary
+------------------------------
+No area groups were found in this design.
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.

@@ -1,0 +1,8 @@
+sch2vhdl -family=spartan2 -flat -suppress -w c:\xilinx\bin\S10_Sc201Project\sevensegdec.sch sevensegdec.vhf
+xst -quiet -ifn __projnav/sevensegdec.xst -ofn sevensegdec.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 sevensegdec.ngc sevensegdec.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o sevensegdec_map.ncd sevensegdec.ngd sevensegdec.pcf
+par -w -ol 2 -t 1 sevensegdec_map.ncd sevensegdec.ncd sevensegdec.pcf
+trce -quiet -e 3 -l 3 -xml sevensegdec sevensegdec.ncd -o sevensegdec.twr sevensegdec.pcf
+bitgen -f sevensegdec.ut sevensegdec.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w sevensegdec.sch sevensegdec.vhf

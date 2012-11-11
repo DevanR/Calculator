@@ -1,0 +1,700 @@
+V1 636
+FL C:/SC201/290904/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/SC201/290904/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Calculator/Calculator/lab4.vhf 2004/10/04.11:52:28
+FL C:/Xilinx/SC201Subtract/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/Xilinx/bin/SC201/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/SC201/SC201dan/bcdregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/SC201danLATEST/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/Xilinx/bin/SC201/bcdadder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/EditedSubtr/controlunit.vhf 2004/09/27.11:46:26
+FL C:/Calculator/registera.vhf 2004/10/04.12:09:22
+FL C:/SC201/Calculator/ninecompl.vhf 2004/10/06.11:42:24
+EN work/NINECOMPL       FL C:/SC201/Calculator/ninecompl.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/NINECOMPL/SCHEMATIC FL C:/SC201/Calculator/ninecompl.vhf \
+      EN work/NINECOMPL CP ADDER          CP AND2           CP GND            CP INV \
+      CP NEGCONVERTER   CP OR2
+FL C:/Calculator/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/Calculator/controlunit.vhf 2004/09/27.11:46:26
+FL C:/Calculator/Calculator/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/SC201/290904/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/290904/shiftregister4x4.vhf 2004/09/30.13:16:36
+FL C:/Xilinx/SC201Subtract/decoder.vhf 2004/09/30.12:32:42
+FL C:/Calculator/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/EditedSubtr/mod4_counter.vhf 2004/09/27.22:57:50
+FL E:/SC201danLATESTA/twooneswitch.vhf 2004/09/23.22:51:42
+FL E:/SC201danLATESTA/decodera.vhf 2004/09/27.11:46:30
+FL C:/Xilinx/SC201Subtract/controlunit.vhf 2004/09/27.11:46:26
+FL C:/SC201/300904/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/Calculator/switchcontrolmain.vhf 2004/09/30.15:24:42
+FL C:/Calculator/Calculator/freq_div.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/SC201danLATEST/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/Calculator/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/SC201Subtract/inputregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/Calculator/sevensegdec.vhf 2004/09/27.12:09:54
+EN work/SEVENSEGDEC     FL C:/SC201/Calculator/sevensegdec.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/SEVENSEGDEC/SCHEMATIC FL C:/SC201/Calculator/sevensegdec.vhf \
+      EN work/SEVENSEGDEC CP AND2         CP AND3           CP AND4           CP AND5 \
+      CP INV            CP OR2            CP OR3            CP OR4
+FL C:/Calculator/Calculator/inputregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/SC201danLATEST/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/S10-Final/decodera.vhf 2004/09/27.11:46:30
+FL C:/Xilinx/bin/SC201/test.vhf 2004/09/20.09:57:00
+EN work/TEST            FL C:/Xilinx/bin/SC201/test.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/TEST/SCHEMATIC  FL C:/Xilinx/bin/SC201/test.vhf EN work/TEST CP LAB1 \
+      CP LAB3           CP NAND4          CP OR2            CP RING
+FL C:/EditedNegConv/EditedSubtr/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/SC201Subtract/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Calculator/Calculator/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/SC201Subtract/freq_div.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/290904/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/EditedNegConv/EditedSubtr/adder.vhf 2004/09/23.22:51:44
+FL C:/Calculator/Calculator/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/S10-Final/controlunit.vhf 2004/09/27.11:46:26
+FL C:/Xilinx/bin/SC201/sevensegdec.vhf 2004/09/20.09:21:36
+FL C:/SC201/Calculator/freq_div.vhf 2004/09/20.09:57:00
+EN work/FJKC_MXILINX_FREQ_DIV FL C:/SC201/Calculator/freq_div.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/FJKC_MXILINX_FREQ_DIV/SCHEMATIC FL C:/SC201/Calculator/freq_div.vhf \
+      EN work/FJKC_MXILINX_FREQ_DIV CP AND2B1 CP AND3B1     CP AND3B2         CP FDC \
+      CP OR3
+EN work/FREQ_DIV        FL C:/SC201/Calculator/freq_div.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/FREQ_DIV/SCHEMATIC FL C:/SC201/Calculator/freq_div.vhf EN work/FREQ_DIV \
+      CP FJKC_MXILINX_FREQ_DIV CP GND     CP VCC
+FL C:/SC201/290904/inputregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/290904/controlunit.vhf 2004/09/27.11:46:26
+FL C:/EditedNegConv/EditedSubtr/inputregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/SC201Subtract/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Calculator/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/Xilinx/bin/SC201/freq_div.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/Calculator/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/EditedSubtr/adder.vhf 2004/09/23.22:51:44
+FL C:/SC201/Calculator/onetwoswitch.vhf 2004/09/23.22:51:42
+EN work/ONETWOSWITCH    FL C:/SC201/Calculator/onetwoswitch.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/ONETWOSWITCH/SCHEMATIC FL C:/SC201/Calculator/onetwoswitch.vhf \
+      EN work/ONETWOSWITCH CP AND2        CP INV
+FL C:/SC201/Calculator/decoderc.vhf 2004/09/27.11:46:32
+EN work/DECODERC        FL C:/SC201/Calculator/decoderc.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/DECODERC/SCHEMATIC FL C:/SC201/Calculator/decoderc.vhf EN work/DECODERC \
+      CP AND2           CP OR2            CP OR3            CP OR4
+FL C:/Xilinx/Calculator/decodera.vhf 2004/09/27.11:46:30
+FL E:/SC201danLATESTA/shiftregister4x4.vhf 2004/09/29.21:03:40
+FL C:/Calculator/Calculator/adder.vhf 2004/09/23.22:51:44
+FL C:/Calculator/Calculator/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/SC201/300904/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/Xilinx/SC201Subtract/switchcontrol.vhf 2004/09/30.15:24:44
+FL C:/Calculator/Calculator/switchcontrol.vhf 2004/09/30.15:24:44
+FL C:/Xilinx/bin/SC201/decoderc.vhf 2004/09/20.09:20:12
+FL C:/Xilinx/SC201Subtract/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/SC201/SC201dan/circuit.vhf 2004/09/27.12:09:54
+EN work/CIRCUIT         FL C:/SC201/SC201dan/circuit.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/CIRCUIT/SCHEMATIC FL C:/SC201/SC201dan/circuit.vhf EN work/CIRCUIT \
+      CP DECODER        CP NAND4          CP OR2            CP RING \
+      CP SEVENSEGDEC
+FL C:/SC201/SC201dan/decoderd.vhf 2004/09/27.11:46:32
+FL C:/SC201/300904/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/bin/SC201/lab3.vhf 2004/08/30.19:04:34
+EN work/LAB3            FL C:/Xilinx/bin/SC201/lab3.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/LAB3/SCHEMATIC  FL C:/Xilinx/bin/SC201/lab3.vhf EN work/LAB3 CP AND2 \
+      CP OR2            CP OR3            CP OR4            CP OR5
+FL C:/Xilinx/Calculator/lab4.vhf 2004/10/02.21:00:24
+FL C:/Calculator/Calculator/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/SC201Subtract/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/EditedNegConv/EditedSubtr/decoder.vhf 2004/09/30.12:32:42
+FL C:/Xilinx/S10-Final/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/Calculator/Calculator/switchcontrolmain.vhf 2004/09/30.15:24:42
+FL C:/Xilinx/290904/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Calculator/Calculator/registera.vhf 2004/10/04.11:52:28
+FL C:/EditedNegConv/EditedSubtr/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/300904/ring.vhf 2004/09/27.12:37:44
+FL C:/SC201/290904/controlunit.vhf 2004/09/27.11:46:26
+FL C:/Xilinx/S10-Final/registera.vhf 2004/10/02.20:36:36
+FL C:/SC201/290904/switchcontrol.vhf 2004/09/27.11:46:34
+FL C:/SC201/SC201danLATEST/controlunit.vhf 2004/09/27.11:46:26
+FL C:/SC201/Calculator/switchcontrolmain.vhf 2004/09/30.15:24:42
+EN work/SWITCHCONTROLMAIN FL C:/SC201/Calculator/switchcontrolmain.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/SWITCHCONTROLMAIN/SCHEMATIC FL C:/SC201/Calculator/switchcontrolmain.vhf \
+      EN work/SWITCHCONTROLMAIN CP OR2    CP SWITCHCONTROL
+FL C:/EditedNegConv/EditedSubtr/switchcontrol.vhf 2004/09/30.15:24:44
+FL C:/Xilinx/290904/shiftregister4x4.vhf 2004/09/29.22:09:18
+FL C:/SC201/Calculator/twooneswitch.vhf 2004/09/23.22:51:42
+EN work/TWOONESWITCH    FL C:/SC201/Calculator/twooneswitch.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/TWOONESWITCH/SCHEMATIC FL C:/SC201/Calculator/twooneswitch.vhf \
+      EN work/TWOONESWITCH CP AND2        CP INV            CP OR2
+FL C:/Xilinx/SC201danLATEST/display_generator.vhf 2004/09/27.22:57:48
+FL C:/SC201/SC201dan/ring.vhf 2004/09/27.12:37:44
+FL C:/SC201/300904/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/SC201Subtract/shiftregister4x4.vhf 2004/09/30.21:43:36
+FL E:/SC201danLATESTA/inputregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/SC201Subtract/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/SC201/290904/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/Calculator/inputregister.vhf 2004/09/27.11:46:28
+FL C:/Calculator/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/EditedNegConv/EditedSubtr/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/Calculator/Calculator/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/290904/inputregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/SC201danLATEST/registera.vhf 2004/09/28.08:39:20
+FL C:/Xilinx/EditedSubtr/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/290904/decodera.vhf 2004/09/27.11:46:30
+FL C:/Xilinx/SC201danLATEST/lab4.vhf 2004/09/28.01:40:06
+FL C:/SC201/Calculator/controlunit.vhf 2004/09/27.11:46:26
+EN work/OR8_MXILINX_CONTROLUNIT FL C:/SC201/Calculator/controlunit.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/OR8_MXILINX_CONTROLUNIT/SCHEMATIC FL C:/SC201/Calculator/controlunit.vhf \
+      EN work/OR8_MXILINX_CONTROLUNIT CP FMAP CP OR2        CP OR4
+EN work/OR7_MXILINX_CONTROLUNIT FL C:/SC201/Calculator/controlunit.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/OR7_MXILINX_CONTROLUNIT/SCHEMATIC FL C:/SC201/Calculator/controlunit.vhf \
+      EN work/OR7_MXILINX_CONTROLUNIT CP FMAP CP OR4
+EN work/D3_8E_MXILINX_CONTROLUNIT FL C:/SC201/Calculator/controlunit.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/D3_8E_MXILINX_CONTROLUNIT/SCHEMATIC \
+      FL C:/SC201/Calculator/controlunit.vhf EN work/D3_8E_MXILINX_CONTROLUNIT \
+      CP AND4           CP AND4B1         CP AND4B2         CP AND4B3
+EN work/CONTROLUNIT     FL C:/SC201/Calculator/controlunit.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/CONTROLUNIT/SCHEMATIC FL C:/SC201/Calculator/controlunit.vhf \
+      EN work/CONTROLUNIT CP AND2         CP AND3           CP AND4 \
+      CP D3_8E_MXILINX_CONTROLUNIT CP FD  CP INV            CP OR3 \
+      CP OR7_MXILINX_CONTROLUNIT CP OR8_MXILINX_CONTROLUNIT CP VCC
+FL C:/Xilinx/S10-Final/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/EditedNegConv/EditedSubtr/lab4.vhf 2004/10/02.09:11:56
+FL C:/SC201/SC201danLATEST/switchcontrolmain.vhf 2004/09/27.11:46:34
+FL E:/SC201danLATESTA/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/SC201/SC201dan/bcdadder.vhf 2004/09/27.13:30:20
+FL C:/EditedNegConv/EditedSubtr/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/Calculator/switchcontrolmain.vhf 2004/09/30.15:24:42
+FL C:/Calculator/Calculator/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/SC201/SC201dan/control.vhf 2004/09/27.13:42:28
+FL C:/SC201/300904/decoderd.vhf 2004/09/27.11:46:32
+FL C:/Calculator/decodera.vhf 2004/09/27.11:46:30
+FL C:/SC201/290904/ring.vhf 2004/09/27.12:37:44
+FL C:/Xilinx/Calculator/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/SC201/SC201dan/shiftregister4x4.vhf 2004/09/27.11:46:30
+FL C:/SC201/300904/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/S10-Final/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/290904/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/Xilinx/SC201Subtract/registera.vhf 2004/09/30.21:37:42
+FL C:/Calculator/twooneswitch.vhf 2004/09/23.22:51:42
+FL E:/SC201danLATESTA/switchcontrol.vhf 2004/09/27.11:46:34
+FL C:/Calculator/switchcontrol.vhf 2004/09/30.15:24:44
+FL C:/EditedNegConv/EditedSubtr/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/Xilinx/EditedSubtr/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/Calculator/Calculator/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/290904/switchcontrol.vhf 2004/09/27.11:46:34
+FL C:/Xilinx/SC201danLATEST/bcdregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/EditedSubtr/inputregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/bin/SC201/ring.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/Calculator/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/SC201danLATEST/inputregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/SC201dan/freq_div.vhf 2004/09/20.09:57:00
+FL E:/SC201danLATESTA/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/Calculator/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/Calculator/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/Xilinx/SC201danLATEST/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/SC201/Calculator/registera.vhf 2004/10/06.12:16:02
+EN work/REGISTERA       FL C:/SC201/Calculator/registera.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/REGISTERA/SCHEMATIC FL C:/SC201/Calculator/registera.vhf \
+      EN work/REGISTERA CP BCDADDER       CP BCDREGISTER    CP ONETWOSWITCH \
+      CP TWOONESWITCH
+FL C:/Xilinx/290904/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/SC201Subtract/decoderb.vhf 2004/09/27.11:46:32
+FL C:/SC201/300904/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/S10-Final/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/290904/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/SC201/Calculator/ring.vhf 2004/09/27.12:37:44
+EN work/RING            FL C:/SC201/Calculator/ring.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/RING/SCHEMATIC  FL C:/SC201/Calculator/ring.vhf EN work/RING CP AND2 \
+      CP FD_1           CP INV            CP MULTI_DIVIDER  CP NOR4           CP OR2
+FL C:/SC201/SC201dan/registera.vhf 2004/09/27.13:30:20
+FL C:/SC201/Calculator/decoderb.vhf 2004/09/27.11:46:32
+EN work/DECODERB        FL C:/SC201/Calculator/decoderb.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/DECODERB/SCHEMATIC FL C:/SC201/Calculator/decoderb.vhf EN work/DECODERB \
+      CP AND2           CP OR2            CP OR3
+FL C:/SC201/290904/testadder.vhf 2004/09/30.12:34:02
+EN work/M2_1E_MXILINX_TESTADDER FL C:/SC201/290904/testadder.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/M2_1E_MXILINX_TESTADDER/SCHEMATIC FL C:/SC201/290904/testadder.vhf \
+      EN work/M2_1E_MXILINX_TESTADDER CP AND3 CP AND3B1     CP OR2
+EN work/M4_1E_MXILINX_TESTADDER FL C:/SC201/290904/testadder.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/M4_1E_MXILINX_TESTADDER/SCHEMATIC FL C:/SC201/290904/testadder.vhf \
+      EN work/M4_1E_MXILINX_TESTADDER CP M2_1E_MXILINX_TESTADDER CP MUXF5
+EN work/TESTADDER       FL C:/SC201/290904/testadder.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/TESTADDER/SCHEMATIC FL C:/SC201/290904/testadder.vhf EN work/TESTADDER \
+      CP BCDADDER       CP BUFG           CP GND            CP IBUFG \
+      CP M4_1E_MXILINX_TESTADDER CP SEVENSEGDEC CP SEVENSEGENABLE CP VCC
+FL C:/SC201/SC201dan/decoder.vhf 2004/09/27.11:46:30
+FL C:/SC201/300904/bcdadder.vhf 2004/09/28.09:23:40
+FL C:/SC201/SC201danLATEST/decoderd.vhf 2004/09/27.11:46:32
+FL C:/Calculator/ring.vhf 2004/09/27.12:37:44
+FL C:/Xilinx/bin/SC201/decoderb.vhf 2004/09/20.09:19:52
+FL C:/Xilinx/bin/SC201/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/290904/switchcontrolmain.vhf 2004/09/27.11:46:34
+FL C:/SC201/SC201dan/decoderc.vhf 2004/09/27.11:46:32
+FL C:/SC201/SC201dan/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/bin/SC201/lab2.vhf 2004/09/20.09:12:52
+EN work/LAB2            FL C:/Xilinx/bin/SC201/lab2.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/LAB2/SCHEMATIC  FL C:/Xilinx/bin/SC201/lab2.vhf EN work/LAB2 CP AND2 \
+      CP FDCP           CP INV
+FL C:/Xilinx/SC201danLATEST/inputregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/Calculator/negconverter.vhf 2004/10/04.11:52:30
+EN work/OR12_MXILINX_NEGCONVERTER FL C:/SC201/Calculator/negconverter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/OR12_MXILINX_NEGCONVERTER/SCHEMATIC \
+      FL C:/SC201/Calculator/negconverter.vhf EN work/OR12_MXILINX_NEGCONVERTER \
+      CP FMAP           CP OR3            CP OR4
+EN work/COMP4_MXILINX_NEGCONVERTER FL C:/SC201/Calculator/negconverter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/COMP4_MXILINX_NEGCONVERTER/SCHEMATIC \
+      FL C:/SC201/Calculator/negconverter.vhf EN work/COMP4_MXILINX_NEGCONVERTER \
+      CP AND4           CP XNOR2
+EN work/NEGCONVERTER    FL C:/SC201/Calculator/negconverter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/NEGCONVERTER/SCHEMATIC FL C:/SC201/Calculator/negconverter.vhf \
+      EN work/NEGCONVERTER CP AND2        CP COMP4_MXILINX_NEGCONVERTER CP GND \
+      CP OR12_MXILINX_NEGCONVERTER CP VCC
+FL C:/SC201/SC201dan/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/Calculator/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/Calculator/Calculator/ring.vhf 2004/09/27.12:37:44
+FL C:/Xilinx/SC201danLATEST/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/290904/decodera.vhf 2004/09/27.11:46:30
+FL C:/Xilinx/290904/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/EditedSubtr/switchcontrol.vhf 2004/09/30.15:24:44
+FL C:/Xilinx/290904/lab4.vhf 2004/09/29.22:09:18
+FL C:/Xilinx/SC201Subtract/switchcontrolmain.vhf 2004/09/30.15:24:42
+FL C:/Xilinx/S10-Final/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/Xilinx/SC201Subtract/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/SC201Subtract/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/290904/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Calculator/Calculator/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/EditedSubtr/multi_divider.vhf 2004/09/20.09:57:00
+FL E:/SC201danLATESTA/controlunit.vhf 2004/09/27.11:46:26
+FL C:/Xilinx/S10-Final/lab4.vhf 2004/10/02.20:36:34
+FL C:/Xilinx/Calculator/registera.vhf 2004/10/02.21:00:26
+FL C:/SC201/SC201danLATEST/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/SC201/SC201danLATEST/switchcontrol.vhf 2004/09/27.11:46:34
+FL C:/Xilinx/Calculator/shiftregister4x4.vhf 2004/10/01.22:05:36
+FL C:/EditedNegConv/EditedSubtr/negconverter.vhf 2004/09/30.21:37:44
+FL C:/Xilinx/SC201danLATEST/switchcontrolmain.vhf 2004/09/27.11:46:34
+FL C:/Xilinx/EditedSubtr/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/Calculator/Calculator/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/Calculator/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/EditedNegConv/EditedSubtr/decoderd.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/bin/SC201/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/300904/freq_div.vhf 2004/09/20.09:57:00
+FL C:/SC201/SC201dan/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/SC201danLATEST/bcdadder.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/SC201Subtract/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/Xilinx/SC201danLATEST/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/SC201danLATEST/switchcontrol.vhf 2004/09/27.11:46:34
+FL C:/Xilinx/bin/SC201/registera.vhf 2004/09/23.23:58:42
+FL C:/Calculator/negconverter.vhf 2004/10/04.11:52:30
+FL C:/Xilinx/290904/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/EditedNegConv/EditedSubtr/controlunit.vhf 2004/09/27.11:46:26
+FL C:/Xilinx/SC201Subtract/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/300904/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/EditedSubtr/decoderd.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/EditedSubtr/negconverter.vhf 2004/09/30.21:37:44
+FL C:/Xilinx/S10-Final/switchcontrolmain.vhf 2004/09/30.15:24:42
+FL C:/Xilinx/SC201danLATEST/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/290904/decoder.vhf 2004/09/27.11:46:30
+FL C:/Calculator/Calculator/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/SC201dan/lab1.vhf 2004/09/20.09:21:58
+EN work/AND6_MXILINX_LAB1 FL C:/SC201/SC201dan/lab1.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/AND6_MXILINX_LAB1/SCHEMATIC FL C:/SC201/SC201dan/lab1.vhf \
+      EN work/AND6_MXILINX_LAB1 CP AND3   CP AND4           CP FMAP
+EN work/LAB1            FL C:/SC201/SC201dan/lab1.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/LAB1/SCHEMATIC  FL C:/SC201/SC201dan/lab1.vhf EN work/LAB1 CP AND4 \
+      CP AND5           CP AND6_MXILINX_LAB1 CP INV         CP OR2            CP OR3 \
+      CP OR4
+FL C:/Xilinx/SC201Subtract/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/SC201/300904/shiftregister4x4.vhf 2004/09/30.15:27:46
+FL C:/Xilinx/Calculator/controlunit.vhf 2004/09/27.11:46:26
+FL C:/Xilinx/EditedSubtr/lab4.vhf 2004/10/01.22:05:34
+FL C:/Xilinx/S10-Final/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/Xilinx/SC201danLATEST/decoderd.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/SC201danLATEST/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/Calculator/Calculator/decodera.vhf 2004/09/27.11:46:30
+FL C:/Xilinx/290904/bcdregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/300904/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/S10-Final/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/SC201danLATEST/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/Calculator/ring.vhf 2004/09/27.12:37:44
+FL C:/EditedNegConv/EditedSubtr/bcdadder.vhf 2004/10/02.09:02:30
+FL C:/SC201/SC201danLATEST/freq_div.vhf 2004/09/20.09:57:00
+FL E:/SC201danLATESTA/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/SC201Subtract/decodera.vhf 2004/09/27.11:46:30
+FL E:/SC201danLATESTA/decoderd.vhf 2004/09/27.11:46:32
+FL C:/SC201/Calculator/decodera.vhf 2004/09/27.11:46:30
+EN work/DECODERA        FL C:/SC201/Calculator/decodera.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/DECODERA/SCHEMATIC FL C:/SC201/Calculator/decodera.vhf EN work/DECODERA \
+      CP AND2           CP OR3            CP OR4
+FL C:/Xilinx/Calculator/negconverter.vhf 2004/10/02.20:36:36
+FL C:/SC201/SC201dan/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/Xilinx/Calculator/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/EditedSubtr/bcdadder.vhf 2004/10/01.22:05:36
+FL C:/SC201/SC201danLATEST/decoderc.vhf 2004/09/27.11:46:32
+FL C:/SC201/Calculator/sevensegenable.vhf 2004/09/29.22:09:20
+EN work/NOR8_MXILINX_SEVENSEGENABLE FL C:/SC201/Calculator/sevensegenable.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/NOR8_MXILINX_SEVENSEGENABLE/SCHEMATIC \
+      FL C:/SC201/Calculator/sevensegenable.vhf \
+      EN work/NOR8_MXILINX_SEVENSEGENABLE CP FMAP CP NOR2   CP OR4
+EN work/NOR12_MXILINX_SEVENSEGENABLE FL C:/SC201/Calculator/sevensegenable.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/NOR12_MXILINX_SEVENSEGENABLE/SCHEMATIC \
+      FL C:/SC201/Calculator/sevensegenable.vhf \
+      EN work/NOR12_MXILINX_SEVENSEGENABLE CP FMAP CP NOR3  CP OR4
+EN work/SEVENSEGENABLE  FL C:/SC201/Calculator/sevensegenable.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/SEVENSEGENABLE/SCHEMATIC FL C:/SC201/Calculator/sevensegenable.vhf \
+      EN work/SEVENSEGENABLE CP AND2      CP MOD1_COUNTER   CP MOD2_COUNTER \
+      CP MOD3_COUNTER   CP MOD4_COUNTER   CP NOR12_MXILINX_SEVENSEGENABLE CP NOR4 \
+      CP NOR8_MXILINX_SEVENSEGENABLE CP OR4
+FL C:/Xilinx/bin/SC201/decodera.vhf 2004/09/20.09:19:22
+FL C:/Xilinx/S10-Final/decoderd.vhf 2004/09/27.11:46:32
+FL C:/SC201/SC201dan/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/bin/SC201/lab1.vhf 2004/09/20.09:21:58
+FL C:/Xilinx/EditedSubtr/switchcontrolmain.vhf 2004/09/30.15:24:42
+FL C:/SC201/300904/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/SC201/300904/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/Calculator/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/SC201danLATEST/ring.vhf 2004/09/27.12:37:44
+FL C:/EditedNegConv/EditedSubtr/registera.vhf 2004/09/30.21:37:42
+FL C:/Calculator/shiftregister4x4.vhf 2004/10/01.22:05:36
+FL C:/EditedNegConv/EditedSubtr/ring.vhf 2004/09/27.12:37:44
+FL C:/SC201/SC201danLATEST/decoder.vhf 2004/09/27.11:46:30
+FL E:/SC201danLATESTA/lab4.vhf 2004/09/29.21:03:30
+FL C:/Calculator/Calculator/shiftregister4x4.vhf 2004/10/01.22:05:36
+FL C:/SC201/290904/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/SC201/300904/switchcontrolmain.vhf 2004/09/30.15:24:42
+FL C:/Xilinx/S10-Final/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/EditedSubtr/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/EditedNegConv/EditedSubtr/freq_div.vhf 2004/09/20.09:57:00
+FL C:/SC201/300904/inputregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/SC201danLATEST/bcdregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/SC201danLATEST/bcdadder.vhf 2004/09/27.13:30:20
+FL C:/Xilinx/Calculator/decoderd.vhf 2004/09/27.11:46:32
+FL E:/SC201danLATESTA/decoder.vhf 2004/09/27.11:46:30
+FL C:/SC201/SC201danLATEST/shiftregister4x4.vhf 2004/09/28.09:54:04
+FL E:/SC201danLATESTA/bcdadder.vhf 2004/09/28.09:23:40
+FL C:/SC201/Calculator/bcdregister.vhf 2004/09/30.13:08:58
+EN work/BCDREGISTER     FL C:/SC201/Calculator/bcdregister.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/BCDREGISTER/SCHEMATIC FL C:/SC201/Calculator/bcdregister.vhf \
+      EN work/BCDREGISTER CP FDC          CP INV
+FL C:/Xilinx/SC201Subtract/negconverter.vhf 2004/09/30.21:37:44
+FL C:/Xilinx/Calculator/decoder.vhf 2004/09/30.12:32:42
+FL C:/EditedNegConv/EditedSubtr/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/290904/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/EditedSubtr/freq_div.vhf 2004/09/20.09:57:00
+FL C:/Calculator/Calculator/negconverter.vhf 2004/10/04.11:52:30
+FL C:/SC201/Calculator/control.vhf 2004/09/28.09:23:40
+EN work/COMP4_MXILINX_CONTROL FL C:/SC201/Calculator/control.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/COMP4_MXILINX_CONTROL/SCHEMATIC FL C:/SC201/Calculator/control.vhf \
+      EN work/COMP4_MXILINX_CONTROL CP AND4 CP XNOR2
+EN work/COMPM4_MXILINX_CONTROL FL C:/SC201/Calculator/control.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/COMPM4_MXILINX_CONTROL/SCHEMATIC FL C:/SC201/Calculator/control.vhf \
+      EN work/COMPM4_MXILINX_CONTROL CP AND2 CP AND2B1      CP AND3B1         CP NOR2 \
+      CP OR2            CP XNOR2
+EN work/CONTROL         FL C:/SC201/Calculator/control.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/CONTROL/SCHEMATIC FL C:/SC201/Calculator/control.vhf EN work/CONTROL \
+      CP COMP4_MXILINX_CONTROL CP COMPM4_MXILINX_CONTROL CP CONTROLUNIT CP FDCP \
+      CP GND            CP MULTI_DIVIDER  CP OR2            CP VCC
+FL C:/SC201/290904/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/S10-Final/bcdadder.vhf 2004/10/02.20:36:36
+FL C:/Xilinx/S10-Final/shiftregister4x4.vhf 2004/10/01.22:05:36
+FL C:/SC201/290904/switchcontrolmain.vhf 2004/09/27.11:46:34
+FL C:/Calculator/decoder.vhf 2004/09/30.12:32:42
+FL C:/SC201/300904/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/SC201danLATEST/shiftregister4x4.vhf 2004/09/28.02:02:50
+FL C:/Xilinx/EditedSubtr/decoderc.vhf 2004/09/27.11:46:32
+FL C:/SC201/SC201dan/switchcontrolmain.vhf 2004/09/27.11:46:34
+FL C:/SC201/SC201danLATEST/lab4.vhf 2004/09/28.09:54:02
+FL C:/Xilinx/290904/registera.vhf 2004/09/28.08:39:20
+FL C:/Xilinx/SC201danLATEST/freq_div.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/SC201danLATEST/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/EditedNegConv/EditedSubtr/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/Xilinx/bin/SC201/bcdregister.vhf 2004/09/23.22:51:42
+FL C:/SC201/300904/switchcontrol.vhf 2004/09/30.15:24:44
+FL E:/SC201danLATESTA/freq_div.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/S10-Final/inputregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/Calculator/inputregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/Calculator/bcdadder.vhf 2004/10/02.21:00:26
+FL C:/Xilinx/SC201danLATEST/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/290904/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/300904/control.vhf 2004/09/28.09:23:40
+FL C:/SC201/300904/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/SC201/SC201dan/controlunit.vhf 2004/09/27.11:46:26
+FL C:/SC201/290904/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/SC201/290904/decoderd.vhf 2004/09/27.11:46:32
+FL C:/SC201/290904/sevensegenable.vhf 2004/09/29.22:09:20
+FL E:/SC201danLATESTA/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/SC201/Calculator/decoder.vhf 2004/09/30.12:32:42
+EN work/DECODER         FL C:/SC201/Calculator/decoder.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/DECODER/SCHEMATIC FL C:/SC201/Calculator/decoder.vhf EN work/DECODER \
+      CP DECODERA       CP DECODERB       CP DECODERC       CP DECODERD       CP OR4
+FL C:/Xilinx/Calculator/adder.vhf 2004/09/23.22:51:44
+FL C:/SC201/SC201danLATEST/testadder.vhf 2004/09/28.10:07:14
+FL C:/Calculator/decoderd.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/290904/ring.vhf 2004/09/27.12:37:44
+FL C:/SC201/300904/controlunit.vhf 2004/09/27.11:46:26
+FL C:/SC201/SC201danLATEST/mod1_counter.vhf 2004/09/27.22:57:48
+FL E:/SC201danLATESTA/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/S10-Final/freq_div.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/EditedSubtr/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/SC201danLATEST/twooneswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/S10-Final/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/SC201Subtract/lab4.vhf 2004/09/30.21:37:42
+FL C:/Xilinx/SC201danLATEST/control.vhf 2004/09/28.01:40:06
+FL C:/SC201/SC201danLATEST/decoderb.vhf 2004/09/27.11:46:32
+FL C:/EditedNegConv/EditedSubtr/shiftregister4x4.vhf 2004/10/01.22:05:36
+FL C:/Xilinx/S10-Final/ring.vhf 2004/09/27.12:37:44
+FL E:/SC201danLATESTA/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/S10-Final/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Calculator/Calculator/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/SC201/290904/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/Calculator/switchcontrol.vhf 2004/09/30.15:24:44
+FL C:/SC201/SC201dan/decodera.vhf 2004/09/27.11:46:30
+FL C:/Xilinx/S10-Final/negconverter.vhf 2004/10/02.20:36:36
+FL E:/SC201danLATESTA/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/Calculator/freq_div.vhf 2004/09/20.09:57:00
+FL C:/SC201/300904/decoder.vhf 2004/09/30.12:32:42
+FL C:/Xilinx/290904/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/S10-Final/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/Xilinx/EditedSubtr/registera.vhf 2004/09/30.21:37:42
+FL C:/Xilinx/Calculator/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/SC201/290904/bcdadder.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/S10-Final/switchcontrol.vhf 2004/09/30.15:24:44
+FL C:/SC201/SC201danLATEST/mod2_counter.vhf 2004/09/27.22:57:50
+FL E:/SC201danLATESTA/display_generator.vhf 2004/09/27.22:57:48
+EN work/NOR8_MXILINX_DISPLAY_GENERATOR \
+      FL E:/SC201danLATESTA/display_generator.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/NOR8_MXILINX_DISPLAY_GENERATOR/SCHEMATIC \
+      FL E:/SC201danLATESTA/display_generator.vhf \
+      EN work/NOR8_MXILINX_DISPLAY_GENERATOR CP FMAP CP NOR2 CP OR4
+EN work/NOR12_MXILINX_DISPLAY_GENERATOR \
+      FL E:/SC201danLATESTA/display_generator.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/NOR12_MXILINX_DISPLAY_GENERATOR/SCHEMATIC \
+      FL E:/SC201danLATESTA/display_generator.vhf \
+      EN work/NOR12_MXILINX_DISPLAY_GENERATOR CP FMAP CP NOR3 CP OR4
+EN work/DISPLAY_GENERATOR FL E:/SC201danLATESTA/display_generator.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/DISPLAY_GENERATOR/SCHEMATIC FL E:/SC201danLATESTA/display_generator.vhf \
+      EN work/DISPLAY_GENERATOR CP AND2   CP MOD1_COUNTER   CP MOD2_COUNTER \
+      CP MOD3_COUNTER   CP MOD4_COUNTER   CP NOR12_MXILINX_DISPLAY_GENERATOR \
+      CP NOR4           CP NOR8_MXILINX_DISPLAY_GENERATOR CP OR4
+FL C:/Xilinx/Calculator/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Calculator/bcdadder.vhf 2004/10/04.12:09:22
+FL C:/Xilinx/SC201danLATEST/sevensegdec.vhf 2004/09/27.12:09:54
+FL E:/SC201danLATESTA/bcdregister.vhf 2004/09/27.11:46:28
+FL C:/Xilinx/EditedSubtr/decoder.vhf 2004/09/30.12:32:42
+FL C:/SC201/290904/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Calculator/Calculator/control.vhf 2004/09/28.09:23:40
+FL C:/Xilinx/S10-Final/decoder.vhf 2004/09/30.12:32:42
+FL C:/SC201/Calculator/shiftregister4x4.vhf 2004/10/01.22:05:36
+EN work/SHIFTREGISTER4X4 FL C:/SC201/Calculator/shiftregister4x4.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/SHIFTREGISTER4X4/SCHEMATIC FL C:/SC201/Calculator/shiftregister4x4.vhf \
+      EN work/SHIFTREGISTER4X4 CP FDC
+FL C:/Xilinx/EditedSubtr/ring.vhf 2004/09/27.12:37:44
+FL C:/EditedNegConv/EditedSubtr/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/SC201danLATEST/decoder.vhf 2004/09/27.11:46:30
+FL E:/SC201danLATESTA/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/bin/SC201/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/290904/decoderd.vhf 2004/09/27.11:46:32
+FL C:/SC201/SC201danLATEST/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/SC201/Calculator/mod1_counter.vhf 2004/09/27.22:57:48
+EN work/MOD1_COUNTER    FL C:/SC201/Calculator/mod1_counter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/MOD1_COUNTER/SCHEMATIC FL C:/SC201/Calculator/mod1_counter.vhf \
+      EN work/MOD1_COUNTER CP AND2        CP FDCP           CP GND            CP INV \
+      CP VCC
+FL C:/SC201/300904/decodera.vhf 2004/09/27.11:46:30
+FL C:/Xilinx/EditedSubtr/decoderb.vhf 2004/09/27.11:46:32
+FL C:/EditedNegConv/EditedSubtr/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/SC201/290904/freq_div.vhf 2004/09/20.09:57:00
+FL C:/EditedNegConv/EditedSubtr/switchcontrolmain.vhf 2004/09/30.15:24:42
+FL C:/Xilinx/Calculator/bcdregister.vhf 2004/09/30.13:08:58
+FL C:/SC201/290904/mod4_counter.vhf 2004/09/27.22:57:50
+FL E:/SC201danLATESTA/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/SC201danLATEST/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/EditedSubtr/shiftregister4x4.vhf 2004/10/01.22:05:36
+FL C:/Calculator/freq_div.vhf 2004/09/20.09:57:00
+FL C:/EditedNegConv/EditedSubtr/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/SC201/300904/registera.vhf 2004/09/30.14:41:42
+FL C:/SC201/290904/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Calculator/Calculator/decoder.vhf 2004/09/30.12:32:42
+FL C:/SC201/SC201danLATEST/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/SC201/Calculator/mod2_counter.vhf 2004/09/27.22:57:50
+EN work/FJKP_MXILINX_MOD2_COUNTER FL C:/SC201/Calculator/mod2_counter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/FJKP_MXILINX_MOD2_COUNTER/SCHEMATIC \
+      FL C:/SC201/Calculator/mod2_counter.vhf EN work/FJKP_MXILINX_MOD2_COUNTER \
+      CP AND2B1         CP AND3B1         CP AND3B2         CP FDP            CP OR3
+EN work/MOD2_COUNTER    FL C:/SC201/Calculator/mod2_counter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/MOD2_COUNTER/SCHEMATIC FL C:/SC201/Calculator/mod2_counter.vhf \
+      EN work/MOD2_COUNTER CP AND2        CP FJKP_MXILINX_MOD2_COUNTER \
+      CP FREQ_DIV       CP INV            CP VCC
+FL C:/SC201/290904/registera.vhf 2004/09/30.12:52:44
+FL C:/SC201/300904/lab4.vhf 2004/09/30.15:27:46
+FL C:/Calculator/Calculator/controlunit.vhf 2004/09/27.11:46:26
+FL C:/Calculator/decoderc.vhf 2004/09/27.11:46:32
+FL C:/Calculator/sevensegdec.vhf 2004/09/27.12:09:54
+FL E:/SC201danLATESTA/decoderb.vhf 2004/09/27.11:46:32
+FL E:/SC201danLATESTA/ring.vhf 2004/09/27.12:37:44
+FL C:/Calculator/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/Xilinx/290904/bcdadder.vhf 2004/09/28.09:23:40
+FL C:/SC201/SC201dan/lab4.vhf 2004/09/27.13:04:08
+FL C:/Xilinx/S10-Final/adder.vhf 2004/09/23.22:51:44
+FL C:/SC201/SC201danLATEST/decodera.vhf 2004/09/27.11:46:30
+FL C:/Xilinx/EditedSubtr/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/SC201/Calculator/inputregister.vhf 2004/09/27.11:46:28
+EN work/INPUTREGISTER   FL C:/SC201/Calculator/inputregister.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/INPUTREGISTER/SCHEMATIC FL C:/SC201/Calculator/inputregister.vhf \
+      EN work/INPUTREGISTER CP FDC
+FL C:/Xilinx/EditedSubtr/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/Xilinx/S10-Final/decoderb.vhf 2004/09/27.11:46:32
+FL C:/EditedNegConv/EditedSubtr/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Calculator/Calculator/decoderd.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/SC201danLATEST/controlunit.vhf 2004/09/27.11:46:26
+FL C:/SC201/Calculator/mod3_counter.vhf 2004/09/27.22:57:50
+EN work/FJKP_MXILINX_MOD3_COUNTER FL C:/SC201/Calculator/mod3_counter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/FJKP_MXILINX_MOD3_COUNTER/SCHEMATIC \
+      FL C:/SC201/Calculator/mod3_counter.vhf EN work/FJKP_MXILINX_MOD3_COUNTER \
+      CP AND2B1         CP AND3B1         CP AND3B2         CP FDP            CP OR3
+EN work/MOD3_COUNTER    FL C:/SC201/Calculator/mod3_counter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/MOD3_COUNTER/SCHEMATIC FL C:/SC201/Calculator/mod3_counter.vhf \
+      EN work/MOD3_COUNTER CP AND2        CP FJKP_MXILINX_MOD3_COUNTER \
+      CP FREQ_DIV       CP INV            CP VCC
+FL C:/SC201/300904/sevensegenable.vhf 2004/09/29.22:09:20
+FL C:/SC201/Calculator/adder.vhf 2004/09/23.22:51:44
+EN work/ADD4_MXILINX_ADDER FL C:/SC201/Calculator/adder.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/ADD4_MXILINX_ADDER/SCHEMATIC FL C:/SC201/Calculator/adder.vhf \
+      EN work/ADD4_MXILINX_ADDER CP FMAP  CP MUXCY          CP MUXCY_D        CP MUXCY_L \
+      CP XOR2           CP XORCY
+EN work/ADDER           FL C:/SC201/Calculator/adder.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/ADDER/SCHEMATIC FL C:/SC201/Calculator/adder.vhf EN work/ADDER \
+      CP ADD4_MXILINX_ADDER CP AND2       CP GND            CP OR2
+FL C:/Xilinx/SC201Subtract/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/SC201/SC201dan/inputregister.vhf 2004/09/27.11:46:28
+FL C:/SC201/290904/lab4.vhf 2004/09/30.13:16:36
+FL C:/Xilinx/S10-Final/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/Calculator/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/SC201Subtract/decoderd.vhf 2004/09/27.11:46:32
+FL C:/SC201/290904/control.vhf 2004/09/28.09:23:40
+FL C:/Calculator/adder.vhf 2004/09/23.22:51:44
+FL C:/SC201/SC201danLATEST/ring.vhf 2004/09/27.12:37:44
+FL C:/SC201/Calculator/decoderd.vhf 2004/09/27.11:46:32
+EN work/DECODERD        FL C:/SC201/Calculator/decoderd.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/DECODERD/SCHEMATIC FL C:/SC201/Calculator/decoderd.vhf EN work/DECODERD \
+      CP AND2           CP OR2            CP OR4
+FL C:/Xilinx/Calculator/decoderb.vhf 2004/09/27.11:46:32
+FL C:/Xilinx/EditedSubtr/mod2_counter.vhf 2004/09/27.22:57:50
+FL E:/SC201danLATESTA/switchcontrolmain.vhf 2004/09/27.11:46:34
+FL C:/EditedNegConv/EditedSubtr/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/290904/freq_div.vhf 2004/09/20.09:57:00
+FL C:/SC201/Calculator/switchcontrol.vhf 2004/09/30.15:24:44
+EN work/SWITCHCONTROL   FL C:/SC201/Calculator/switchcontrol.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/SWITCHCONTROL/SCHEMATIC FL C:/SC201/Calculator/switchcontrol.vhf \
+      EN work/SWITCHCONTROL CP GND        CP LDCP
+FL C:/Xilinx/Calculator/mod1_counter.vhf 2004/09/27.22:57:48
+FL C:/Xilinx/bin/SC201/decoderd.vhf 2004/09/20.09:20:28
+FL C:/EditedNegConv/EditedSubtr/decodera.vhf 2004/09/27.11:46:30
+FL C:/SC201/Calculator/mod4_counter.vhf 2004/09/27.22:57:50
+EN work/FJKC_MXILINX_MOD4_COUNTER FL C:/SC201/Calculator/mod4_counter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/FJKC_MXILINX_MOD4_COUNTER/SCHEMATIC \
+      FL C:/SC201/Calculator/mod4_counter.vhf EN work/FJKC_MXILINX_MOD4_COUNTER \
+      CP AND2B1         CP AND3B1         CP AND3B2         CP FDC            CP OR3
+EN work/MOD4_COUNTER    FL C:/SC201/Calculator/mod4_counter.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/MOD4_COUNTER/SCHEMATIC FL C:/SC201/Calculator/mod4_counter.vhf \
+      EN work/MOD4_COUNTER CP FJKC_MXILINX_MOD4_COUNTER CP FREQ_DIV CP GND    CP VCC
+FL C:/Xilinx/290904/sevensegdec.vhf 2004/09/27.12:09:54
+FL C:/Xilinx/SC201danLATEST/registera.vhf 2004/09/27.23:42:38
+FL C:/Xilinx/SC201Subtract/control.vhf 2004/09/28.09:23:40
+FL C:/SC201/Calculator/multi_divider.vhf 2004/09/20.09:57:00
+EN work/MULTI_DIVIDER   FL C:/SC201/Calculator/multi_divider.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/MULTI_DIVIDER/SCHEMATIC FL C:/SC201/Calculator/multi_divider.vhf \
+      EN work/MULTI_DIVIDER CP FREQ_DIV
+FL C:/Xilinx/290904/decoderc.vhf 2004/09/27.11:46:32
+FL C:/SC201/SC201dan/switchcontrol.vhf 2004/09/27.11:46:34
+FL C:/Calculator/Calculator/bcdadder.vhf 2004/10/04.11:52:28
+FL C:/Calculator/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/SC201/290904/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/SC201/SC201danLATEST/adder.vhf 2004/09/23.22:51:44
+FL C:/Xilinx/EditedSubtr/decodera.vhf 2004/09/27.11:46:30
+FL C:/SC201/Calculator/lab4.vhf 2004/10/06.11:05:18
+EN work/M2_1E_MXILINX_LAB4 FL C:/SC201/Calculator/lab4.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/M2_1E_MXILINX_LAB4/SCHEMATIC FL C:/SC201/Calculator/lab4.vhf \
+      EN work/M2_1E_MXILINX_LAB4 CP AND3  CP AND3B1         CP OR2
+EN work/M4_1E_MXILINX_LAB4 FL C:/SC201/Calculator/lab4.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/M4_1E_MXILINX_LAB4/SCHEMATIC FL C:/SC201/Calculator/lab4.vhf \
+      EN work/M4_1E_MXILINX_LAB4 CP M2_1E_MXILINX_LAB4 CP MUXF5
+EN work/COMP4_MXILINX_LAB4 FL C:/SC201/Calculator/lab4.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/COMP4_MXILINX_LAB4/SCHEMATIC FL C:/SC201/Calculator/lab4.vhf \
+      EN work/COMP4_MXILINX_LAB4 CP AND4  CP XNOR2
+EN work/LAB4            FL C:/SC201/Calculator/lab4.vhf PB ieee/STD_LOGIC_1164 \
+      PH ieee/NUMERIC_STD
+AR work/LAB4/SCHEMATIC  FL C:/SC201/Calculator/lab4.vhf EN work/LAB4 CP BUFG \
+      CP COMP4_MXILINX_LAB4 CP CONTROL    CP DECODER        CP GND            CP IBUFG \
+      CP INPUTREGISTER  CP M4_1E_MXILINX_LAB4 CP OR2        CP OR4            CP REGISTERA \
+      CP RING           CP SEVENSEGDEC    CP SEVENSEGENABLE CP SHIFTREGISTER4X4 \
+      CP SWITCHCONTROLMAIN CP VCC
+FL E:/SC201danLATESTA/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/EditedSubtr/mod3_counter.vhf 2004/09/27.22:57:50
+FL C:/SC201/SC201dan/multi_divider.vhf 2004/09/20.09:57:00
+FL C:/Calculator/lab4.vhf 2004/10/04.12:09:22
+FL C:/EditedNegConv/EditedSubtr/mod4_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/SC201Subtract/bcdadder.vhf 2004/09/30.21:43:34
+FL C:/SC201/290904/decoder.vhf 2004/09/30.12:32:42
+FL C:/SC201/SC201danLATEST/onetwoswitch.vhf 2004/09/23.22:51:42
+FL C:/Xilinx/Calculator/mod2_counter.vhf 2004/09/27.22:57:50
+FL C:/Xilinx/SC201Subtract/ring.vhf 2004/09/27.12:37:44
+FL C:/SC201/Calculator/bcdadder.vhf 2004/10/06.12:16:02
+EN work/BCDADDER        FL C:/SC201/Calculator/bcdadder.vhf \
+      PB ieee/STD_LOGIC_1164 PH ieee/NUMERIC_STD
+AR work/BCDADDER/SCHEMATIC FL C:/SC201/Calculator/bcdadder.vhf EN work/BCDADDER \
+      CP ADDER          CP AND2           CP INV            CP NEGCONVERTER \
+      CP NINECOMPL      CP OR2
+FL C:/Xilinx/SC201danLATEST/decodera.vhf 2004/09/27.11:46:30
+FL E:/SC201danLATESTA/registera.vhf 2004/09/28.08:39:20
+FL C:/SC201/SC201danLATEST/display_generator.vhf 2004/09/27.22:57:48

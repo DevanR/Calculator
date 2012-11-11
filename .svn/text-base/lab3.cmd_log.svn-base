@@ -1,0 +1,14 @@
+sch2vhdl -family=spartan2 -flat -suppress -w lab3.sch lab3.vhf
+xst -quiet -ifn __projnav/lab3.xst -ofn lab3.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 lab3.ngc lab3.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab3_map.ncd lab3.ngd lab3.pcf
+par -w -ol 2 -t 1 lab3_map.ncd lab3.ncd lab3.pcf
+trce -quiet -e 3 -l 3 -xml lab3 lab3.ncd -o lab3.twr lab3.pcf
+bitgen -f lab3.ut lab3.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w lab3.sch lab3.vhf
+xst -quiet -ifn __projnav/lab3.xst -ofn lab3.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 lab3.ngc lab3.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab3_map.ncd lab3.ngd lab3.pcf
+par -w -ol 2 -t 1 lab3_map.ncd lab3.ncd lab3.pcf
+trce -quiet -e 3 -l 3 -xml lab3 lab3.ncd -o lab3.twr lab3.pcf
+bitgen -f lab3.ut lab3.ncd

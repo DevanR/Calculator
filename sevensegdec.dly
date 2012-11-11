@@ -1,0 +1,142 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 20 09:21:41 2004
+
+File: sevensegdec.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   1.870            sw1_ibuf
+   1.799            a_obuf
+   1.719            d_obuf
+   1.705            c_obuf
+   1.669            sw3_ibuf
+   1.648            sw4_ibuf
+   1.608            en_ibuf
+   1.578            sw2_ibuf
+   1.519            b_obuf
+   1.512            f_obuf
+   1.402            g_obuf
+   1.268            e_obuf
+   0.222            xlxn_195
+   0.222            xlxn_197
+   0.222            xlxn_189
+   0.222            xlxn_193
+   0.222            xlxn_199
+   0.222            xlxn_187
+   0.222            xlxn_201
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+a_obuf
+   xlxn_187.Y
+         1.799  a.O
+
+b_obuf
+   xlxn_189.Y
+         1.519  b.O
+
+c_obuf
+   xlxn_201.Y
+         1.705  c.O
+
+d_obuf
+   xlxn_193.Y
+         1.719  d.O
+
+e_obuf
+   xlxn_195.Y
+         1.268  e.O
+
+en_ibuf
+   en.I
+         1.288  xlxn_199.G1
+         1.045  xlxn_197.G3
+         1.608  xlxn_195.G1
+         1.229  xlxn_193.G2
+         1.547  xlxn_201.G2
+         1.047  xlxn_189.G1
+         1.117  xlxn_187.G2
+
+f_obuf
+   xlxn_197.Y
+         1.512  f.O
+
+g_obuf
+   xlxn_199.Y
+         1.402  g.O
+
+sw1_ibuf
+   sw1.I
+         0.915  xlxn_199.F4
+         1.196  xlxn_197.F1
+         1.544  xlxn_195.F4
+         1.674  xlxn_193.F1
+         1.870  xlxn_201.F2
+         1.293  xlxn_189.F1
+         1.046  xlxn_187.F4
+
+sw2_ibuf
+   sw2.I
+         1.578  xlxn_199.F2
+         1.541  xlxn_197.F2
+         1.541  xlxn_195.F3
+         1.076  xlxn_193.F4
+         1.379  xlxn_201.F3
+         1.378  xlxn_189.F4
+         1.313  xlxn_187.F3
+
+sw3_ibuf
+   sw3.I
+         1.051  xlxn_199.F3
+         1.062  xlxn_197.F3
+         1.544  xlxn_195.F2
+         1.485  xlxn_193.F2
+         1.301  xlxn_201.F4
+         1.271  xlxn_189.F3
+         1.669  xlxn_187.F1
+
+sw4_ibuf
+   sw4.I
+         1.067  xlxn_199.F1
+         0.835  xlxn_197.F4
+         1.646  xlxn_195.F1
+         1.409  xlxn_193.F3
+         1.648  xlxn_201.F1
+         1.146  xlxn_189.F2
+         1.137  xlxn_187.F2
+
+xlxn_187
+   xlxn_187.X
+         0.222  xlxn_187.G4
+
+xlxn_189
+   xlxn_189.X
+         0.222  xlxn_189.G4
+
+xlxn_193
+   xlxn_193.X
+         0.222  xlxn_193.G4
+
+xlxn_195
+   xlxn_195.X
+         0.222  xlxn_195.G4
+
+xlxn_197
+   xlxn_197.X
+         0.222  xlxn_197.G4
+
+xlxn_199
+   xlxn_199.X
+         0.222  xlxn_199.G4
+
+xlxn_201
+   xlxn_201.X
+         0.222  xlxn_201.G4
+

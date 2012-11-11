@@ -1,0 +1,145 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 20 09:21:10 2004
+
+File: multi_divider.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   1.272            clk_obuf
+   1.115            xlxn_1
+   1.115            xlxi_4_xlxn_14
+   1.115            xlxi_2_xlxn_16
+   1.064            xlxi_3_xlxn_16
+   1.056            xlxn_3
+   1.056            xlxi_5_xlxn_15
+   1.056            xlxi_2_xlxn_15
+   1.056            xlxn_2
+   1.056            xlxi_1_xlxn_16
+   1.056            xlxi_4_xlxn_16
+   1.030            xlxi_3_xlxn_14
+   1.021            xlxi_4_xlxn_15
+   1.021            xlxi_1_xlxn_14
+   1.021            xlxi_2_xlxn_14
+   1.021            xlxi_3_xlxn_15
+   1.021            xlxi_5_xlxn_16
+   1.021            xlxn_5
+   0.930            xlxi_1_xlxn_15
+   0.900            xlxi_5_xlxn_14
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+clk_obuf
+   clk_obuf.YQ
+         1.272  clk.O
+         0.930  clk_obuf.BY
+
+in_clk_bufgp
+   in_clk_bufgp/BUFG.OUT
+         0.750  xlxi_1_xlxn_15.CLK
+
+in_clk_bufgp/IBUFG
+   in_clk.GCLKOUT
+         0.007  in_clk_bufgp/BUFG.IN
+
+xlxi_1_xlxn_14
+   xlxi_1_xlxn_14.YQ
+         0.900  xlxi_1_xlxn_14.BY
+         1.021  xlxn_1.CLK
+
+xlxi_1_xlxn_15
+   xlxi_1_xlxn_15.YQ
+         0.930  xlxi_1_xlxn_15.BY
+         0.902  xlxi_1_xlxn_16.CLK
+
+xlxi_1_xlxn_16
+   xlxi_1_xlxn_16.YQ
+         0.900  xlxi_1_xlxn_16.BY
+         1.056  xlxi_1_xlxn_14.CLK
+
+xlxi_2_xlxn_14
+   xlxi_2_xlxn_14.YQ
+         0.900  xlxi_2_xlxn_14.BY
+         1.021  xlxn_2.CLK
+
+xlxi_2_xlxn_15
+   xlxi_2_xlxn_15.YQ
+         1.056  xlxi_2_xlxn_16.CLK
+         0.900  xlxi_2_xlxn_15.BY
+
+xlxi_2_xlxn_16
+   xlxi_2_xlxn_16.YQ
+         0.938  xlxi_2_xlxn_16.BY
+         1.115  xlxi_2_xlxn_14.CLK
+
+xlxi_3_xlxn_14
+   xlxi_3_xlxn_14.YQ
+         0.904  xlxi_3_xlxn_14.BY
+         1.030  xlxn_3.CLK
+
+xlxi_3_xlxn_15
+   xlxi_3_xlxn_15.YQ
+         0.900  xlxi_3_xlxn_15.BY
+         1.021  xlxi_3_xlxn_16.CLK
+
+xlxi_3_xlxn_16
+   xlxi_3_xlxn_16.YQ
+         0.900  xlxi_3_xlxn_16.BY
+         1.064  xlxi_3_xlxn_14.CLK
+
+xlxi_4_xlxn_14
+   xlxi_4_xlxn_14.YQ
+         0.938  xlxi_4_xlxn_14.BY
+         1.115  xlxn_5.CLK
+
+xlxi_4_xlxn_15
+   xlxi_4_xlxn_15.YQ
+         0.900  xlxi_4_xlxn_15.BY
+         1.021  xlxi_4_xlxn_16.CLK
+
+xlxi_4_xlxn_16
+   xlxi_4_xlxn_16.YQ
+         1.056  xlxi_4_xlxn_14.CLK
+         0.900  xlxi_4_xlxn_16.BY
+
+xlxi_5_xlxn_14
+   xlxi_5_xlxn_14.YQ
+         0.900  xlxi_5_xlxn_14.BY
+         0.890  clk_obuf.CLK
+
+xlxi_5_xlxn_15
+   xlxi_5_xlxn_15.YQ
+         1.056  xlxi_5_xlxn_16.CLK
+         0.900  xlxi_5_xlxn_15.BY
+
+xlxi_5_xlxn_16
+   xlxi_5_xlxn_16.YQ
+         0.900  xlxi_5_xlxn_16.BY
+         1.021  xlxi_5_xlxn_14.CLK
+
+xlxn_1
+   xlxn_1.YQ
+         1.115  xlxi_2_xlxn_15.CLK
+         0.938  xlxn_1.BY
+
+xlxn_2
+   xlxn_2.YQ
+         1.056  xlxi_3_xlxn_15.CLK
+         0.900  xlxn_2.BY
+
+xlxn_3
+   xlxn_3.YQ
+         1.056  xlxi_4_xlxn_15.CLK
+         0.900  xlxn_3.BY
+
+xlxn_5
+   xlxn_5.YQ
+         0.900  xlxn_5.BY
+         1.021  xlxi_5_xlxn_15.CLK
+

@@ -1,0 +1,233 @@
+Release 5.2i - xst F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.16 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.16 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: lab1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Low Level Synthesis
+  6) Final Report
+     6.1) Device utilization summary
+     6.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : lab1.prj
+Input Format                       : VHDL
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : lab1
+Output Format                      : NGC
+Target Device                      : xc2s200-5fg456
+
+---- Source Options
+Entity Name                        : lab1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Complex Clock Enable Extraction    : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Criterion             : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : lower
+Top module area constraint         : 100
+Top module allowed area overflow   : 5
+
+---- Other Options
+read_cores                         : YES
+cross_clock_analysis               : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/Xilinx/bin/SC201/lab1.vhf in Library work.
+Entity <and6_mxilinx_lab1> (Architecture <schematic>) compiled.
+Entity <lab1> (Architecture <schematic>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+
+Analyzing Entity <lab1> (Architecture <schematic>).
+    Set user-defined property "HU_SET =  XLXI_97_0" for instance <xlxi_97> in unit <lab1>.
+Entity <lab1> analyzed. Unit <lab1> generated.
+
+Analyzing Entity <and6_mxilinx_lab1> (Architecture <schematic>).
+    Set user-defined property "RLOC =  R0C0.S1" for instance <i_36_94> in unit <and6_mxilinx_lab1>.
+    Set user-defined property "RLOC =  R0C0.S1" for instance <i_36_93> in unit <and6_mxilinx_lab1>.
+Entity <and6_mxilinx_lab1> analyzed. Unit <and6_mxilinx_lab1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <and6_mxilinx_lab1>.
+    Related source file is C:/Xilinx/bin/SC201/lab1.vhf.
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. Tied to value 0.
+Unit <and6_mxilinx_lab1> synthesized.
+
+
+Synthesizing Unit <lab1>.
+    Related source file is C:/Xilinx/bin/SC201/lab1.vhf.
+Unit <lab1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Library "C:/Xilinx/data/librtl.xst" Consulted
+
+Optimizing unit <lab1> ...
+
+Optimizing unit <and6_mxilinx_lab1> ...
+
+Mapping all equations...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab1, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : lab1.ngr
+Top Level Output File Name         : lab1
+Output Format                      : NGC
+Optimization Criterion             : Speed
+Keep Hierarchy                     : NO
+Macro Generator                    : macro+
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 83
+#      and3                        : 1
+#      and4                        : 4
+#      and5                        : 3
+#      GND                         : 1
+#      inv                         : 48
+#      or2                         : 1
+#      or3                         : 11
+#      or4                         : 14
+# IO Buffers                       : 12
+#      IBUF                        : 5
+#      OBUF                        : 7
+# Others                           : 2
+#      fmap                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200fg456-5 
+
+ Number of bonded IOBs:                 12  out of    288     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 17.093ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               17.093ns (Levels of Logic = 6)
+  Source:            sw2
+  Destination:       b
+
+  Data Path: sw2 to b
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:i->o            24   0.924   3.400  sw2_ibuf (sw2_ibuf)
+     inv:i->o              1   0.653   1.150  xlxi_55 (xlxn_77)
+     or4:i2->o             1   0.653   1.150  xlxi_14 (xlxn_147)
+     begin scope: 'xlxi_97'
+     and3:i0->o            1   0.653   1.150  i_36_69 (i35)
+     and4:i3->o            1   0.653   1.150  i_36_85 (o)
+     end scope: 'xlxi_97'
+     OBUF:i->o                 5.557          b_obuf (b)
+    ----------------------------------------
+    Total                     17.093ns (9.093ns logic, 8.000ns route)
+                                       (53.2% logic, 46.8% route)
+
+=========================================================================
+CPU : 0.83 / 1.10 s | Elapsed : 1.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 54388 kilobytes
+
+

@@ -1,0 +1,76 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 20 09:19:56 2004
+
+File: decoderb.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   2.230            b_obuf
+   1.470            c1_ibuf
+   1.291            c3_ibuf
+   1.228            c4_ibuf
+   1.174            r4_ibuf
+   0.876            c2_ibuf
+   0.585            r2_ibuf
+   0.538            r3_ibuf
+   0.456            xlxn_2
+   0.385            xlxn_1
+   0.222            xlxi_7/1.0
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+b_obuf
+   xlxi_7/1.0.Y
+         2.230  b.O
+
+c1_ibuf
+   c1.I
+         1.328  xlxi_7/1.0.F2
+         1.346  xlxn_2.F2
+         1.470  xlxn_2.G1
+
+c2_ibuf
+   c2.I
+         0.876  xlxn_2.G3
+
+c3_ibuf
+   c3.I
+         1.211  xlxn_2.F3
+         1.291  xlxn_2.G2
+
+c4_ibuf
+   c4.I
+         1.148  xlxi_7/1.0.F3
+         1.228  xlxn_2.F4
+
+r2_ibuf
+   r2.I
+         0.585  xlxn_2.G4
+
+r3_ibuf
+   r3.I
+         0.538  xlxi_7/1.0.F4
+
+r4_ibuf
+   r4.I
+         1.174  xlxn_2.F1
+
+xlxi_7/1.0
+   xlxi_7/1.0.X
+         0.222  xlxi_7/1.0.G4
+
+xlxn_1
+   xlxn_2.Y
+         0.385  xlxi_7/1.0.G2
+
+xlxn_2
+   xlxn_2.X
+         0.456  xlxi_7/1.0.F1
+

@@ -1,0 +1,10 @@
+work decodera.vhf
+work decoderb.vhf
+work decoderc.vhf
+work decoderd.vhf
+work decoder.vhf
+work sevensegdec.vhf
+work freq_div.vhf
+work multi_divider.vhf
+work ring.vhf
+work circuit.vhf

@@ -1,0 +1,1 @@
+sch2vhdl -family=spartan2 -flat -suppress -w mod4_counter.sch mod4_counter.vhf

@@ -1,0 +1,72 @@
+--------------------------------------------------------------------------------
+Release 5.2i - Trace F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -quiet -e 3 -l 3 -xml lab3 lab3.ncd -o lab3.twr
+lab3.pcf
+
+Design file:              lab3.ncd
+Physical constraint file: lab3.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2002-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+c1             |a              |   15.543|
+c1             |b              |   11.613|
+c1             |c              |   11.966|
+c1             |d              |   13.998|
+c1             |dv             |   16.634|
+c2             |a              |   15.431|
+c2             |b              |   11.558|
+c2             |c              |   12.058|
+c2             |d              |   12.108|
+c2             |dv             |   15.009|
+c3             |a              |   15.590|
+c3             |b              |   11.565|
+c3             |c              |   12.513|
+c3             |d              |   13.485|
+c3             |dv             |   16.121|
+c4             |a              |   15.964|
+c4             |b              |   11.461|
+c4             |c              |   12.288|
+c4             |d              |   13.406|
+c4             |dv             |   16.042|
+r1             |a              |   13.445|
+r1             |c              |   12.413|
+r1             |d              |   12.929|
+r1             |dv             |   15.565|
+r2             |a              |   13.578|
+r2             |b              |   10.880|
+r2             |c              |   11.579|
+r2             |d              |   12.678|
+r2             |dv             |   15.314|
+r3             |a              |   15.037|
+r3             |b              |   11.410|
+r3             |c              |   12.201|
+r3             |d              |   13.753|
+r3             |dv             |   16.389|
+r4             |a              |   15.602|
+r4             |b              |   10.649|
+r4             |c              |   11.519|
+r4             |d              |   12.973|
+r4             |dv             |   15.609|
+---------------+---------------+---------+
+
+Analysis completed Mon Aug 30 19:04:40 2004
+--------------------------------------------------------------------------------
+

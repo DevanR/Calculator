@@ -1,0 +1,51 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 20 09:21:25 2004
+
+File: freq_div.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   1.538            xlxn_16
+   1.537            xlxn_14
+   1.410            xlxn_15
+   1.164            clk_16_obuf
+   0.760            in_clk_bufgp
+   0.007            in_clk_bufgp/IBUFG
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+clk_16_obuf
+   clk_16_obuf.YQ
+         1.164  clk_16.O
+         0.900  clk_16_obuf.BY
+
+in_clk_bufgp
+   in_clk_bufgp/BUFG.OUT
+         0.760  xlxn_15.CLK
+
+in_clk_bufgp/IBUFG
+   in_clk.GCLKOUT
+         0.007  in_clk_bufgp/BUFG.IN
+
+xlxn_14
+   xlxn_14.YQ
+         0.900  xlxn_14.BY
+         1.537  clk_16_obuf.CLK
+
+xlxn_15
+   xlxn_15.YQ
+         0.900  xlxn_15.BY
+         1.410  xlxn_16.CLK
+
+xlxn_16
+   xlxn_16.YQ
+         1.538  xlxn_14.CLK
+         0.900  xlxn_16.BY
+

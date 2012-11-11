@@ -1,0 +1,191 @@
+Release 5.2.03i - Par F.31
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+
+DS-STN09::  Mon Sep 27 12:10:00 2004
+
+
+C:/Xilinx52i/bin/nt/par.exe -w -ol 2 -t 1 circuit_map.ncd circuit.ncd
+circuit.pcf 
+
+
+Constraints file: circuit.pcf
+
+Loading device database for application par from file "circuit_map.ncd".
+   "circuit" is an NCD, version 2.37, device xc2s200, package fg456, speed -5
+Loading device for application par from file 'v200.nph' in environment
+C:/Xilinx52i.
+Device speed data version:  PRODUCTION 1.27 2002-12-13.
+
+
+Resolved that IOB <e> must be placed at site W18.
+Resolved that IOB <f> must be placed at site W13.
+Resolved that IOB <g> must be placed at site AB13.
+Resolved that IOB <c1> must be placed at site V14.
+Resolved that IOB <c2> must be placed at site Y14.
+Resolved that IOB <c3> must be placed at site W15.
+Resolved that IOB <c4> must be placed at site AB15.
+Resolved that GCLKIOB <clock> must be placed at site A11.
+Resolved that IOB <r1> must be placed at site AB17.
+Resolved that IOB <r2> must be placed at site AB16.
+Resolved that IOB <r3> must be placed at site Y15.
+Resolved that IOB <r4> must be placed at site AA15.
+Resolved that IOB <a> must be placed at site AA13.
+Resolved that IOB <b> must be placed at site Y13.
+Resolved that IOB <c> must be placed at site Y18.
+Resolved that IOB <d> must be placed at site AA20.
+
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         1 out of 4      25%
+   Number of External IOBs            15 out of 284     5%
+      Number of LOCed External IOBs   15 out of 15    100%
+
+   Number of SLICEs                   41 out of 2352    1%
+
+   Number of GCLKs                     1 out of 4      25%
+
+
+
+Overall effort level (-ol):   2 (set by user)
+Placer effort level (-pl):    2 (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    2 (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989767) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.8
+...
+Phase 3.8 (Checksum:9934e0) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.18
+Phase 5.18 (Checksum:2faf07b) REAL time: 0 secs 
+
+Writing design to file circuit.ncd.
+
+Total REAL time to placer completion: 0 secs 
+Total CPU time to placer completion: 0 secs 
+
+
+Starting Router          REAL time: 0 secs 
+
+Phase 1: 180 unrouted;       REAL time: 0 secs 
+
+Phase 2: 176 unrouted;       REAL time: 0 secs 
+
+Phase 3: 43 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Finished Router          REAL time: 0 secs 
+
+Total REAL time to router completion: 0 secs 
+Total CPU time to router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Max Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|    xlxi_3_xlxn_27          |  Global  |    1   |  0.000     |  0.778      |
++----------------------------+----------+--------+------------+-------------+
+|    xlxi_3_xlxn_16          |Low-Skew  |    4   |  0.335     |  4.975      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_3_xl    |          |        |            |             |
+|                   xn_15    |   Local  |    2   |  0.000     |  1.385      |
++----------------------------+----------+--------+------------+-------------+
+|   xlxi_3_xlxi_22_xlxn_2    |   Local  |    2   |  0.000     |  1.356      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_2_xl    |          |        |            |             |
+|                   xn_15    |   Local  |    2   |  0.000     |  1.385      |
++----------------------------+----------+--------+------------+-------------+
+|   xlxi_3_xlxi_22_xlxn_1    |   Local  |    2   |  0.000     |  1.356      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_5_xl    |          |        |            |             |
+|                   xn_16    |   Local  |    2   |  0.000     |  1.113      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_5_xl    |          |        |            |             |
+|                   xn_15    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_5_xl    |          |        |            |             |
+|                   xn_14    |   Local  |    2   |  0.000     |  0.890      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_1_xl    |          |        |            |             |
+|                   xn_15    |   Local  |    2   |  0.000     |  0.874      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_4_xl    |          |        |            |             |
+|                   xn_14    |   Local  |    2   |  0.000     |  1.085      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_4_xl    |          |        |            |             |
+|                   xn_16    |   Local  |    2   |  0.000     |  1.104      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_3_xl    |          |        |            |             |
+|                   xn_16    |   Local  |    2   |  0.000     |  1.385      |
++----------------------------+----------+--------+------------+-------------+
+|   xlxi_3_xlxi_22_xlxn_5    |   Local  |    2   |  0.000     |  1.356      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_3_xl    |          |        |            |             |
+|                   xn_14    |   Local  |    2   |  0.000     |  1.399      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_1_xl    |          |        |            |             |
+|                   xn_16    |   Local  |    2   |  0.000     |  1.396      |
++----------------------------+----------+--------+------------+-------------+
+|   xlxi_3_xlxi_22_xlxn_3    |   Local  |    2   |  0.000     |  1.030      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_2_xl    |          |        |            |             |
+|                   xn_14    |   Local  |    2   |  0.000     |  1.404      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_2_xl    |          |        |            |             |
+|                   xn_16    |   Local  |    2   |  0.000     |  1.356      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_1_xl    |          |        |            |             |
+|                   xn_14    |   Local  |    2   |  0.000     |  1.385      |
++----------------------------+----------+--------+------------+-------------+
+|xlxi_3_xlxi_22_xlxi_4_xl    |          |        |            |             |
+|                   xn_15    |   Local  |    2   |  0.000     |  1.396      |
++----------------------------+----------+--------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The Score for this design is: 200
+
+
+The Number of signals not completely routed for this design is: 0
+
+   The Average Connection Delay for this design is:        1.467 ns
+   The Maximum Pin Delay is:                               4.975 ns
+   The Average Connection Delay on the 10 Worst Nets is:   2.713 ns
+
+   Listing Pin Delays by value: (ns)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 5.00  d >= 5.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+          49          96          30           1           4           0
+
+
+All signals are completely routed.
+
+Total REAL time to par completion: 3 secs 
+Total CPU time to par completion: 1 secs 
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file circuit.ncd.
+
+
+PAR done.

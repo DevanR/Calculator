@@ -1,0 +1,476 @@
+Release 5.2i - Par F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 20 09:57:07 2004
+
+File: test.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   3.917            e_obuf
+   3.827            xlxn_10
+   3.670            xlxn_11
+   3.607            a_obuf
+   3.597            g_obuf
+   3.483            d_obuf
+   3.356            f_obuf
+   3.175            c2_obuf
+   2.957            xlxn_9
+   2.938            xlxn_8
+   2.834            r1_ibuf
+   2.772            r2_ibuf
+   2.714            xlxi_4_xlxn_16
+   2.713            c_obuf
+   2.699            c4_obuf
+   2.676            r4_ibuf
+   2.406            b_obuf
+   2.247            c3_obuf
+   2.226            c1_obuf
+   1.926            xlxn_27
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+a_obuf
+   xlxi_1_xlxi_96/1.0.Y
+         3.607  a.O
+
+b_obuf
+   xlxi_1_xlxi_97/i35.Y
+         2.406  b.O
+
+c1_obuf
+   c1_obuf.YQ
+         0.723  xlxi_2_xlxn_89.F4
+         0.770  xlxi_2_xlxn_89.G4
+         1.204  xlxi_2_xlxn_87.F2
+         2.108  c1.O
+         1.377  c1_obuf.G1
+         1.503  xlxi_2_xlxn_92.F1
+         2.226  xlxi_2_xlxn_78.F2
+         1.763  xlxi_2_xlxn_81.G3
+         1.118  c2_obuf.BY
+
+c2_obuf
+   c2_obuf.YQ
+         1.310  xlxi_2_xlxn_87.F1
+         1.104  xlxi_2_xlxn_87.G4
+         3.175  c2.O
+         1.336  c1_obuf.F1
+         1.057  c1_obuf.G3
+         1.812  xlxi_2_xlxn_85.F1
+         1.027  c3_obuf.BY
+
+c3_obuf
+   c3_obuf.YQ
+         1.816  xlxi_2_xlxn_89.F1
+         2.117  xlxi_2_xlxn_89.G1
+         1.487  xlxi_2_xlxn_87.F4
+         1.321  c3.O
+         1.151  c1_obuf.F3
+         1.160  c1_obuf.G4
+         1.270  xlxi_2_xlxn_66.F4
+         2.154  xlxi_2_xlxn_81.F1
+         1.961  xlxi_2_xlxn_81.G2
+         1.956  xlxi_2_xlxn_85.F2
+         1.979  xlxi_2_xlxn_85.G2
+         2.247  c4_obuf.BY
+
+c4_obuf
+   c4_obuf.YQ
+         1.230  xlxi_2_xlxn_89.F3
+         1.317  xlxi_2_xlxn_82.F2
+         1.100  xlxi_2_xlxn_82.G3
+         2.699  c4.O
+         1.557  c1_obuf.F4
+         1.634  c1_obuf.G2
+         1.395  xlxi_2_xlxi_32/1.0.G2
+         0.809  xlxi_2_xlxn_85.F3
+         1.855  xlxi_2_xlxn_77.G4
+
+c_obuf
+   c_obuf.X
+         2.713  c.O
+
+d_obuf
+   xlxi_1_xlxi_99/1.0.Y
+         3.483  d.O
+
+e_obuf
+   c_obuf.Y
+         3.917  e.O
+
+f_obuf
+   xlxi_1_xlxi_101/1.0.Y
+         3.356  f.O
+
+g_obuf
+   xlxi_1_xlxi_102/free/1.2.Y
+         3.597  g.O
+
+r1_ibuf
+   r1.I
+         1.722  c1_obuf.F2
+         2.719  xlxi_2_xlxi_32/1.0.G1
+         2.834  xlxi_2_xlxn_78.G1
+         1.825  xlxi_2_xlxn_81.G4
+
+r2_ibuf
+   r2.I
+         1.735  xlxi_2_xlxn_87.F3
+         2.267  xlxi_2_xlxn_87.G2
+         1.760  xlxi_2_xlxn_82.G4
+         2.512  xlxi_2_xlxn_66.F2
+         2.772  xlxi_2_xlxi_32/1.0.G3
+         2.636  xlxi_2_xlxn_78.G4
+
+r3_ibuf
+   r3.I
+         1.453  xlxi_2_xlxn_89.G2
+         1.470  xlxi_2_xlxn_92.F2
+         1.842  xlxi_2_xlxn_78.G2
+         1.360  xlxi_2_xlxn_85.F4
+         1.407  xlxi_2_xlxn_85.G4
+         1.344  xlxi_2_xlxn_77.G3
+
+r4_ibuf
+   r4.I
+         2.388  xlxi_2_xlxn_89.F2
+         2.082  xlxi_2_xlxn_89.G3
+         2.482  xlxi_2_xlxn_82.F1
+         2.391  xlxi_2_xlxi_42/1.0.F1
+         2.676  xlxi_2_xlxn_78.F1
+         2.158  xlxi_2_xlxn_78.G3
+         2.292  xlxi_2_xlxn_81.F3
+
+xlxi_1_xlxi_100/1.0
+   xlxi_1_xlxi_102/1.0.Y
+         0.768  c_obuf.G4
+
+xlxi_1_xlxi_101/1.0
+   xlxi_1_xlxi_101/1.0.X
+         0.222  xlxi_1_xlxi_101/1.0.G4
+
+xlxi_1_xlxi_102/1.0
+   xlxi_1_xlxi_102/1.0.X
+         0.773  xlxi_1_xlxi_102/free/1.2.G3
+
+xlxi_1_xlxi_102/free/1.2
+   xlxi_1_xlxi_102/free/1.2.X
+         0.222  xlxi_1_xlxi_102/free/1.2.G4
+
+xlxi_1_xlxi_96/1.0
+   xlxi_1_xlxi_96/1.0.X
+         0.222  xlxi_1_xlxi_96/1.0.G4
+
+xlxi_1_xlxi_97/i35
+   xlxi_1_xlxi_97/i35.X
+         0.222  xlxi_1_xlxi_97/i35.G4
+
+xlxi_1_xlxi_98/1.0
+   xlxi_1_xlxi_98/1.0.X
+         1.451  c_obuf.F2
+
+xlxi_1_xlxi_99/1.0
+   xlxi_1_xlxi_99/1.0.X
+         0.222  xlxi_1_xlxi_99/1.0.G4
+
+xlxi_1_xlxn_10
+   xlxi_1_xlxn_10.X
+         0.738  c_obuf.F4
+
+xlxi_1_xlxn_145
+   xlxi_1_xlxn_145.X
+         0.434  xlxi_1_xlxi_97/i35.G1
+
+xlxi_1_xlxn_146
+   xlxi_1_xlxn_145.Y
+         0.385  xlxi_1_xlxi_97/i35.G2
+
+xlxi_1_xlxn_147
+   xlxi_1_xlxn_9.Y
+         0.554  xlxi_1_xlxi_97/i35.F2
+
+xlxi_1_xlxn_5
+   xlxi_1_xlxn_10.Y
+         0.983  xlxi_1_xlxi_97/i35.F1
+
+xlxi_1_xlxn_9
+   xlxi_1_xlxn_9.X
+         0.742  xlxi_1_xlxi_97/i35.G3
+
+xlxi_2_xlxi_32/1.0
+   xlxi_2_xlxi_32/1.0.X
+         0.222  xlxi_2_xlxi_32/1.0.G4
+
+xlxi_2_xlxi_34/1.0
+   xlxi_2_xlxn_89.Y
+         0.385  xlxi_2_xlxn_66.G2
+
+xlxi_2_xlxi_35/1.0
+   xlxi_2_xlxi_35/1.0.X
+         0.222  xlxi_2_xlxi_35/1.0.G4
+
+xlxi_2_xlxi_42/1.0
+   xlxi_2_xlxi_42/1.0.X
+         1.190  xlxi_1_xlxi_98/1.0.G4
+         0.222  xlxi_2_xlxi_42/1.0.G4
+
+xlxi_2_xlxn_63
+   xlxi_2_xlxn_87.Y
+         1.119  xlxi_2_xlxi_35/1.0.G2
+
+xlxi_2_xlxn_66
+   xlxi_2_xlxn_66.X
+         0.222  xlxi_2_xlxn_66.G4
+
+xlxi_2_xlxn_71
+   xlxi_2_xlxn_82.Y
+         1.133  xlxi_2_xlxi_35/1.0.G1
+         0.428  xlxi_2_xlxn_66.G3
+
+xlxi_2_xlxn_75
+   xlxi_2_xlxn_85.Y
+         0.362  xlxi_2_xlxi_35/1.0.F2
+
+xlxi_2_xlxn_77
+   xlxi_2_xlxn_77.Y
+         0.385  xlxi_2_xlxn_92.G2
+
+xlxi_2_xlxn_78
+   xlxi_2_xlxn_78.X
+         0.456  xlxi_2_xlxi_32/1.0.F1
+
+xlxi_2_xlxn_81
+   xlxi_2_xlxn_81.X
+         0.648  xlxi_2_xlxi_35/1.0.F1
+         0.732  xlxi_2_xlxi_32/1.0.F4
+
+xlxi_2_xlxn_82
+   xlxi_2_xlxn_82.X
+         0.945  xlxi_2_xlxi_35/1.0.F3
+         1.077  xlxi_2_xlxi_32/1.0.F2
+
+xlxi_2_xlxn_85
+   xlxi_2_xlxn_85.X
+         0.972  xlxi_2_xlxi_32/1.0.F3
+
+xlxi_2_xlxn_87
+   xlxi_2_xlxn_87.X
+         1.215  xlxi_2_xlxn_92.G1
+
+xlxi_2_xlxn_89
+   xlxi_2_xlxn_89.X
+         0.770  xlxi_2_xlxn_92.G3
+
+xlxi_2_xlxn_90
+   c1_obuf.X
+         0.956  xlxi_2_xlxn_66.G1
+
+xlxi_2_xlxn_92
+   xlxi_2_xlxn_92.X
+         0.894  xlxi_2_xlxi_35/1.0.F4
+         0.222  xlxi_2_xlxn_92.G4
+
+xlxi_2_xlxn_94
+   xlxi_2_xlxn_81.Y
+         0.756  xlxi_2_xlxi_35/1.0.G3
+
+xlxi_4_xlxi_22_xlxi_1_xlxn_14
+   xlxi_4_xlxi_22_xlxi_1_xlxn_14.YQ
+         0.874  xlxi_4_xlxi_22_xlxn_1.CLK
+         0.930  xlxi_4_xlxi_22_xlxi_1_xlxn_14.BY
+
+xlxi_4_xlxi_22_xlxi_1_xlxn_15
+   xlxi_4_xlxi_22_xlxi_1_xlxn_15.YQ
+         0.874  xlxi_4_xlxi_22_xlxi_1_xlxn_16.CLK
+         0.930  xlxi_4_xlxi_22_xlxi_1_xlxn_15.BY
+
+xlxi_4_xlxi_22_xlxi_1_xlxn_16
+   xlxi_4_xlxi_22_xlxi_1_xlxn_16.YQ
+         0.900  xlxi_4_xlxi_22_xlxi_1_xlxn_16.BY
+         0.890  xlxi_4_xlxi_22_xlxi_1_xlxn_14.CLK
+
+xlxi_4_xlxi_22_xlxi_2_xlxn_14
+   xlxi_4_xlxi_22_xlxi_2_xlxn_14.YQ
+         0.899  xlxi_4_xlxi_22_xlxi_2_xlxn_14.BY
+         0.888  xlxi_4_xlxi_22_xlxn_2.CLK
+
+xlxi_4_xlxi_22_xlxi_2_xlxn_15
+   xlxi_4_xlxi_22_xlxi_2_xlxn_15.YQ
+         0.930  xlxi_4_xlxi_22_xlxi_2_xlxn_15.BY
+         0.890  xlxi_4_xlxi_22_xlxi_2_xlxn_16.CLK
+
+xlxi_4_xlxi_22_xlxi_2_xlxn_16
+   xlxi_4_xlxi_22_xlxi_2_xlxn_16.YQ
+         0.930  xlxi_4_xlxi_22_xlxi_2_xlxn_16.BY
+         1.396  xlxi_4_xlxi_22_xlxi_2_xlxn_14.CLK
+
+xlxi_4_xlxi_22_xlxi_3_xlxn_14
+   xlxi_4_xlxi_22_xlxi_3_xlxn_14.YQ
+         0.922  xlxi_4_xlxi_22_xlxi_3_xlxn_14.BY
+         0.890  xlxi_4_xlxi_22_xlxn_3.CLK
+
+xlxi_4_xlxi_22_xlxi_3_xlxn_15
+   xlxi_4_xlxi_22_xlxi_3_xlxn_15.YQ
+         0.874  xlxi_4_xlxi_22_xlxi_3_xlxn_16.CLK
+         0.930  xlxi_4_xlxi_22_xlxi_3_xlxn_15.BY
+
+xlxi_4_xlxi_22_xlxi_3_xlxn_16
+   xlxi_4_xlxi_22_xlxi_3_xlxn_16.YQ
+         0.900  xlxi_4_xlxi_22_xlxi_3_xlxn_16.BY
+         1.093  xlxi_4_xlxi_22_xlxi_3_xlxn_14.CLK
+
+xlxi_4_xlxi_22_xlxi_4_xlxn_14
+   xlxi_4_xlxi_22_xlxi_4_xlxn_14.YQ
+         0.904  xlxi_4_xlxi_22_xlxi_4_xlxn_14.BY
+         0.906  xlxi_4_xlxi_22_xlxn_5.CLK
+
+xlxi_4_xlxi_22_xlxi_4_xlxn_15
+   xlxi_4_xlxi_22_xlxi_4_xlxn_15.YQ
+         0.922  xlxi_4_xlxi_22_xlxi_4_xlxn_15.BY
+         1.351  xlxi_4_xlxi_22_xlxi_4_xlxn_16.CLK
+
+xlxi_4_xlxi_22_xlxi_4_xlxn_16
+   xlxi_4_xlxi_22_xlxi_4_xlxn_16.YQ
+         0.899  xlxi_4_xlxi_22_xlxi_4_xlxn_16.BY
+         0.890  xlxi_4_xlxi_22_xlxi_4_xlxn_14.CLK
+
+xlxi_4_xlxi_22_xlxi_5_xlxn_14
+   xlxi_4_xlxi_22_xlxi_5_xlxn_14.YQ
+         0.930  xlxi_4_xlxi_22_xlxi_5_xlxn_14.BY
+         0.890  xlxi_4_xlxn_25.CLK
+
+xlxi_4_xlxi_22_xlxi_5_xlxn_15
+   xlxi_4_xlxi_22_xlxi_5_xlxn_15.YQ
+         0.900  xlxi_4_xlxi_22_xlxi_5_xlxn_15.BY
+         0.890  xlxi_4_xlxi_22_xlxi_5_xlxn_16.CLK
+
+xlxi_4_xlxi_22_xlxi_5_xlxn_16
+   xlxi_4_xlxi_22_xlxi_5_xlxn_16.YQ
+         0.902  xlxi_4_xlxi_22_xlxi_5_xlxn_14.CLK
+         0.900  xlxi_4_xlxi_22_xlxi_5_xlxn_16.BY
+
+xlxi_4_xlxi_22_xlxn_1
+   xlxi_4_xlxi_22_xlxn_1.YQ
+         0.900  xlxi_4_xlxi_22_xlxn_1.BY
+         0.890  xlxi_4_xlxi_22_xlxi_2_xlxn_15.CLK
+
+xlxi_4_xlxi_22_xlxn_2
+   xlxi_4_xlxi_22_xlxn_2.YQ
+         0.890  xlxi_4_xlxi_22_xlxi_3_xlxn_15.CLK
+         0.900  xlxi_4_xlxi_22_xlxn_2.BY
+
+xlxi_4_xlxi_22_xlxn_3
+   xlxi_4_xlxi_22_xlxn_3.YQ
+         0.920  xlxi_4_xlxi_22_xlxi_4_xlxn_15.CLK
+         0.899  xlxi_4_xlxi_22_xlxn_3.BY
+
+xlxi_4_xlxi_22_xlxn_5
+   xlxi_4_xlxi_22_xlxn_5.YQ
+         1.021  xlxi_4_xlxi_22_xlxi_5_xlxn_15.CLK
+         0.900  xlxi_4_xlxi_22_xlxn_5.BY
+
+xlxi_4_xlxn_16
+   xlxi_1_xlxi_98/1.0.Y
+         2.521  c1_obuf.CLK
+         2.714  c2_obuf.CLK
+         2.714  c3_obuf.CLK
+         1.988  c4_obuf.CLK
+
+xlxi_4_xlxn_25
+   xlxi_4_xlxn_25.YQ
+         0.766  xlxi_1_xlxi_98/1.0.G2
+         0.900  xlxi_4_xlxn_25.BY
+
+xlxi_4_xlxn_27
+   xlxi_4_xlxi_25.OUT
+         0.774  xlxi_4_xlxi_22_xlxi_1_xlxn_15.CLK
+
+xlxi_4_xlxn_28
+   clock.GCLKOUT
+         0.007  xlxi_4_xlxi_25.IN
+
+xlxn_10
+   xlxi_2_xlxn_66.Y
+         3.729  xlxi_1_xlxi_102/1.0.F1
+         3.827  xlxi_1_xlxi_102/1.0.G2
+         3.241  xlxi_1_xlxn_10.F4
+         3.288  xlxi_1_xlxn_10.G4
+         3.248  xlxi_1_xlxn_9.F1
+         2.731  xlxi_1_xlxn_9.G2
+         3.232  xlxi_1_xlxn_145.F4
+         3.279  xlxi_1_xlxn_145.G4
+         3.281  xlxi_1_xlxi_102/free/1.2.F4
+         3.247  xlxi_2_xlxi_42/1.0.F3
+         3.096  xlxi_1_xlxi_101/1.0.F3
+         3.805  xlxi_1_xlxi_99/1.0.F1
+         3.180  xlxi_1_xlxi_96/1.0.F2
+
+xlxn_11
+   xlxi_2_xlxi_35/1.0.Y
+         3.443  xlxi_1_xlxi_102/1.0.F2
+         3.377  xlxi_1_xlxi_102/1.0.G1
+         3.368  xlxi_1_xlxn_10.F3
+         2.897  xlxi_1_xlxn_10.G3
+         2.736  xlxi_1_xlxn_9.F4
+         2.579  xlxi_1_xlxn_9.G3
+         3.138  xlxi_1_xlxn_145.G3
+         3.519  c_obuf.G1
+         2.888  xlxi_2_xlxi_42/1.0.F2
+         3.670  xlxi_1_xlxi_101/1.0.F1
+         3.006  xlxi_1_xlxi_99/1.0.F3
+         2.923  xlxi_1_xlxi_96/1.0.F1
+
+xlxn_27
+   xlxi_2_xlxn_78.Y
+         1.926  xlxi_2_xlxi_42/1.0.G1
+
+xlxn_28
+   xlxi_2_xlxi_42/1.0.Y
+         1.857  c_obuf.F1
+         1.546  c_obuf.G3
+         0.988  xlxi_1_xlxi_97/i35.F4
+         1.801  xlxi_1_xlxi_102/free/1.2.F1
+         1.769  xlxi_1_xlxi_101/1.0.G2
+         1.734  xlxi_1_xlxi_99/1.0.G1
+         0.923  xlxi_1_xlxi_96/1.0.G2
+
+xlxn_8
+   xlxi_2_xlxi_32/1.0.Y
+         2.176  xlxi_1_xlxi_98/1.0.F1
+         1.918  xlxi_1_xlxi_98/1.0.G3
+         2.640  xlxi_1_xlxi_102/1.0.F4
+         2.589  xlxi_1_xlxi_102/1.0.G3
+         2.921  xlxi_1_xlxn_10.F1
+         2.899  xlxi_1_xlxn_10.G1
+         2.828  xlxi_1_xlxn_9.F2
+         2.938  xlxi_1_xlxn_9.G1
+         2.017  xlxi_1_xlxn_145.F2
+         2.753  c_obuf.G2
+         2.572  xlxi_1_xlxi_102/free/1.2.F3
+         1.698  xlxi_2_xlxi_42/1.0.G3
+         2.706  xlxi_1_xlxi_101/1.0.F4
+         2.803  xlxi_1_xlxi_99/1.0.F2
+         1.726  xlxi_1_xlxi_96/1.0.F4
+
+xlxn_9
+   xlxi_2_xlxn_92.Y
+         1.889  xlxi_1_xlxi_98/1.0.F3
+         2.776  xlxi_1_xlxi_102/1.0.F3
+         2.752  xlxi_1_xlxi_102/1.0.G4
+         2.934  xlxi_1_xlxn_10.F2
+         2.957  xlxi_1_xlxn_10.G2
+         2.457  xlxi_1_xlxn_9.G4
+         2.780  xlxi_1_xlxn_145.F3
+         2.818  xlxi_1_xlxn_145.G1
+         2.943  xlxi_1_xlxi_102/free/1.2.F2
+         2.444  xlxi_2_xlxi_42/1.0.F4
+         2.941  xlxi_1_xlxi_101/1.0.F2
+         2.548  xlxi_1_xlxi_99/1.0.F4
+         2.626  xlxi_1_xlxi_96/1.0.F3
+

@@ -1,0 +1,6808 @@
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab2.vhf
+lab2.cmd_log
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+# View RTL Schematic
+lab2.ngr
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab2.vhf
+lab2.cmd_log
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+lab2.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+lab2.ngd
+lab2_ngdbuild.nav
+lab2.bld
+.untf
+lab2.cmd_log
+# Implementation : Map
+lab2.nc1
+lab2.mrp
+lab2.pcf
+lab2.ngm
+lab2_map.ngm
+lab2.mdf
+lab2_map.ncd
+__projnav/map.log
+lab2.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab2.vhf
+lab2.cmd_log
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+lab2.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+lab2.ngd
+lab2_ngdbuild.nav
+lab2.bld
+.untf
+lab2.cmd_log
+# Implementation : Map
+lab2.nc1
+lab2.mrp
+lab2.pcf
+lab2.ngm
+lab2_map.ngm
+lab2.mdf
+lab2_map.ncd
+__projnav/map.log
+lab2.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab2.twr
+lab2.twx
+lab2.tsi
+lab2.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab2.ncd
+lab2.par
+lab2.pad
+lab2.dly
+lab2.xpi
+lab2.grf
+lab2.itr
+lab2_last_par.ncd
+__projnav/par.log
+lab2.cmd_log
+# Generate Programming File
+__projnav/lab2_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab2.ut
+# Generate Programming File
+lab2.bgn
+lab2.rbt
+lab2.ll
+lab2.msk
+lab2.drc
+lab2.nky
+lab2.bit
+lab2.bin
+lab2.isc
+lab2.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab2.vhf
+lab2.cmd_log
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+lab2.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+lab2.ngd
+lab2_ngdbuild.nav
+lab2.bld
+.untf
+lab2.cmd_log
+# Implementation : Map
+lab2.nc1
+lab2.mrp
+lab2.pcf
+lab2.ngm
+lab2_map.ngm
+lab2.mdf
+lab2_map.ncd
+__projnav/map.log
+lab2.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab2.twr
+lab2.twx
+lab2.tsi
+lab2.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab2.ncd
+lab2.par
+lab2.pad
+lab2.dly
+lab2.xpi
+lab2.grf
+lab2.itr
+lab2_last_par.ncd
+__projnav/par.log
+lab2.cmd_log
+# Generate Programming File
+__projnav/lab2_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab2.ut
+# Generate Programming File
+lab2.bgn
+lab2.rbt
+lab2.ll
+lab2.msk
+lab2.drc
+lab2.nky
+lab2.bit
+lab2.bin
+lab2.isc
+lab2.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab3.vhf
+lab3.cmd_log
+# xst flow : RunXST
+lab3.syr
+lab3.ngr
+lab3.prj
+lab3.sprj
+lab3.ana
+lab3.stx
+lab3.cmd_log
+lab3.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+lab3.ngd
+lab3_ngdbuild.nav
+lab3.bld
+.untf
+lab3.cmd_log
+# Implementation : Map
+lab3.nc1
+lab3.mrp
+lab3.pcf
+lab3.ngm
+lab3_map.ngm
+lab3.mdf
+lab3_map.ncd
+__projnav/map.log
+lab3.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab3.twr
+lab3.twx
+lab3.tsi
+lab3.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab3.ncd
+lab3.par
+lab3.pad
+lab3.dly
+lab3.xpi
+lab3.grf
+lab3.itr
+lab3_last_par.ncd
+__projnav/par.log
+lab3.cmd_log
+# Generate Programming File
+__projnav/lab3_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab3.ut
+# Generate Programming File
+lab3.bgn
+lab3.rbt
+lab3.ll
+lab3.msk
+lab3.drc
+lab3.nky
+lab3.bit
+lab3.bin
+lab3.isc
+lab3.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab3.vhf
+lab3.cmd_log
+# xst flow : RunXST
+lab3.syr
+lab3.ngr
+lab3.prj
+lab3.sprj
+lab3.ana
+lab3.stx
+lab3.cmd_log
+lab3.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+lab3.ngd
+lab3_ngdbuild.nav
+lab3.bld
+.untf
+lab3.cmd_log
+# Implementation : Map
+lab3.nc1
+lab3.mrp
+lab3.pcf
+lab3.ngm
+lab3_map.ngm
+lab3.mdf
+lab3_map.ncd
+__projnav/map.log
+lab3.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab3.twr
+lab3.twx
+lab3.tsi
+lab3.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab3.ncd
+lab3.par
+lab3.pad
+lab3.dly
+lab3.xpi
+lab3.grf
+lab3.itr
+lab3_last_par.ncd
+__projnav/par.log
+lab3.cmd_log
+# Generate Programming File
+__projnav/lab3_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab3.ut
+# Generate Programming File
+lab3.bgn
+lab3.rbt
+lab3.ll
+lab3.msk
+lab3.drc
+lab3.nky
+lab3.bit
+lab3.bin
+lab3.isc
+lab3.cmd_log
+# Schematic : View VHDL Functional Model
+lab2.vhf
+lab2.cmd_log
+# xst flow : RunXST
+lab2.syr
+lab2.ngr
+lab2.prj
+lab2.sprj
+lab2.ana
+lab2.stx
+lab2.cmd_log
+lab2.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+lab2.ngd
+lab2_ngdbuild.nav
+lab2.bld
+.untf
+lab2.cmd_log
+# Implementation : Map
+lab2.nc1
+lab2.mrp
+lab2.pcf
+lab2.ngm
+lab2_map.ngm
+lab2.mdf
+lab2_map.ncd
+__projnav/map.log
+lab2.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+decodera.vhf
+decodera.cmd_log
+# xst flow : RunXST
+decodera.syr
+decodera.ngr
+decodera.prj
+decodera.sprj
+decodera.ana
+decodera.stx
+decodera.cmd_log
+decodera.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+decodera.ngd
+decodera_ngdbuild.nav
+decodera.bld
+.untf
+decodera.cmd_log
+# Implementation : Map
+decodera.nc1
+decodera.mrp
+decodera.pcf
+decodera.ngm
+decodera_map.ngm
+decodera.mdf
+decodera_map.ncd
+__projnav/map.log
+decodera.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+decodera.twr
+decodera.twx
+decodera.tsi
+decodera.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+decodera.ncd
+decodera.par
+decodera.pad
+decodera.dly
+decodera.xpi
+decodera.grf
+decodera.itr
+decodera_last_par.ncd
+__projnav/par.log
+decodera.cmd_log
+# Generate Programming File
+__projnav/decodera_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+decodera.ut
+# Generate Programming File
+decodera.bgn
+decodera.rbt
+decodera.ll
+decodera.msk
+decodera.drc
+decodera.nky
+decodera.bit
+decodera.bin
+decodera.isc
+decodera.cmd_log
+# Schematic : View VHDL Functional Model
+decoderb.vhf
+decoderb.cmd_log
+# xst flow : RunXST
+decoderb.syr
+decoderb.ngr
+decoderb.prj
+decoderb.sprj
+decoderb.ana
+decoderb.stx
+decoderb.cmd_log
+decoderb.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+decoderb.ngd
+decoderb_ngdbuild.nav
+decoderb.bld
+.untf
+decoderb.cmd_log
+# Implementation : Map
+decoderb.nc1
+decoderb.mrp
+decoderb.pcf
+decoderb.ngm
+decoderb_map.ngm
+decoderb.mdf
+decoderb_map.ncd
+__projnav/map.log
+decoderb.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+decoderb.twr
+decoderb.twx
+decoderb.tsi
+decoderb.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+decoderb.ncd
+decoderb.par
+decoderb.pad
+decoderb.dly
+decoderb.xpi
+decoderb.grf
+decoderb.itr
+decoderb_last_par.ncd
+__projnav/par.log
+decoderb.cmd_log
+# Generate Programming File
+__projnav/decoderb_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+decoderb.ut
+# Generate Programming File
+decoderb.bgn
+decoderb.rbt
+decoderb.ll
+decoderb.msk
+decoderb.drc
+decoderb.nky
+decoderb.bit
+decoderb.bin
+decoderb.isc
+decoderb.cmd_log
+# Schematic : View VHDL Functional Model
+decoderc.vhf
+decoderc.cmd_log
+# xst flow : RunXST
+decoderc.syr
+decoderc.ngr
+decoderc.prj
+decoderc.sprj
+decoderc.ana
+decoderc.stx
+decoderc.cmd_log
+decoderc.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+decoderc.ngd
+decoderc_ngdbuild.nav
+decoderc.bld
+.untf
+decoderc.cmd_log
+# Implementation : Map
+decoderc.nc1
+decoderc.mrp
+decoderc.pcf
+decoderc.ngm
+decoderc_map.ngm
+decoderc.mdf
+decoderc_map.ncd
+__projnav/map.log
+decoderc.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+decoderc.twr
+decoderc.twx
+decoderc.tsi
+decoderc.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+decoderc.ncd
+decoderc.par
+decoderc.pad
+decoderc.dly
+decoderc.xpi
+decoderc.grf
+decoderc.itr
+decoderc_last_par.ncd
+__projnav/par.log
+decoderc.cmd_log
+# Generate Programming File
+__projnav/decoderc_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+decoderc.ut
+# Generate Programming File
+decoderc.bgn
+decoderc.rbt
+decoderc.ll
+decoderc.msk
+decoderc.drc
+decoderc.nky
+decoderc.bit
+decoderc.bin
+decoderc.isc
+decoderc.cmd_log
+# Schematic : View VHDL Functional Model
+decoderd.vhf
+decoderd.cmd_log
+# xst flow : RunXST
+decoderd.syr
+decoderd.ngr
+decoderd.prj
+decoderd.sprj
+decoderd.ana
+decoderd.stx
+decoderd.cmd_log
+decoderd.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+decoderd.ngd
+decoderd_ngdbuild.nav
+decoderd.bld
+.untf
+decoderd.cmd_log
+# Implementation : Map
+decoderd.nc1
+decoderd.mrp
+decoderd.pcf
+decoderd.ngm
+decoderd_map.ngm
+decoderd.mdf
+decoderd_map.ncd
+__projnav/map.log
+decoderd.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+decoderd.twr
+decoderd.twx
+decoderd.tsi
+decoderd.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+decoderd.ncd
+decoderd.par
+decoderd.pad
+decoderd.dly
+decoderd.xpi
+decoderd.grf
+decoderd.itr
+decoderd_last_par.ncd
+__projnav/par.log
+decoderd.cmd_log
+# Generate Programming File
+__projnav/decoderd_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+decoderd.ut
+# Generate Programming File
+decoderd.bgn
+decoderd.rbt
+decoderd.ll
+decoderd.msk
+decoderd.drc
+decoderd.nky
+decoderd.bit
+decoderd.bin
+decoderd.isc
+decoderd.cmd_log
+# Schematic : View VHDL Functional Model
+ring.vhf
+ring.cmd_log
+# Schematic : View VHDL Functional Model
+multi_divider.vhf
+multi_divider.cmd_log
+# Schematic : View VHDL Functional Model
+freq_div.vhf
+freq_div.cmd_log
+# xst flow : RunXST
+ring.syr
+ring.ngr
+ring.prj
+ring.sprj
+ring.ana
+ring.stx
+ring.cmd_log
+ring.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+ring.ngd
+ring_ngdbuild.nav
+ring.bld
+.untf
+ring.cmd_log
+# Implementation : Map
+ring.nc1
+ring.mrp
+ring.pcf
+ring.ngm
+ring_map.ngm
+ring.mdf
+ring_map.ncd
+__projnav/map.log
+ring.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+ring.twr
+ring.twx
+ring.tsi
+ring.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+ring.ncd
+ring.par
+ring.pad
+ring.dly
+ring.xpi
+ring.grf
+ring.itr
+ring_last_par.ncd
+__projnav/par.log
+ring.cmd_log
+# Generate Programming File
+__projnav/ring_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+ring.ut
+# Generate Programming File
+ring.bgn
+ring.rbt
+ring.ll
+ring.msk
+ring.drc
+ring.nky
+ring.bit
+ring.bin
+ring.isc
+ring.cmd_log
+# xst flow : RunXST
+multi_divider.syr
+multi_divider.ngr
+multi_divider.prj
+multi_divider.sprj
+multi_divider.ana
+multi_divider.stx
+multi_divider.cmd_log
+multi_divider.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+multi_divider.ngd
+multi_divider_ngdbuild.nav
+multi_divider.bld
+.untf
+multi_divider.cmd_log
+# Implementation : Map
+multi_divider.nc1
+multi_divider.mrp
+multi_divider.pcf
+multi_divider.ngm
+multi_divider_map.ngm
+multi_divider.mdf
+multi_divider_map.ncd
+__projnav/map.log
+multi_divider.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+multi_divider.twr
+multi_divider.twx
+multi_divider.tsi
+multi_divider.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+multi_divider.ncd
+multi_divider.par
+multi_divider.pad
+multi_divider.dly
+multi_divider.xpi
+multi_divider.grf
+multi_divider.itr
+multi_divider_last_par.ncd
+__projnav/par.log
+multi_divider.cmd_log
+# Generate Programming File
+__projnav/multi_divider_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multi_divider.ut
+# Generate Programming File
+multi_divider.bgn
+multi_divider.rbt
+multi_divider.ll
+multi_divider.msk
+multi_divider.drc
+multi_divider.nky
+multi_divider.bit
+multi_divider.bin
+multi_divider.isc
+multi_divider.cmd_log
+# xst flow : RunXST
+freq_div.syr
+freq_div.ngr
+freq_div.prj
+freq_div.sprj
+freq_div.ana
+freq_div.stx
+freq_div.cmd_log
+freq_div.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+freq_div.ngd
+freq_div_ngdbuild.nav
+freq_div.bld
+.untf
+freq_div.cmd_log
+# Implementation : Map
+freq_div.nc1
+freq_div.mrp
+freq_div.pcf
+freq_div.ngm
+freq_div_map.ngm
+freq_div.mdf
+freq_div_map.ncd
+__projnav/map.log
+freq_div.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+freq_div.twr
+freq_div.twx
+freq_div.tsi
+freq_div.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+freq_div.ncd
+freq_div.par
+freq_div.pad
+freq_div.dly
+freq_div.xpi
+freq_div.grf
+freq_div.itr
+freq_div_last_par.ncd
+__projnav/par.log
+freq_div.cmd_log
+# Generate Programming File
+__projnav/freq_div_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+freq_div.ut
+# Generate Programming File
+freq_div.bgn
+freq_div.rbt
+freq_div.ll
+freq_div.msk
+freq_div.drc
+freq_div.nky
+freq_div.bit
+freq_div.bin
+freq_div.isc
+freq_div.cmd_log
+# Schematic : View VHDL Functional Model
+sevensegdec.vhf
+sevensegdec.cmd_log
+# xst flow : RunXST
+sevensegdec.syr
+sevensegdec.ngr
+sevensegdec.prj
+sevensegdec.sprj
+sevensegdec.ana
+sevensegdec.stx
+sevensegdec.cmd_log
+sevensegdec.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+sevensegdec.ngd
+sevensegdec_ngdbuild.nav
+sevensegdec.bld
+.untf
+sevensegdec.cmd_log
+# Implementation : Map
+sevensegdec.nc1
+sevensegdec.mrp
+sevensegdec.pcf
+sevensegdec.ngm
+sevensegdec_map.ngm
+sevensegdec.mdf
+sevensegdec_map.ncd
+__projnav/map.log
+sevensegdec.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+sevensegdec.twr
+sevensegdec.twx
+sevensegdec.tsi
+sevensegdec.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+sevensegdec.ncd
+sevensegdec.par
+sevensegdec.pad
+sevensegdec.dly
+sevensegdec.xpi
+sevensegdec.grf
+sevensegdec.itr
+sevensegdec_last_par.ncd
+__projnav/par.log
+sevensegdec.cmd_log
+# Generate Programming File
+__projnav/sevensegdec_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sevensegdec.ut
+# Generate Programming File
+sevensegdec.bgn
+sevensegdec.rbt
+sevensegdec.ll
+sevensegdec.msk
+sevensegdec.drc
+sevensegdec.nky
+sevensegdec.bit
+sevensegdec.bin
+sevensegdec.isc
+sevensegdec.cmd_log
+# Schematic : View VHDL Functional Model
+lab1.vhf
+lab1.cmd_log
+# xst flow : RunXST
+lab1.syr
+lab1.ngr
+lab1.prj
+lab1.sprj
+lab1.ana
+lab1.stx
+lab1.cmd_log
+lab1.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+lab1.ngd
+lab1_ngdbuild.nav
+lab1.bld
+.untf
+lab1.cmd_log
+# Implementation : Map
+lab1.nc1
+lab1.mrp
+lab1.pcf
+lab1.ngm
+lab1_map.ngm
+lab1.mdf
+lab1_map.ncd
+__projnav/map.log
+lab1.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab1.twr
+lab1.twx
+lab1.tsi
+lab1.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab1.ncd
+lab1.par
+lab1.pad
+lab1.dly
+lab1.xpi
+lab1.grf
+lab1.itr
+lab1_last_par.ncd
+__projnav/par.log
+lab1.cmd_log
+# Generate Programming File
+__projnav/lab1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab1.ut
+# Generate Programming File
+lab1.bgn
+lab1.rbt
+lab1.ll
+lab1.msk
+lab1.drc
+lab1.nky
+lab1.bit
+lab1.bin
+lab1.isc
+lab1.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+test.vhf
+test.cmd_log
+# Schematic : View VHDL Functional Model
+ring.vhf
+ring.cmd_log
+# Schematic : View VHDL Functional Model
+multi_divider.vhf
+multi_divider.cmd_log
+# Schematic : View VHDL Functional Model
+freq_div.vhf
+freq_div.cmd_log
+# xst flow : RunXST
+test.syr
+test.ngr
+test.prj
+test.sprj
+test.ana
+test.stx
+test.cmd_log
+lab1.ngc
+lab3.ngc
+freq_div.ngc
+multi_divider.ngc
+ring.ngc
+test.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+test.ngd
+test_ngdbuild.nav
+test.bld
+.untf
+test.cmd_log
+# Implementation : Map
+test.nc1
+test.mrp
+test.pcf
+test.ngm
+test_map.ngm
+test.mdf
+test_map.ncd
+__projnav/map.log
+test.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+test.twr
+test.twx
+test.tsi
+test.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+test.ncd
+test.par
+test.pad
+test.dly
+test.xpi
+test.grf
+test.itr
+test_last_par.ncd
+__projnav/par.log
+test.cmd_log
+# Generate Programming File
+__projnav/test_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+test.ut
+# Generate Programming File
+test.bgn
+test.rbt
+test.ll
+test.msk
+test.drc
+test.nky
+test.bit
+test.bin
+test.isc
+test.cmd_log
+# View RTL Schematic
+test.ngr
+# Generate Programming File
+__projnav/test_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+test.ut
+# Generate Programming File
+test.bgn
+test.rbt
+test.ll
+test.msk
+test.drc
+test.nky
+test.bit
+test.bin
+test.isc
+test.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Archive...
+__projnav/tozp_tcl.rsp
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdregister.vhf
+bcdregister.cmd_log
+# Schematic : View VHDL Functional Model
+onetwoswitch.vhf
+onetwoswitch.cmd_log
+# Schematic : View VHDL Functional Model
+twooneswitch.vhf
+twooneswitch.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# Schematic : View VHDL Functional Model
+adder.vhf
+adder.cmd_log
+# xst flow : RunXST
+registera.syr
+registera.ngr
+registera.prj
+registera.sprj
+registera.ana
+registera.stx
+registera.cmd_log
+registera.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+registera.ngd
+registera_ngdbuild.nav
+registera.bld
+.untf
+registera.cmd_log
+# Implementation : Map
+registera.nc1
+registera.mrp
+registera.pcf
+registera.ngm
+registera_map.ngm
+registera.mdf
+registera_map.ncd
+__projnav/map.log
+registera.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+registera.twr
+registera.twx
+registera.tsi
+registera.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+registera.ncd
+registera.par
+registera.pad
+registera.dly
+registera.xpi
+registera.grf
+registera.itr
+registera_last_par.ncd
+__projnav/par.log
+registera.cmd_log
+# Generate Programming File
+__projnav/registera_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+registera.ut
+# Generate Programming File
+registera.bgn
+registera.rbt
+registera.ll
+registera.msk
+registera.drc
+registera.nky
+registera.bit
+registera.bin
+registera.isc
+registera.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+registera.syr
+registera.ngr
+registera.prj
+registera.sprj
+registera.ana
+registera.stx
+registera.cmd_log
+registera.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\sc201/_ngo
+registera.ngd
+registera_ngdbuild.nav
+registera.bld
+.untf
+registera.cmd_log
+# Implementation : Map
+registera.nc1
+registera.mrp
+registera.pcf
+registera.ngm
+registera_map.ngm
+registera.mdf
+registera_map.ncd
+__projnav/map.log
+registera.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+registera.twr
+registera.twx
+registera.tsi
+registera.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+registera.ncd
+registera.par
+registera.pad
+registera.dly
+registera.xpi
+registera.grf
+registera.itr
+registera_last_par.ncd
+__projnav/par.log
+registera.cmd_log
+# Generate Programming File
+__projnav/registera_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+registera.ut
+# Generate Programming File
+registera.bgn
+registera.rbt
+registera.ll
+registera.msk
+registera.drc
+registera.nky
+registera.bit
+registera.bin
+registera.isc
+registera.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Archive...
+__projnav/tozp_tcl.rsp
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+control.vhf
+control.cmd_log
+# Schematic : View VHDL Functional Model
+controlunit.vhf
+controlunit.cmd_log
+# Schematic : View VHDL Functional Model
+inputregister.vhf
+inputregister.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdregister.vhf
+bcdregister.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# Schematic : View VHDL Functional Model
+decoder.vhf
+decoder.cmd_log
+# Schematic : View VHDL Functional Model
+decodera.vhf
+decodera.cmd_log
+# Schematic : View VHDL Functional Model
+decoderb.vhf
+decoderb.cmd_log
+# Schematic : View VHDL Functional Model
+decoderc.vhf
+decoderc.cmd_log
+# Schematic : View VHDL Functional Model
+decoderd.vhf
+decoderd.cmd_log
+# Schematic : View VHDL Functional Model
+switchcontrolmain.vhf
+switchcontrolmain.cmd_log
+# Schematic : View VHDL Functional Model
+switchcontrol.vhf
+switchcontrol.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+circuit.vhf
+circuit.cmd_log
+# Schematic : View VHDL Functional Model
+sevensegdec.vhf
+sevensegdec.cmd_log
+# xst flow : RunXST
+circuit.syr
+circuit.ngr
+circuit.prj
+circuit.sprj
+circuit.ana
+circuit.stx
+circuit.cmd_log
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+freq_div.ngc
+multi_divider.ngc
+ring.ngc
+circuit.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+circuit.ngd
+circuit_ngdbuild.nav
+circuit.bld
+.untf
+circuit.cmd_log
+# Implementation : Map
+circuit.nc1
+circuit.mrp
+circuit.pcf
+circuit.ngm
+circuit_map.ngm
+circuit.mdf
+circuit_map.ncd
+__projnav/map.log
+circuit.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+circuit.twr
+circuit.twx
+circuit.tsi
+circuit.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+circuit.ncd
+circuit.par
+circuit.pad
+circuit.dly
+circuit.xpi
+circuit.grf
+circuit.itr
+circuit_last_par.ncd
+__projnav/par.log
+circuit.cmd_log
+# Generate Programming File
+__projnav/circuit_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+circuit.ut
+# Generate Programming File
+circuit.bgn
+circuit.rbt
+circuit.ll
+circuit.msk
+circuit.drc
+circuit.nky
+circuit.bit
+circuit.bin
+circuit.isc
+circuit.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+ring.vhf
+ring.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+ring.vhf
+ring.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+lab1.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+control.vhf
+control.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201dan/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+control.vhf
+control.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+display_generator.vhf
+display_generator.cmd_log
+# Schematic : View VHDL Functional Model
+mod1_counter.vhf
+mod1_counter.cmd_log
+# Schematic : View VHDL Functional Model
+mod2_counter.vhf
+mod2_counter.cmd_log
+# Schematic : View VHDL Functional Model
+mod3_counter.vhf
+mod3_counter.cmd_log
+# Schematic : View VHDL Functional Model
+mod4_counter.vhf
+mod4_counter.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+control.vhf
+control.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+control.vhf
+control.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201danlatest/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+testadder.vhf
+testadder.cmd_log
+# xst flow : RunXST
+testadder.syr
+testadder.ngr
+testadder.prj
+testadder.sprj
+testadder.ana
+testadder.stx
+testadder.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+testadder.vhf
+testadder.cmd_log
+# xst flow : RunXST
+testadder.syr
+testadder.ngr
+testadder.prj
+testadder.sprj
+testadder.ana
+testadder.stx
+testadder.cmd_log
+testadder.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\sc201danlatest/_ngo
+testadder.ngd
+testadder_ngdbuild.nav
+testadder.bld
+.untf
+testadder.cmd_log
+# Implementation : Map
+testadder.nc1
+testadder.mrp
+testadder.pcf
+testadder.ngm
+testadder_map.ngm
+testadder.mdf
+testadder_map.ncd
+__projnav/map.log
+testadder.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+testadder.twr
+testadder.twx
+testadder.tsi
+testadder.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+testadder.ncd
+testadder.par
+testadder.pad
+testadder.dly
+testadder.xpi
+testadder.grf
+testadder.itr
+testadder_last_par.ncd
+__projnav/par.log
+testadder.cmd_log
+# Generate Programming File
+__projnav/testadder_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+testadder.ut
+# Generate Programming File
+testadder.bgn
+testadder.rbt
+testadder.ll
+testadder.msk
+testadder.drc
+testadder.nky
+testadder.bit
+testadder.bin
+testadder.isc
+testadder.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+e:\sc201danlatesta/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# Schematic : View VHDL Functional Model
+sevensegenable.vhf
+sevensegenable.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# Schematic : View VHDL Functional Model
+decoder.vhf
+decoder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+testadder.vhf
+testadder.cmd_log
+# xst flow : RunXST
+testadder.syr
+testadder.ngr
+testadder.prj
+testadder.sprj
+testadder.ana
+testadder.stx
+testadder.cmd_log
+sevensegdec.ngc
+freq_div.ngc
+testadder.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+testadder.ngd
+testadder_ngdbuild.nav
+testadder.bld
+.untf
+testadder.cmd_log
+# Implementation : Map
+testadder.nc1
+testadder.mrp
+testadder.pcf
+testadder.ngm
+testadder_map.ngm
+testadder.mdf
+testadder_map.ncd
+__projnav/map.log
+testadder.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+testadder.twr
+testadder.twx
+testadder.tsi
+testadder.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+testadder.ncd
+testadder.par
+testadder.pad
+testadder.dly
+testadder.xpi
+testadder.grf
+testadder.itr
+testadder_last_par.ncd
+__projnav/par.log
+testadder.cmd_log
+# Generate Programming File
+__projnav/testadder_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+testadder.ut
+# Generate Programming File
+testadder.bgn
+testadder.rbt
+testadder.ll
+testadder.msk
+testadder.drc
+testadder.nky
+testadder.bit
+testadder.bin
+testadder.isc
+testadder.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdregister.vhf
+bcdregister.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+bcdregister.vhf
+bcdregister.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+bcdregister.vhf
+bcdregister.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+bcdregister.vhf
+bcdregister.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\290904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# Schematic : View VHDL Functional Model
+switchcontrolmain.vhf
+switchcontrolmain.cmd_log
+# Schematic : View VHDL Functional Model
+switchcontrol.vhf
+switchcontrol.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\300904/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Archive...
+__projnav/tozp_tcl.rsp
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# Schematic : View VHDL Functional Model
+negconverter.vhf
+negconverter.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\sc201subtract/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\sc201subtract/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\sc201subtract/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# Schematic : View VHDL Functional Model
+shiftregister4x4.vhf
+shiftregister4x4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\editedsubtr/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\editednegconv\editedsubtr/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\editednegconv\editedsubtr/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# Schematic : View VHDL Functional Model
+negconverter.vhf
+negconverter.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\s10-final/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# Schematic : View VHDL Functional Model
+negconverter.vhf
+negconverter.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\calculator\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+lab4.vhf
+lab4.cmd_log
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+ninecompl.vhf
+ninecompl.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log
+# Schematic : PDCL (jhdparse)
+# Schematic : PDCL (jhdparse)
+# Schematic : View VHDL Functional Model
+registera.vhf
+registera.cmd_log
+# Schematic : View VHDL Functional Model
+bcdadder.vhf
+bcdadder.cmd_log
+# xst flow : RunXST
+lab4.syr
+lab4.ngr
+lab4.prj
+lab4.sprj
+lab4.ana
+lab4.stx
+lab4.cmd_log
+freq_div.ngc
+multi_divider.ngc
+registera.ngc
+ring.ngc
+decodera.ngc
+decoderb.ngc
+decoderc.ngc
+decoderd.ngc
+sevensegdec.ngc
+lab4.ngc
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\sc201\calculator/_ngo
+lab4.ngd
+lab4_ngdbuild.nav
+lab4.bld
+.untf
+lab4.cmd_log
+# Implementation : Map
+lab4.nc1
+lab4.mrp
+lab4.pcf
+lab4.ngm
+lab4_map.ngm
+lab4.mdf
+lab4_map.ncd
+__projnav/map.log
+lab4.cmd_log
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+lab4.twr
+lab4.twx
+lab4.tsi
+lab4.cmd_log
+# Implmentation : Generate Post-Place & Route Static Timing
+__projnav/nc1TOncd_tcl.rsp
+lab4.ncd
+lab4.par
+lab4.pad
+lab4.dly
+lab4.xpi
+lab4.grf
+lab4.itr
+lab4_last_par.ncd
+__projnav/par.log
+lab4.cmd_log
+# Generate Programming File
+__projnav/lab4_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+lab4.ut
+# Generate Programming File
+lab4.bgn
+lab4.rbt
+lab4.ll
+lab4.msk
+lab4.drc
+lab4.nky
+lab4.bit
+lab4.bin
+lab4.isc
+lab4.cmd_log

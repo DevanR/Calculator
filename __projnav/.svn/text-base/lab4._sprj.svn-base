@@ -1,0 +1,2 @@
+set p_VhdlLibrary  {}
+set VHDLSources {controlunit.vhf freq_div.vhf multi_divider.vhf control.vhf inputregister.vhf bcdregister.vhf twooneswitch.vhf adder.vhf negconverter.vhf ninecompl.vhf bcdadder.vhf onetwoswitch.vhf registera.vhf shiftregister4x4.vhf ring.vhf decodera.vhf decoderb.vhf decoderc.vhf decoderd.vhf decoder.vhf switchcontrol.vhf switchcontrolmain.vhf sevensegdec.vhf mod1_counter.vhf mod2_counter.vhf mod3_counter.vhf mod4_counter.vhf sevensegenable.vhf lab4.vhf }

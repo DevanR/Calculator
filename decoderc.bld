@@ -1,0 +1,19 @@
+Release 5.2i - ngdbuild F.28
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i -p xc2s200-fg456-5
+decoderc.ngc decoderc.ngd 
+
+Reading NGO file "C:/Xilinx/bin/SC201/decoderc.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "decoderc.ngd" ...
+
+Writing NGDBUILD log file "decoderc.bld"...

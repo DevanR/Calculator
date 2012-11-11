@@ -1,0 +1,5 @@
+MODULE rega
+	SUBMODULE display_generator
+		INSTANCE XLXI_64
+	SUBMODULE multi_divider
+		INSTANCE XLXI_90

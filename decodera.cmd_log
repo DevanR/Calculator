@@ -1,0 +1,8 @@
+sch2vhdl -family=spartan2 -flat -suppress -w c:\xilinx\bin\S10_Sc201Project\decodera.sch decodera.vhf
+xst -quiet -ifn __projnav/decodera.xst -ofn decodera.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 decodera.ngc decodera.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o decodera_map.ncd decodera.ngd decodera.pcf
+par -w -ol 2 -t 1 decodera_map.ncd decodera.ncd decodera.pcf
+trce -quiet -e 3 -l 3 -xml decodera decodera.ncd -o decodera.twr decodera.pcf
+bitgen -f decodera.ut decodera.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w decodera.sch decodera.vhf

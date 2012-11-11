@@ -1,0 +1,4 @@
+Mapping Module lab4 . . .
+MAP command line:
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o lab4_map.ncd lab4.ngd lab4.pcf
+Mapping Module lab4: DONE

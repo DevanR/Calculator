@@ -1,0 +1,9 @@
+MODULE display_generator
+	SUBMODULE mod1_counter
+		INSTANCE XLXI_2
+	SUBMODULE mod2_counter
+		INSTANCE XLXI_15
+	SUBMODULE mod3_counter
+		INSTANCE XLXI_28
+	SUBMODULE mod4_counter
+		INSTANCE XLXI_29

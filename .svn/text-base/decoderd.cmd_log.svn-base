@@ -1,0 +1,8 @@
+sch2vhdl -family=spartan2 -flat -suppress -w c:\xilinx\bin\S10_Sc201Project\decoderd.sch decoderd.vhf
+xst -quiet -ifn __projnav/decoderd.xst -ofn decoderd.syr
+ngdbuild -quiet -dd c:\xilinx\bin\sc201/_ngo -i  -p xc2s200-fg456-5 decoderd.ngc decoderd.ngd
+map -quiet -p xc2s200-fg456-5 -cm area -pr b -k 4 -c 100 -tx off -o decoderd_map.ncd decoderd.ngd decoderd.pcf
+par -w -ol 2 -t 1 decoderd_map.ncd decoderd.ncd decoderd.pcf
+trce -quiet -e 3 -l 3 -xml decoderd decoderd.ncd -o decoderd.twr decoderd.pcf
+bitgen -f decoderd.ut decoderd.ncd
+sch2vhdl -family=spartan2 -flat -suppress -w decoderd.sch decoderd.vhf

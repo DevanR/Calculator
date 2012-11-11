@@ -1,0 +1,7 @@
+MODULE switchcontrolmain
+	SUBMODULE switchcontrol
+		INSTANCE XLXI_11
+	SUBMODULE switchcontrol
+		INSTANCE XLXI_12
+	SUBMODULE switchcontrol
+		INSTANCE XLXI_13
